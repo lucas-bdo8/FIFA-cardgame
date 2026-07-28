@@ -1,1 +1,428 @@
-a
+{
+	"Sigla": "BRA",
+	"Cor": "#F7D117",
+	"Tecnico": {
+		"Name": "Carlo Ancelotti",
+		"BonusType": "ATA",
+		"BonusValue": 15
+	},
+	"Players": {
+		"Alisson": {
+			"ID": 53,
+			"CID": 1,
+			"Number": 1,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Alisson",
+				"POS": "GOL",
+				"ATK": 85,
+				"DRI": 50,
+				"DEF": 92,
+				"VEL": 60,
+				"PAS": 80,
+				"STA": 84
+			}
+		},
+		"Weverton": {
+			"ID": 54,
+			"CID": 2,
+			"Number": 12,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Weverton",
+				"POS": "GOL",
+				"ATK": 82,
+				"DRI": 48,
+				"DEF": 88,
+				"VEL": 58,
+				"PAS": 78,
+				"STA": 83
+			}
+		},
+		"Ederson": {
+			"ID": 55,
+			"CID": 3,
+			"Number": 23,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Ederson",
+				"POS": "GOL",
+				"ATK": 84,
+				"DRI": 55,
+				"DEF": 90,
+				"VEL": 65,
+				"PAS": 88,
+				"STA": 86
+			}
+		},
+    		"Gabriel Magalhaes": {
+			"ID": 56,
+			"CID": 4,
+			"Number": 3,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Gabriel Magalhaes",
+				"POS": "DEF",
+				"ATK": 80,
+				"DRI": 75,
+				"DEF": 88,
+				"VEL": 78,
+				"PAS": 80,
+				"STA": 85
+			}
+		},
+		"Marquinhos": {
+			"ID": 57,
+			"CID": 5,
+			"Number": 4,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Marquinhos",
+				"POS": "DEF",
+				"ATK": 82,
+				"DRI": 78,
+				"DEF": 91,
+				"VEL": 80,
+				"PAS": 82,
+				"STA": 86
+			}
+		},
+		"Alex Sandro": {
+			"ID": 58,
+			"CID": 6,
+			"Number": 16,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Alex Sandro",
+				"POS": "DEF",
+				"ATK": 78,
+				"DRI": 77,
+				"DEF": 85,
+				"VEL": 81,
+				"PAS": 79,
+				"STA": 85
+			}
+		},
+		"Danilo": {
+			"ID": 59,
+			"CID": 7,
+			"Number": 2,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Danilo",
+				"POS": "DEF",
+				"ATK": 79,
+				"DRI": 78,
+				"DEF": 86,
+				"VEL": 79,
+				"PAS": 81,
+				"STA": 86
+			}
+		},
+		"Bremer": {
+			"ID": 60,
+			"CID": 8,
+			"Number": 14,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Bremer",
+				"POS": "DEF",
+				"ATK": 79,
+				"DRI": 74,
+				"DEF": 87,
+				"VEL": 79,
+				"PAS": 78,
+				"STA": 86
+			}
+		},
+		"Leo Pereira": {
+			"ID": 61,
+			"CID": 9,
+			"Number": 15,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Leo Pereira",
+				"POS": "DEF",
+				"ATK": 77,
+				"DRI": 72,
+				"DEF": 85,
+				"VEL": 76,
+				"PAS": 76,
+				"STA": 83
+			}
+		},
+		"Douglas Santos": {
+			"ID": 62,
+			"CID": 10,
+			"Number": 13,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Douglas Santos",
+				"POS": "DEF",
+				"ATK": 77,
+				"DRI": 76,
+				"DEF": 84,
+				"VEL": 80,
+				"PAS": 78,
+				"STA": 84
+			}
+		},
+		"Roger Ibanez": {
+			"ID": 63,
+			"CID": 11,
+			"Number": 6,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Roger Ibanez",
+				"POS": "DEF",
+				"ATK": 78,
+				"DRI": 73,
+				"DEF": 86,
+				"VEL": 78,
+				"PAS": 77,
+				"STA": 84
+			}
+		},
+    		"Ederson Silva": {
+			"ID": 64,
+			"CID": 12,
+			"Number": 8,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Ederson Silva",
+				"POS": "MEI",
+				"ATK": 82,
+				"DRI": 83,
+				"DEF": 84,
+				"VEL": 81,
+				"PAS": 85,
+				"STA": 88
+			}
+		},
+		"Casemiro": {
+			"ID": 65,
+			"CID": 13,
+			"Number": 5,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Casemiro",
+				"POS": "MEI",
+				"ATK": 80,
+				"DRI": 78,
+				"DEF": 89,
+				"VEL": 75,
+				"PAS": 82,
+				"STA": 88
+			}
+		},
+		"Bruno Guimaraes": {
+			"ID": 66,
+			"CID": 14,
+			"Number": 17,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Bruno Guimaraes",
+				"POS": "MEI",
+				"ATK": 84,
+				"DRI": 86,
+				"DEF": 83,
+				"VEL": 82,
+				"PAS": 87,
+				"STA": 88
+			}
+		},
+		"Fabinho": {
+			"ID": 67,
+			"CID": 15,
+			"Number": 15,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Fabinho",
+				"POS": "MEI",
+				"ATK": 79,
+				"DRI": 77,
+				"DEF": 87,
+				"VEL": 76,
+				"PAS": 82,
+				"STA": 86
+			}
+		},
+		"Danilo Santos": {
+			"ID": 68,
+			"CID": 16,
+			"Number": 18,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Danilo Santos",
+				"POS": "MEI",
+				"ATK": 78,
+				"DRI": 80,
+				"DEF": 80,
+				"VEL": 78,
+				"PAS": 81,
+				"STA": 84
+			}
+		},
+		"Lucas Paqueta": {
+			"ID": 69,
+			"CID": 17,
+			"Number": 10,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Lucas Paqueta",
+				"POS": "MEI",
+				"ATK": 85,
+				"DRI": 87,
+				"DEF": 78,
+				"VEL": 80,
+				"PAS": 86,
+				"STA": 85
+			}
+		},
+    		"Vinicius Junior": {
+			"ID": 70,
+			"CID": 18,
+			"Number": 7,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Vinicius Junior",
+				"POS": "ATA",
+				"ATK": 91,
+				"DRI": 94,
+				"DEF": 48,
+				"VEL": 95,
+				"PAS": 85,
+				"STA": 88
+			}
+		},
+		"Matheus Cunha": {
+			"ID": 71,
+			"CID": 19,
+			"Number": 9,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Matheus Cunha",
+				"POS": "ATA",
+				"ATK": 85,
+				"DRI": 84,
+				"DEF": 54,
+				"VEL": 86,
+				"PAS": 81,
+				"STA": 85
+			}
+		},
+		"Neymar Jr": {
+			"ID": 72,
+			"CID": 20,
+			"Number": 10,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Neymar Jr",
+				"POS": "ATA",
+				"ATK": 92,
+				"DRI": 93,
+				"DEF": 45,
+				"VEL": 85,
+				"PAS": 90,
+				"STA": 80
+			}
+		},
+		"Raphinha": {
+			"ID": 73,
+			"CID": 21,
+			"Number": 11,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Raphinha",
+				"POS": "ATA",
+				"ATK": 88,
+				"DRI": 89,
+				"DEF": 55,
+				"VEL": 89,
+				"PAS": 84,
+				"STA": 86
+			}
+		},
+		"Endrick": {
+			"ID": 74,
+			"CID": 22,
+			"Number": 21,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Endrick",
+				"POS": "ATA",
+				"ATK": 85,
+				"DRI": 84,
+				"DEF": 42,
+				"VEL": 84,
+				"PAS": 77,
+				"STA": 78
+			}
+		},
+		"Luiz Henrique": {
+			"ID": 75,
+			"CID": 23,
+			"Number": 20,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Luiz Henrique",
+				"POS": "ATA",
+				"ATK": 84,
+				"DRI": 87,
+				"DEF": 51,
+				"VEL": 87,
+				"PAS": 82,
+				"STA": 84
+			}
+		},
+		"Gabriel Martinelli": {
+			"ID": 76,
+			"CID": 24,
+			"Number": 22,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Gabriel Martinelli",
+				"POS": "ATA",
+				"ATK": 87,
+				"DRI": 88,
+				"DEF": 46,
+				"VEL": 91,
+				"PAS": 81,
+				"STA": 84
+			}
+		},
+		"Igor Thiago": {
+			"ID": 77,
+			"CID": 25,
+			"Number": 19,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Igor Thiago",
+				"POS": "ATA",
+				"ATK": 82,
+				"DRI": 79,
+				"DEF": 48,
+				"VEL": 81,
+				"PAS": 74,
+				"STA": 82
+			}
+		},
+		"Rayan": {
+			"ID": 78,
+			"CID": 26,
+			"Number": 26,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Rayan",
+				"POS": "ATA",
+				"ATK": 81,
+				"DRI": 82,
+				"DEF": 44,
+				"VEL": 86,
+				"PAS": 76,
+				"STA": 80
+			}
+		}
+	}
+}
+    
