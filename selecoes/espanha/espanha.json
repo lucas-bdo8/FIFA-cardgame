@@ -1,1 +1,449 @@
-a
+{
+  "Sigla": "ESP",
+  "Cor": "#AA151B",
+  "Tecnico": {
+    "Name": "Luis de la Fuente",
+    "BonusType": "MEI",
+    "BonusValue": 15
+  },
+  "Players": {
+
+    "David Raya": {
+      "ID": 79,
+      "CID": 1,
+      "Number": 1,
+      "Foot": "right",
+      "Stats": {
+        "Name": "David Raya",
+        "POS": "GOL",
+        "ATK": 20,
+        "DRI": 30,
+        "DEF": 88,
+        "VEL": 55,
+        "PAS": 85,
+        "STA": 82
+      }
+    },
+
+    "Joan Garcia": {
+      "ID": 80,
+      "CID": 2,
+      "Number": 13,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Joan Garcia",
+        "POS": "GOL",
+        "ATK": 20,
+        "DRI": 30,
+        "DEF": 84,
+        "VEL": 55,
+        "PAS": 78,
+        "STA": 80
+      }
+    },
+    "Unai Simon": {
+      "ID": 81,
+      "CID": 3,
+      "Number": 23,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Unai Simon",
+        "POS": "GOL",
+        "ATK": 20,
+        "DRI": 25,
+        "DEF": 86,
+        "VEL": 52,
+        "PAS": 75,
+        "STA": 84
+      }
+    },
+        "Marc Pubill": {
+      "ID": 82,
+      "CID": 4,
+      "Number": 2,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Marc Pubill",
+        "POS": "DEF",
+        "ATK": 75,
+        "DRI": 76,
+        "DEF": 78,
+        "VEL": 82,
+        "PAS": 74,
+        "STA": 80
+      }
+    },
+
+    "Alex Grimaldo": {
+      "ID": 83,
+      "CID": 5,
+      "Number": 3,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Alex Grimaldo",
+        "POS": "DEF",
+        "ATK": 82,
+        "DRI": 84,
+        "DEF": 78,
+        "VEL": 81,
+        "PAS": 86,
+        "STA": 84
+      }
+    },
+
+    "Eric Garcia": {
+      "ID": 84,
+      "CID": 6,
+      "Number": 14,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Eric Garcia",
+        "POS": "DEF",
+        "ATK": 72,
+        "DRI": 76,
+        "DEF": 80,
+        "VEL": 74,
+        "PAS": 82,
+        "STA": 82
+      }
+    },
+
+    "Marcos Llorente": {
+      "ID": 85,
+      "CID": 7,
+      "Number": 12,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Marcos Llorente",
+        "POS": "DEF",
+        "ATK": 80,
+        "DRI": 82,
+        "DEF": 78,
+        "VEL": 90,
+        "PAS": 79,
+        "STA": 90
+      }
+    },
+
+    "Pedro Porro": {
+      "ID": 86,
+      "CID": 8,
+      "Number": 22,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Pedro Porro",
+        "POS": "DEF",
+        "ATK": 81,
+        "DRI": 82,
+        "DEF": 76,
+        "VEL": 85,
+        "PAS": 83,
+        "STA": 84
+      }
+    },
+
+    "Aymeric Laporte": {
+      "ID": 87,
+      "CID": 9,
+      "Number": 4,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Aymeric Laporte",
+        "POS": "DEF",
+        "ATK": 75,
+        "DRI": 72,
+        "DEF": 88,
+        "VEL": 70,
+        "PAS": 84,
+        "STA": 82
+      }
+    },
+
+    "Pau Cubarsi": {
+      "ID": 88,
+      "CID": 10,
+      "Number": 5,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Pau Cubarsi",
+        "POS": "DEF",
+        "ATK": 70,
+        "DRI": 74,
+        "DEF": 82,
+        "VEL": 73,
+        "PAS": 80,
+        "STA": 80
+      }
+    },
+
+    "Marc Cucurella": {
+      "ID": 89,
+      "CID": 11,
+      "Number": 24,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Marc Cucurella",
+        "POS": "DEF",
+        "ATK": 76,
+        "DRI": 80,
+        "DEF": 79,
+        "VEL": 82,
+        "PAS": 80,
+        "STA": 86
+      }
+    },
+        "Mikel Merino": {
+      "ID": 90,
+      "CID": 12,
+      "Number": 6,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Mikel Merino",
+        "POS": "MEI",
+        "ATK": 82,
+        "DRI": 78,
+        "DEF": 82,
+        "VEL": 70,
+        "PAS": 84,
+        "STA": 86
+      }
+    },
+
+    "Fabian Ruiz": {
+      "ID": 91,
+      "CID": 13,
+      "Number": 8,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Fabian Ruiz",
+        "POS": "MEI",
+        "ATK": 82,
+        "DRI": 84,
+        "DEF": 76,
+        "VEL": 72,
+        "PAS": 86,
+        "STA": 84
+      }
+    },
+
+    "Gavi": {
+      "ID": 92,
+      "CID": 14,
+      "Number": 9,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Gavi",
+        "POS": "MEI",
+        "ATK": 76,
+        "DRI": 86,
+        "DEF": 80,
+        "VEL": 78,
+        "PAS": 82,
+        "STA": 88
+      }
+    },
+
+    "Alex Baena": {
+      "ID": 93,
+      "CID": 15,
+      "Number": 16,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Alex Baena",
+        "POS": "MEI",
+        "ATK": 80,
+        "DRI": 84,
+        "DEF": 65,
+        "VEL": 78,
+        "PAS": 86,
+        "STA": 82
+      }
+    },
+
+    "Rodri": {
+      "ID": 94,
+      "CID": 16,
+      "Number": 16,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Rodri",
+        "POS": "MEI",
+        "ATK": 82,
+        "DRI": 80,
+        "DEF": 92,
+        "VEL": 65,
+        "PAS": 91,
+        "STA": 90
+      }
+    },
+
+    "Martin Zubimendi": {
+      "ID": 95,
+      "CID": 17,
+      "Number": 4,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Martin Zubimendi",
+        "POS": "MEI",
+        "ATK": 75,
+        "DRI": 78,
+        "DEF": 84,
+        "VEL": 70,
+        "PAS": 86,
+        "STA": 85
+      }
+    },
+
+    "Pedri": {
+      "ID": 96,
+      "CID": 18,
+      "Number": 8,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Pedri",
+        "POS": "MEI",
+        "ATK": 80,
+        "DRI": 91,
+        "DEF": 65,
+        "VEL": 78,
+        "PAS": 90,
+        "STA": 82
+      }
+    },
+        "Ferran Torres": {
+      "ID": 97,
+      "CID": 19,
+      "Number": 7,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Ferran Torres",
+        "POS": "ATA",
+        "ATK": 82,
+        "DRI": 82,
+        "DEF": 45,
+        "VEL": 86,
+        "PAS": 78,
+        "STA": 80
+      }
+    },
+
+    "Dani Olmo": {
+      "ID": 98,
+      "CID": 20,
+      "Number": 10,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Dani Olmo",
+        "POS": "ATA",
+        "ATK": 84,
+        "DRI": 88,
+        "DEF": 50,
+        "VEL": 80,
+        "PAS": 87,
+        "STA": 82
+      }
+    },
+
+    "Yeremy Pino": {
+      "ID": 99,
+      "CID": 21,
+      "Number": 15,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Yeremy Pino",
+        "POS": "ATA",
+        "ATK": 78,
+        "DRI": 84,
+        "DEF": 58,
+        "VEL": 82,
+        "PAS": 80,
+        "STA": 84
+      }
+    },
+
+    "Nico Williams": {
+      "ID": 100,
+      "CID": 22,
+      "Number": 11,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Nico Williams",
+        "POS": "ATA",
+        "ATK": 84,
+        "DRI": 91,
+        "DEF": 45,
+        "VEL": 95,
+        "PAS": 82,
+        "STA": 84
+      }
+    },
+
+    "Lamine Yamal": {
+      "ID": 101,
+      "CID": 23,
+      "Number": 19,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Lamine Yamal",
+        "POS": "ATA",
+        "ATK": 86,
+        "DRI": 94,
+        "DEF": 40,
+        "VEL": 88,
+        "PAS": 86,
+        "STA": 78
+      }
+    },
+
+    "Mikel Oyarzabal": {
+      "ID": 102,
+      "CID": 24,
+      "Number": 21,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Mikel Oyarzabal",
+        "POS": "ATA",
+        "ATK": 83,
+        "DRI": 82,
+        "DEF": 55,
+        "VEL": 75,
+        "PAS": 80,
+        "STA": 82
+      }
+    },
+
+    "Victor Muñoz": {
+      "ID": 103,
+      "CID": 25,
+      "Number": 17,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Victor Muñoz",
+        "POS": "ATA",
+        "ATK": 75,
+        "DRI": 78,
+        "DEF": 42,
+        "VEL": 84,
+        "PAS": 72,
+        "STA": 76
+      }
+    },
+
+    "Borja Iglesias": {
+      "ID": 104,
+      "CID": 26,
+      "Number": 9,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Borja Iglesias",
+        "POS": "ATA",
+        "ATK": 82,
+        "DRI": 70,
+        "DEF": 40,
+        "VEL": 68,
+        "PAS": 72,
+        "STA": 78
+      }
+    }
+  }
+}
