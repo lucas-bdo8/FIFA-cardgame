@@ -1,0 +1,427 @@
+{
+  "Sigla": "GER",
+  "Cor": "#FFFFFF",
+  "Tecnico": {
+	"Name": "Julian Nagelsmann",
+	"BonusType": "PAS",
+	"BonusValue": 2
+  },
+  "Players": {
+	"27": {
+	  "ID": 27,
+	  "CID": 1,
+	  "Number": 1,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Manuel Neuer",
+		"POS": "GOL",
+		"ATK": 0,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 1,
+		"PAS": 3,
+		"STA": 2
+	  }
+	},
+	"28": {
+	  "ID": 28,
+	  "CID": 2,
+	  "Number": 12,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Oliver Baumann",
+		"POS": "GOL",
+		"ATK": 0,
+		"DRI": 1,
+		"DEF": 2,
+		"VEL": 1,
+		"PAS": 2,
+		"STA": 2
+	  }
+	},
+	"29": {
+	  "ID": 29,
+	  "CID": 3,
+	  "Number": 23,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Alexander Nübel",
+		"POS": "GOL",
+		"ATK": 0,
+		"DRI": 1,
+		"DEF": 2,
+		"VEL": 1,
+		"PAS": 2,
+		"STA": 2
+	  }
+	},
+		"30": {
+	  "ID": 30,
+	  "CID": 4,
+	  "Number": 2,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Antonio Rüdiger",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"31": {
+	  "ID": 31,
+	  "CID": 5,
+	  "Number": 3,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Waldemar Anton",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"32": {
+	  "ID": 32,
+	  "CID": 6,
+	  "Number": 4,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Jonathan Tah",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"33": {
+	  "ID": 33,
+	  "CID": 7,
+	  "Number": 15,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Nico Schlotterbeck",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"34": {
+	  "ID": 34,
+	  "CID": 8,
+	  "Number": 22,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Nathaniel Brown",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"35": {
+	  "ID": 35,
+	  "CID": 9,
+	  "Number": 3,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "David Raum",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"36": {
+	  "ID": 36,
+	  "CID": 10,
+	  "Number": 24,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Malick Thiaw",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"37": {
+	  "ID": 37,
+	  "CID": 11,
+	  "Number": 25,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Aleksandar Pavlović",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"38": {
+	  "ID": 38,
+	  "CID": 12,
+	  "Number": 6,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Joshua Kimmich",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"39": {
+	  "ID": 39,
+	  "CID": 13,
+	  "Number": 8,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Leon Goretzka",
+		"POS": "MEI",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"40": {
+	  "ID": 40,
+	  "CID": 14,
+	  "Number": 18,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Jamie Leweling",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 2
+	  }
+	},
+	"41": {
+	  "ID": 41,
+	  "CID": 15,
+	  "Number": 10,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Jamal Musiala",
+		"POS": "MEI",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"42": {
+	  "ID": 42,
+	  "CID": 16,
+	  "Number": 5,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Pascal Groß",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 1,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"43": {
+	  "ID": 43,
+	  "CID": 17,
+	  "Number": 16,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Angelo Stiller",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"44": {
+	  "ID": 44,
+	  "CID": 18,
+	  "Number": 17,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Florian Wirtz",
+		"POS": "MEI",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"45": {
+	  "ID": 45,
+	  "CID": 19,
+	  "Number": 19,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Leroy Sané",
+		"POS": "MEI",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 2
+	  }
+	},
+	"46": {
+	  "ID": 46,
+	  "CID": 20,
+	  "Number": 11,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Nadiem Amiri",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 2
+	  }
+	},
+	"47": {
+	  "ID": 47,
+	  "CID": 21,
+	  "Number": 13,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Felix Nmecha",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"48": {
+	  "ID": 48,
+	  "CID": 22,
+	  "Number": 20,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Assan Ouédraogo",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+		"49": {
+	  "ID": 49,
+	  "CID": 23,
+	  "Number": 7,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Kai Havertz",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"50": {
+	  "ID": 50,
+	  "CID": 24,
+	  "Number": 9,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Nick Woltemade",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"51": {
+	  "ID": 51,
+	  "CID": 25,
+	  "Number": 14,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Maximilian Beier",
+		"POS": "ATA",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"52": {
+	  "ID": 52,
+	  "CID": 26,
+	  "Number": 26,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Deniz Undav",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 2
+	  }
+	}
+  }
+}
