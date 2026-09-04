@@ -1,0 +1,16 @@
+[gd_scene load_steps=11 format=3 uid="uid://dyhm8qke0qhn0"]
+
+[ext_resource type="Script" uid="uid://ssn5mxwmtuca" path="res://scenes/MusicManager.gd" id="1_fkbch"]
+[ext_resource type="AudioStream" uid="uid://c5isrciahfyt3" path="res://Resources/Music/Shakira & Burna Boy - Dai Dai.mp3" id="2_r6agn"]
+[ext_resource type="AudioStream" uid="uid://q5beadr772au" path="res://Resources/Music/Anitta, LISA, Rema, FIFA Sound - Goals.mp3" id="3_suxwa"]
+[ext_resource type="AudioStream" uid="uid://4vb6mx2dq5qe" path="res://Resources/Music/Jelly Roll, Carín León - Lighter.mp3" id="4_r5t12"]
+[ext_resource type="AudioStream" uid="uid://rm356ly6xgnb" path="res://Resources/Music/iShowSpeed - Champions (WC 26).mp3" id="5_l62sp"]
+[ext_resource type="AudioStream" uid="uid://d3oup51cl6m8c" path="res://Resources/Music/Future, Tyla, FIFA Sound - Game Time.mp3" id="6_oxtdo"]
+[ext_resource type="AudioStream" uid="uid://ri55x5kk60jr" path="res://Resources/Music/Jessie Reyez, Elyanna - Illuminate.mp3" id="7_gbh8o"]
+[ext_resource type="AudioStream" uid="uid://c2fb37rn2f86w" path="res://Resources/Music/Daddy Yankee, Shenseea, FIFA Sound - Echo.mp3" id="8_smbxl"]
+[ext_resource type="AudioStream" uid="uid://demtaeb6s7sff" path="res://Resources/Music/DNA (More Than A Game)  Andrea Bocelli, David Guetta, EJAE  Megan Thee Stallion.mp3" id="9_trwbn"]
+[ext_resource type="AudioStream" uid="uid://dweb87boiwrjo" path="res://Resources/Music/Por Ella (FIFA World Cup 2026)(Letra_Lyric) - Los Ángeles Azules, Belinda.mp3" id="10_8rps1"]
+
+[node name="MusicManager" type="Node"]
+script = ExtResource("1_fkbch")
+music_files = Array[AudioStream]([ExtResource("2_r6agn"), ExtResource("3_suxwa"), ExtResource("4_r5t12"), ExtResource("5_l62sp"), ExtResource("6_oxtdo"), ExtResource("7_gbh8o"), ExtResource("8_smbxl"), ExtResource("9_trwbn"), ExtResource("10_8rps1")])

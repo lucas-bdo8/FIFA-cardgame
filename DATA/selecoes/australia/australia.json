@@ -1,0 +1,401 @@
+﻿{
+  "Sigla": "AUS",
+  "Cor": "#FFCD00",
+  "Tecnico": {
+    "Name": "Tony Popović",
+    "BonusType": "DEF",
+    "BonusValue": 2
+  },
+  "Players": {
+    "131": {
+      "CID": 1,
+      "Number": 1,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Mathew Ryan",
+        "POS": "GOL",
+        "ATK": 0,
+        "DRI": 1,
+        "DEF": 3,
+        "VEL": 1,
+        "PAS": 2,
+        "STA": 2
+      }
+    },
+    "132": {
+      "CID": 2,
+      "Number": 12,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Paul Izzo",
+        "POS": "GOL",
+        "ATK": 0,
+        "DRI": 1,
+        "DEF": 2,
+        "VEL": 1,
+        "PAS": 2,
+        "STA": 2
+      }
+    },
+    "133": {
+      "CID": 3,
+      "Number": 18,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Patrick Beach",
+        "POS": "GOL",
+        "ATK": 0,
+        "DRI": 1,
+        "DEF": 2,
+        "VEL": 1,
+        "PAS": 2,
+        "STA": 2
+      }
+    },
+    "134": {
+      "CID": 4,
+      "Number": 2,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Milos Degenek",
+        "POS": "DEF",
+        "ATK": 1,
+        "DRI": 1,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "135": {
+      "CID": 5,
+      "Number": 4,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Alessandro Cirati",
+        "POS": "DEF",
+        "ATK": 1,
+        "DRI": 1,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "136": {
+      "CID": 6,
+      "Number": 13,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Jacob Italiano",
+        "POS": "DEF",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 2,
+        "VEL": 3,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "137": {
+      "CID": 7,
+      "Number": 16,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Jordan Bos",
+        "POS": "DEF",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 2,
+        "VEL": 3,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "138": {
+      "CID": 8,
+      "Number": 2,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Jason Geria",
+        "POS": "DEF",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 2,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "139": {
+      "CID": 9,
+      "Number": 15,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Kai Trewin",
+        "POS": "DEF",
+        "ATK": 1,
+        "DRI": 1,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "140": {
+      "CID": 10,
+      "Number": 21,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Aziz Behich",
+        "POS": "DEF",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 2,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "141": {
+      "CID": 11,
+      "Number": 19,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Harry Souttar",
+        "POS": "DEF",
+        "ATK": 1,
+        "DRI": 1,
+        "DEF": 3,
+        "VEL": 1,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "142": {
+      "CID": 12,
+      "Number": 21,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Cameron Burgess",
+        "POS": "DEF",
+        "ATK": 1,
+        "DRI": 1,
+        "DEF": 3,
+        "VEL": 1,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "143": {
+      "CID": 13,
+      "Number": 3,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Lucas Herrington",
+        "POS": "DEF",
+        "ATK": 1,
+        "DRI": 1,
+        "DEF": 2,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "144": {
+      "CID": 14,
+      "Number": 8,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Connor Metcalfe",
+        "POS": "MEI",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 2,
+        "VEL": 3,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "145": {
+      "CID": 15,
+      "Number": 13,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Aiden O'Neill",
+        "POS": "MEI",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "146": {
+      "CID": 16,
+      "Number": 14,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Cameron Devlin",
+        "POS": "MEI",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "147": {
+      "CID": 17,
+      "Number": 22,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Jackson Irvine",
+        "POS": "MEI",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 2,
+        "VEL": 2,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "148": {
+      "CID": 18,
+      "Number": 24,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Paul Okon-Engstler",
+        "POS": "MEI",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 2,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "149": {
+      "CID": 19,
+      "Number": 7,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Mathew Leckie",
+        "POS": "ATA",
+        "ATK": 3,
+        "DRI": 2,
+        "DEF": 1,
+        "VEL": 3,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "150": {
+      "CID": 20,
+      "Number": 9,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Mohamed Toure",
+        "POS": "ATA",
+        "ATK": 3,
+        "DRI": 2,
+        "DEF": 1,
+        "VEL": 3,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "151": {
+      "CID": 21,
+      "Number": 10,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Ajdin Hrustic",
+        "POS": "ATA",
+        "ATK": 3,
+        "DRI": 3,
+        "DEF": 1,
+        "VEL": 2,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "152": {
+      "CID": 22,
+      "Number": 11,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Awer Mabil",
+        "POS": "ATA",
+        "ATK": 2,
+        "DRI": 3,
+        "DEF": 1,
+        "VEL": 3,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "153": {
+      "CID": 23,
+      "Number": 17,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Nestory Irankunda",
+        "POS": "ATA",
+        "ATK": 3,
+        "DRI": 3,
+        "DEF": 1,
+        "VEL": 3,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "154": {
+      "CID": 24,
+      "Number": 20,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Cristian Volpato",
+        "POS": "ATA",
+        "ATK": 3,
+        "DRI": 3,
+        "DEF": 1,
+        "VEL": 3,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "155": {
+      "CID": 25,
+      "Number": 23,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Nishan Velupillay",
+        "POS": "ATA",
+        "ATK": 2,
+        "DRI": 3,
+        "DEF": 1,
+        "VEL": 3,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "156": {
+      "CID": 26,
+      "Number": 26,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Tete Yengi",
+        "POS": "ATA",
+        "ATK": 3,
+        "DRI": 2,
+        "DEF": 1,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    }
+  }
+}

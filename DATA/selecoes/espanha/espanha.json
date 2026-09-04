@@ -1,0 +1,401 @@
+{
+  "Sigla": "ESP",
+  "Cor": "#E4032E",
+  "Tecnico": {
+	"Name": "Luis de la Fuente",
+	"BonusType": "MEI",
+	"BonusValue": 3
+  },
+  "Players": {
+	"544": {
+	  "CID": 6,
+	  "Number": 1,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "David Raya",
+		"POS": "GOL",
+		"ATK": 0,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 1,
+		"PAS": 3,
+		"STA": 2
+	  }
+	},
+	"545": {
+	  "CID": 11,
+	  "Number": 13,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Joan Garcia",
+		"POS": "GOL",
+		"ATK": 0,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 1,
+		"PAS": 3,
+		"STA": 2
+	  }
+	},
+	"546": {
+	  "CID": 22,
+	  "Number": 23,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Unai Simon",
+		"POS": "GOL",
+		"ATK": 0,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 1,
+		"PAS": 3,
+		"STA": 2
+	  }
+	},
+	"547": {
+	  "CID": 13,
+	  "Number": 2,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Marc Pubill",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"548": {
+	  "CID": 1,
+	  "Number": 3,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Alejandro Grimaldo",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 2,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"549": {
+	  "CID": 7,
+	  "Number": 4,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Eric Garcia",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"550": {
+	  "CID": 14,
+	  "Number": 5,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Marcos Llorente",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"551": {
+	  "CID": 20,
+	  "Number": 12,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Pedro Porro",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 2,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"552": {
+	  "CID": 3,
+	  "Number": 14,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Aymeric Laporte",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"553": {
+	  "CID": 18,
+	  "Number": 22,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Pau Cubarsi",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"554": {
+	  "CID": 24,
+	  "Number": 24,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Marc Cucurella",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 2,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"555": {
+	  "CID": 16,
+	  "Number": 6,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Mikel Merino",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"556": {
+	  "CID": 8,
+	  "Number": 8,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Fabian Ruiz",
+		"POS": "MEI",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 2,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"557": {
+	  "CID": 10,
+	  "Number": 9,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Gavi",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 2,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"558": {
+	  "CID": 2,
+	  "Number": 15,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Alex Baena",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"559": {
+	  "CID": 21,
+	  "Number": 16,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Rodri",
+		"POS": "MEI",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"560": {
+	  "CID": 15,
+	  "Number": 18,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Martin Zubimendi",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"561": {
+	  "CID": 19,
+	  "Number": 20,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Pedri",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"562": {
+	  "CID": 9,
+	  "Number": 7,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Ferran Torres",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"563": {
+	  "CID": 5,
+	  "Number": 10,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Dani Olmo",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"564": {
+	  "CID": 24,
+	  "Number": 11,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Yeremy Pino",
+		"POS": "ATA",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"565": {
+	  "CID": 17,
+	  "Number": 17,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Nico Williams",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"566": {
+	  "CID": 12,
+	  "Number": 19,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Lamine Yamal",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"567": {
+	  "CID": 16,
+	  "Number": 21,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Mikel Oyarzabal",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"568": {
+	  "CID": 23,
+	  "Number": 25,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Victor Munoz",
+		"POS": "ATA",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"569": {
+	  "CID": 4,
+	  "Number": 26,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Borja Iglesias",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	}
+  }
+}

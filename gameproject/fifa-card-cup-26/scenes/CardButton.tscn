@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://luq8bg4i8835"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_rlppe"]
+
+[node name="TextureButton" type="TextureButton" unique_id=181727019]
+z_index = 4
+custom_minimum_size = Vector2(90, 120)
+custom_maximum_size = Vector2(90, 120)
+mouse_default_cursor_shape = 2
+texture_normal = SubResource("ViewportTexture_rlppe")
+stretch_mode = 0

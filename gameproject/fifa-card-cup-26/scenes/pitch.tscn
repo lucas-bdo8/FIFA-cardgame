@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://cml8ivlojxonm"]
+
+[ext_resource type="Texture2D" uid="uid://dloeguxt648qb" path="res://Resources/Game/Textures/pitch.png" id="1_jcxhh"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_2msfa"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dwiy3"]
+albedo_color = Color(0.6872149, 0.68721503, 0.6872149, 1)
+albedo_texture = ExtResource("1_jcxhh")
+albedo_texture_force_srgb = true
+texture_filter = 0
+
+[node name="pitch" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.0214477e-08, 0, 1.25, 0, 1, 0, -0.92, 0, -5.4639237e-08, 0, 0, 0)
+mesh = SubResource("PlaneMesh_2msfa")
+surface_material_override/0 = SubResource("StandardMaterial3D_dwiy3")

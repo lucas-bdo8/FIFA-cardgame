@@ -1,0 +1,138 @@
+[gd_scene load_steps=9 format=3 uid="uid://c1q02tuxhbi2i"]
+
+[ext_resource type="Script" uid="uid://b1k8bc3mgoci4" path="res://Scripts/player.gd" id="1_qlg0r"]
+[ext_resource type="Texture2D" uid="uid://5cwfoai530ft" path="res://Resources/Cartas/Huds/RareCard.png" id="2_qhqgy"]
+[ext_resource type="Texture2D" uid="uid://cx01ovs76s5x5" path="res://DATA/selecoes/alemanha/Cartas/Common/28.png" id="2_qlg0r"]
+[ext_resource type="Texture2D" uid="uid://bai541mwjsjyw" path="res://Resources/Cartas/Huds/CommonCard.png" id="3_tuyoq"]
+[ext_resource type="Texture2D" uid="uid://dmrh2u5n55ic1" path="res://Resources/Cartas/Huds/LegendCard.png" id="5_fjrip"]
+[ext_resource type="Texture2D" uid="uid://1ubr154vaytl" path="res://Resources/Cartas/Huds/EpicCard.png" id="7_fjrip"]
+[ext_resource type="FontFile" uid="uid://dg5crqxhgqwx7" path="res://Fonts/DrukWideBold.ttf" id="8_smehm"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qlg0r"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_tuyoq")
+}],
+"loop": true,
+"name": &"Common",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_fjrip")
+}],
+"loop": true,
+"name": &"Epic",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_fjrip")
+}],
+"loop": true,
+"name": &"Legend",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_qhqgy")
+}],
+"loop": true,
+"name": &"Rare",
+"speed": 5.0
+}]
+
+[node name="Player" type="Node3D"]
+script = ExtResource("1_qlg0r")
+
+[node name="CARTA" type="Sprite3D" parent="."]
+transform = Transform3D(1.23, 0, 0, 0, 1.23, 0, 0, 0, 1.23, 0, 0, 0.5877075)
+double_sided = false
+texture_filter = 0
+texture = ExtResource("2_qlg0r")
+
+[node name="HUD" type="AnimatedSprite3D" parent="."]
+transform = Transform3D(86, 0, 0, 0, 86, 0, 0, 0, 86, 0, 0, 0.732105)
+texture_filter = 0
+sprite_frames = SubResource("SpriteFrames_qlg0r")
+animation = &"Common"
+
+[node name="INFO" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.117, -0.065)
+
+[node name="Name" type="Label3D" parent="INFO"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6322595, -7.742365, 0.81305814)
+layers = 3
+sorting_offset = 2.0
+double_sided = false
+text = "Vini Jr"
+font = ExtResource("8_smehm")
+font_size = 128
+horizontal_alignment = 0
+
+[node name="ATK" type="Label3D" parent="INFO"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6322595, -8.911984, 0.81305814)
+layers = 3
+sorting_offset = 2.0
+double_sided = false
+text = "ATK  91"
+font = ExtResource("8_smehm")
+font_size = 128
+horizontal_alignment = 0
+uppercase = true
+
+[node name="VEL" type="Label3D" parent="INFO"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.3436065, -8.911984, 0.81305814)
+layers = 3
+sorting_offset = 2.0
+double_sided = false
+text = "VEL  90"
+font = ExtResource("8_smehm")
+font_size = 128
+horizontal_alignment = 0
+uppercase = true
+
+[node name="DRI" type="Label3D" parent="INFO"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6322595, -10.038238, 0.81305814)
+layers = 3
+sorting_offset = 2.0
+double_sided = false
+text = "DRI  92"
+font = ExtResource("8_smehm")
+font_size = 128
+horizontal_alignment = 0
+uppercase = true
+
+[node name="PAS" type="Label3D" parent="INFO"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.6059422, -10.038238, 0.81305814)
+layers = 3
+sorting_offset = 2.0
+double_sided = false
+text = "PAS  71"
+font = ExtResource("8_smehm")
+font_size = 128
+horizontal_alignment = 0
+uppercase = true
+
+[node name="DEF" type="Label3D" parent="INFO"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6322595, -11.196754, 0.81305814)
+layers = 3
+sorting_offset = 2.0
+double_sided = false
+text = "DEF  32"
+font = ExtResource("8_smehm")
+font_size = 128
+horizontal_alignment = 0
+uppercase = true
+
+[node name="STA" type="Label3D" parent="INFO"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.509549, -11.196754, 0.81305814)
+layers = 3
+sorting_offset = 2.0
+double_sided = false
+text = "STA  85"
+font = ExtResource("8_smehm")
+font_size = 128
+horizontal_alignment = 0
+uppercase = true

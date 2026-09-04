@@ -1,0 +1,196 @@
+[gd_scene format=3 uid="uid://ddfpxsrxrpqub"]
+
+[ext_resource type="Script" uid="uid://qshromdlmcd8" path="res://Scripts/player3D.gd" id="1_ali1n"]
+[ext_resource type="Texture2D" uid="uid://bai541mwjsjyw" path="res://Resources/Cartas/Huds/CommonCard.png" id="2_ali1n"]
+[ext_resource type="Texture2D" uid="uid://da73xeufqe282" path="res://DATA/selecoes/alemanha/Cartas/Common/27.png" id="2_aoiyr"]
+[ext_resource type="Texture2D" uid="uid://1ubr154vaytl" path="res://Resources/Cartas/Huds/EpicCard.png" id="3_aoiyr"]
+[ext_resource type="Texture2D" uid="uid://dmrh2u5n55ic1" path="res://Resources/Cartas/Huds/LegendCard.png" id="4_60w1x"]
+[ext_resource type="Texture2D" uid="uid://5cwfoai530ft" path="res://Resources/Cartas/Huds/RareCard.png" id="5_0nu4v"]
+[ext_resource type="FontFile" uid="uid://dg5crqxhgqwx7" path="res://Fonts/DrukWideBold.ttf" id="6_jwcha"]
+[ext_resource type="Texture2D" uid="uid://bi5qoduc63opy" path="res://DATA/selecoes/alemanha/Resources/Flag.webp" id="7_ooxxp"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_52vux"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_reoop"]
+sky_material = SubResource("ProceduralSkyMaterial_52vux")
+
+[sub_resource type="Environment" id="Environment_2djwe"]
+background_mode = 2
+sky = SubResource("Sky_reoop")
+tonemap_mode = 2
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_rwvw1"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_5newe"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_52vux"]
+resource_local_to_scene = true
+albedo_texture = SubResource("ViewportTexture_5newe")
+metallic_specular = 0.0
+roughness = 0.0
+anisotropy = 1.0
+texture_filter = 0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qlg0r"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_ali1n")
+}],
+"loop": 1,
+"name": &"Common",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_aoiyr")
+}],
+"loop": 1,
+"name": &"Epic",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_60w1x")
+}],
+"loop": 1,
+"name": &"Legend",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_0nu4v")
+}],
+"loop": 1,
+"name": &"Rare",
+"speed": 5.0
+}]
+
+[node name="Player3D" type="Node3D" unique_id=1114714179]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0)
+script = ExtResource("1_ali1n")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1448495950]
+environment = SubResource("Environment_2djwe")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=503682042]
+transform = Transform3D(0.1, 0, 0, 0, 0.033, 0, 0, 0, 0.133, 0, 0, 0)
+gi_mode = 2
+mesh = SubResource("PlaneMesh_rwvw1")
+surface_material_override/0 = SubResource("StandardMaterial3D_52vux")
+
+[node name="SubViewport" type="SubViewport" parent="." unique_id=86669963]
+handle_input_locally = false
+size = Vector2i(385, 517)
+render_target_update_mode = 4
+
+[node name="Player" type="Node2D" parent="SubViewport" unique_id=366260650]
+position = Vector2(192, 256)
+scale = Vector2(0.185, 0.185)
+
+[node name="CARTA" type="Sprite2D" parent="SubViewport/Player" unique_id=255192990]
+scale = Vector2(1.23, 1.23)
+texture = ExtResource("2_aoiyr")
+
+[node name="HUD" type="AnimatedSprite2D" parent="SubViewport/Player" unique_id=313558788]
+texture_filter = 1
+scale = Vector2(86, 86)
+sprite_frames = SubResource("SpriteFrames_qlg0r")
+animation = &"Rare"
+
+[node name="INFO" type="Sprite2D" parent="SubViewport/Player" unique_id=1353323009]
+position = Vector2(0, 0.117)
+
+[node name="Name" type="Label" parent="SubViewport/Player/INFO" unique_id=1755974140]
+offset_left = 47.0
+offset_top = 747.883
+offset_right = 349.0
+offset_bottom = 830.883
+theme_override_fonts/font = ExtResource("6_jwcha")
+theme_override_font_sizes/font_size = 64
+text = "Vini Jr"
+metadata/_edit_use_anchors_ = true
+
+[node name="ATK" type="Label" parent="SubViewport/Player/INFO" unique_id=1081641776]
+offset_left = 50.0
+offset_top = 880.0
+offset_right = 379.0
+offset_bottom = 963.0
+theme_override_fonts/font = ExtResource("6_jwcha")
+theme_override_font_sizes/font_size = 64
+text = "ATK  91"
+uppercase = true
+metadata/_edit_use_anchors_ = true
+
+[node name="VEL" type="Label" parent="SubViewport/Player/INFO" unique_id=2120148341]
+offset_left = 465.0
+offset_top = 880.0
+offset_right = 826.0
+offset_bottom = 963.0
+theme_override_fonts/font = ExtResource("6_jwcha")
+theme_override_font_sizes/font_size = 64
+text = "VEL  90"
+uppercase = true
+metadata/_edit_use_anchors_ = true
+
+[node name="DRI" type="Label" parent="SubViewport/Player/INFO" unique_id=550120517]
+offset_left = 50.0
+offset_top = 990.0
+offset_right = 384.0
+offset_bottom = 1073.0
+theme_override_fonts/font = ExtResource("6_jwcha")
+theme_override_font_sizes/font_size = 64
+text = "DRI  92"
+uppercase = true
+metadata/_edit_use_anchors_ = true
+
+[node name="PAS" type="Label" parent="SubViewport/Player/INFO" unique_id=421861556]
+offset_left = 465.0
+offset_top = 990.0
+offset_right = 793.0
+offset_bottom = 1073.0
+theme_override_fonts/font = ExtResource("6_jwcha")
+theme_override_font_sizes/font_size = 64
+text = "PAS  71"
+uppercase = true
+metadata/_edit_use_anchors_ = true
+
+[node name="DEF" type="Label" parent="SubViewport/Player/INFO" unique_id=1820072587]
+offset_left = 50.0
+offset_top = 1096.883
+offset_right = 406.0
+offset_bottom = 1179.883
+theme_override_fonts/font = ExtResource("6_jwcha")
+theme_override_font_sizes/font_size = 64
+text = "DEF  32"
+uppercase = true
+metadata/_edit_use_anchors_ = true
+
+[node name="STA" type="Label" parent="SubViewport/Player/INFO" unique_id=1862678132]
+offset_left = 465.0
+offset_top = 1100.0
+offset_right = 821.0
+offset_bottom = 1183.0
+theme_override_fonts/font = ExtResource("6_jwcha")
+theme_override_font_sizes/font_size = 64
+text = "STA  85"
+uppercase = true
+metadata/_edit_use_anchors_ = true
+
+[node name="HomeFlag" type="TextureRect" parent="SubViewport/Player/INFO" unique_id=1795863999]
+offset_left = -945.99994
+offset_top = -1253.1171
+offset_right = -905.99994
+offset_bottom = -1213.1171
+scale = Vector2(8.595, 5.609)
+texture = ExtResource("7_ooxxp")
+expand_mode = 4
+metadata/_edit_use_anchors_ = true
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="." unique_id=568386747]
+offset_left = -390.345
+offset_right = -5.345001
+offset_bottom = 517.0

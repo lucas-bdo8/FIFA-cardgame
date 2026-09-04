@@ -1,0 +1,401 @@
+{
+  "Sigla": "QAT",
+  "Cor": "#7A263A",
+  "Tecnico": {
+	"Name": "Julen Lopetegui",
+	"BonusType": "DEF",
+	"BonusValue": 2
+  },
+  "Players": {
+	"313": {
+	  "CID": 1,
+	  "Number": 1,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Mahmoud Abunada",
+		"POS": "GOL",
+		"ATK": 0,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 1,
+		"PAS": 2,
+		"STA": 2
+	  }
+	},
+	"314": {
+	  "CID": 3,
+	  "Number": 21,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Salah Zakaria",
+		"POS": "GOL",
+		"ATK": 0,
+		"DRI": 1,
+		"DEF": 2,
+		"VEL": 1,
+		"PAS": 2,
+		"STA": 2
+	  }
+	},
+	"315": {
+	  "CID": 2,
+	  "Number": 22,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Meshaal Barsham",
+		"POS": "GOL",
+		"ATK": 0,
+		"DRI": 1,
+		"DEF": 2,
+		"VEL": 1,
+		"PAS": 2,
+		"STA": 2
+	  }
+	},
+	"316": {
+	  "CID": 8,
+	  "Number": 2,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Pedro Miguel",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"317": {
+	  "CID": 7,
+	  "Number": 3,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Lucas Mendes",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"8": {
+	  "CID": 5,
+	  "Number": 4,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Issa Laye",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"319": {
+	  "CID": 6,
+	  "Number": 5,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Jassem Gaber",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"320": {
+	  "CID": 2,
+	  "Number": 13,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Ayoub Aloui",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"321": {
+	  "CID": 4,
+	  "Number": 14,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Homam Ahmed",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 2,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"322": {
+	  "CID": 3,
+	  "Number": 16,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Boualem Khoukhi",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"323": {
+	  "CID": 9,
+	  "Number": 18,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Sultan Albrake",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"324": {
+	  "CID": 1,
+	  "Number": 25,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Alhashmi Alhussein",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"325": {
+	  "CID": 1,
+	  "Number": 6,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Abdulaziz Hatem",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"326": {
+	  "CID": 5,
+	  "Number": 12,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Karim Boudiaf",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"327": {
+	  "CID": 2,
+	  "Number": 17,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Ahmed Alganehi",
+		"POS": "MEI",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"328": {
+	  "CID": 3,
+	  "Number": 20,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Ahmed Fathy",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"329": {
+	  "CID": 4,
+	  "Number": 23,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Assim Madibo",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"330": {
+	  "CID": 1,
+	  "Number": 7,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Ahmed Alaaeldin",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"331": {
+	  "CID": 4,
+	  "Number": 8,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Edmilson Junior",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"332": {
+	  "CID": 7,
+	  "Number": 9,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Mohammed Muntari",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"333": {
+	  "CID": 5,
+	  "Number": 10,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Hassan Alhaydos",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"334": {
+	  "CID": 2,
+	  "Number": 11,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Akram Afif",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"335": {
+	  "CID": 9,
+	  "Number": 15,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Yusuf Abdurisag",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"336": {
+	  "CID": 3,
+	  "Number": 19,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Almoez Ali",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"337": {
+	  "CID": 8,
+	  "Number": 24,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Tahsin Mohammed",
+		"POS": "ATA",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"338": {
+	  "CID": 6,
+	  "Number": 26,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Mohamed Manai",
+		"POS": "ATA",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	}
+  }
+}

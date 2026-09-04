@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://q5beadr772au"
+path="res://.godot/imported/Anitta, LISA, Rema, FIFA Sound - Goals.mp3-3bac5521e379554d949630a6dc453824.mp3str"
+
+[deps]
+
+source_file="res://Resources/Music/Anitta, LISA, Rema, FIFA Sound - Goals.mp3"
+dest_files=["res://.godot/imported/Anitta, LISA, Rema, FIFA Sound - Goals.mp3-3bac5521e379554d949630a6dc453824.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

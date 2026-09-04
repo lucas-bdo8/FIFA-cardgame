@@ -1,0 +1,401 @@
+{
+  "Sigla": "CRO",
+  "Cor": "#FF0000",
+  "Tecnico": {
+	"Name": "Zlatko Dalic",
+	"BonusType": "DEF",
+	"BonusValue": 2
+  },
+  "Players": {
+	"414": {
+	  "CID": 2,
+	  "Number": 1,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Dominik Livakovic",
+		"POS": "GOL",
+		"ATK": 0,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 1,
+		"PAS": 3,
+		"STA": 2
+	  }
+	},
+	"415": {
+	  "CID": 3,
+	  "Number": 12,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Ivor Pandur",
+		"POS": "GOL",
+		"ATK": 0,
+		"DRI": 1,
+		"DEF": 2,
+		"VEL": 1,
+		"PAS": 2,
+		"STA": 2
+	  }
+	},
+	"416": {
+	  "CID": 1,
+	  "Number": 23,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Dominik Kotarski",
+		"POS": "GOL",
+		"ATK": 0,
+		"DRI": 1,
+		"DEF": 2,
+		"VEL": 1,
+		"PAS": 2,
+		"STA": 2
+	  }
+	},
+	"417": {
+	  "CID": 5,
+	  "Number": 2,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Josip Stanisic",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"418": {
+	  "CID": 8,
+	  "Number": 3,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Marin Pongracic",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"419": {
+	  "CID": 4,
+	  "Number": 4,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Josko Gvardiol",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"420": {
+	  "CID": 1,
+	  "Number": 5,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Duje Caleta-Car",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"421": {
+	  "CID": 9,
+	  "Number": 6,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Josip Sutalo",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"422": {
+	  "CID": 3,
+	  "Number": 8,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Kristijan Jakic",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"423": {
+	  "CID": 10,
+	  "Number": 13,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Luka Vuskovic",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"424": {
+	  "CID": 2,
+	  "Number": 21,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Martin Erlic",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"425": {
+	  "CID": 6,
+	  "Number": 8,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Nikola Moro",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"426": {
+	  "CID": 5,
+	  "Number": 8,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Mateo Kovacic",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 2,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"427": {
+	  "CID": 7,
+	  "Number": 10,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Luka Modric",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 2,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 2
+	  }
+	},
+	"428": {
+	  "CID": 9,
+	  "Number": 13,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Nikola Vlasic",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"429": {
+	  "CID": 8,
+	  "Number": 15,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Mario Pasalic",
+		"POS": "MEI",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"430": {
+	  "CID": 2,
+	  "Number": 19,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Martin Baturina",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"431": {
+	  "CID": 3,
+	  "Number": 14,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Petar Sucic",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"432": {
+	  "CID": 4,
+	  "Number": 18,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Toni Fruk",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"433": {
+	  "CID": 1,
+	  "Number": 25,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Luka Sucic",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"434": {
+	  "CID": 2,
+	  "Number": 9,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Andrej Kramaric",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"435": {
+	  "CID": 1,
+	  "Number": 17,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Ante Budimir",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"436": {
+	  "CID": 6,
+	  "Number": 4,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Ivan Perisic",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"437": {
+	  "CID": 4,
+	  "Number": 16,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Igor Matanovic",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"438": {
+	  "CID": 5,
+	  "Number": 20,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Marco Pasalic",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"439": {
+	  "CID": 3,
+	  "Number": 22,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Petar Musa",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	}
+  }
+}

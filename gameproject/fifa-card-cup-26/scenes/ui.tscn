@@ -1,0 +1,936 @@
+[gd_scene format=3 uid="uid://bnbc7v66iwc00"]
+
+[ext_resource type="Texture2D" uid="uid://dx0ffvt0lqn5t" path="res://Resources/UI/Game/Scoreboard.png" id="1_x4jx1"]
+[ext_resource type="Script" uid="uid://mkw5edy67f8j" path="res://scenes/ui.gd" id="1_yev5y"]
+[ext_resource type="FontFile" uid="uid://dg5crqxhgqwx7" path="res://Fonts/DrukWideBold.ttf" id="2_yev5y"]
+[ext_resource type="Texture2D" uid="uid://gowebqbdf4p5" path="res://Resources/UI/Game/Action Buttons.png" id="4_wm3ai"]
+[ext_resource type="Texture2D" uid="uid://b86jjt1w2o6b0" path="res://Resources/UI/Game/Action Buttons Pressed.png" id="5_8dubc"]
+[ext_resource type="Script" uid="uid://cxpsmaaggq22s" path="res://scenes/a.gd" id="6_7dvkv"]
+[ext_resource type="FontFile" uid="uid://bjata0laffaik" path="res://Fonts/CutePixel.ttf" id="6_8dubc"]
+[ext_resource type="Script" uid="uid://bmscddds4fqwu" path="res://scenes/b.gd" id="8_vdcm2"]
+[ext_resource type="Script" uid="uid://d24mqt75r1roq" path="res://scenes/x.gd" id="9_6rmj2"]
+[ext_resource type="Script" uid="uid://b4db2byp6br0e" path="res://scenes/y.gd" id="10_vsj0x"]
+[ext_resource type="Texture2D" uid="uid://cv6yxewtkhxwo" path="res://Resources/Cartas/Huds/AddCard.png" id="11_vdcm2"]
+[ext_resource type="Texture2D" uid="uid://q36c8x4hweoa" path="res://Resources/UI/Game/Ficha.png" id="12_6rmj2"]
+[ext_resource type="Texture2D" uid="uid://cmhkm1tra1k3e" path="res://Resources/Cartas/Huds/AddCard-Hover-Focused.png" id="12_rlppe"]
+[ext_resource type="Texture2D" uid="uid://bwxyjq8ukorkv" path="res://Resources/UI/Game/CardHoldBg.png" id="13_vsj0x"]
+[ext_resource type="Texture2D" uid="uid://cv7eneggnuadx" path="res://Resources/UI/Game/Ficha_hover.png" id="14_cof4p"]
+[ext_resource type="Script" uid="uid://hv7j13jmyi1v" path="res://scenes/players_select.gd" id="15_f7tlh"]
+[ext_resource type="Texture2D" uid="uid://cede7sc012nrj" path="res://Resources/UI/Game/FullSquadBG.png" id="16_8k7j3"]
+[ext_resource type="Texture2D" uid="uid://blkkqcyynhf4j" path="res://Resources/UI/Game/ATAflag.png" id="17_jkdwc"]
+[ext_resource type="PackedScene" uid="uid://b4fcn0oc0ox1m" path="res://scenes/sub_viewport.tscn" id="17_rlppe"]
+[ext_resource type="Texture2D" uid="uid://b5nvrm6lnl5jo" path="res://Resources/UI/Game/ATAflag-hover.png" id="19_rlppe"]
+[ext_resource type="PackedScene" uid="uid://luq8bg4i8835" path="res://scenes/CardButton.tscn" id="21_ycmcx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p7vwb"]
+atlas = ExtResource("4_wm3ai")
+region = Rect2(25, 47, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vdcm2"]
+atlas = ExtResource("5_8dubc")
+region = Rect2(25, 49, 14, 14)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_p7vwb"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p7vwb")
+}],
+"loop": 1,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vdcm2")
+}],
+"loop": 1,
+"name": &"Pressed",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7dvkv"]
+atlas = ExtResource("4_wm3ai")
+region = Rect2(39, 31, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qsv74"]
+atlas = ExtResource("5_8dubc")
+region = Rect2(39, 35, 14, 14)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ktti3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7dvkv")
+}],
+"loop": 1,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qsv74")
+}],
+"loop": 1,
+"name": &"Pressed",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ktti3"]
+atlas = ExtResource("4_wm3ai")
+region = Rect2(11, 31, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6rmj2"]
+atlas = ExtResource("5_8dubc")
+region = Rect2(11, 35, 14, 14)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cgfq5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ktti3")
+}],
+"loop": 1,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6rmj2")
+}],
+"loop": 1,
+"name": &"Pressed",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cgfq5"]
+atlas = ExtResource("4_wm3ai")
+region = Rect2(25, 15, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vsj0x"]
+atlas = ExtResource("5_8dubc")
+region = Rect2(25, 21, 14, 14)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7dvkv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cgfq5")
+}],
+"loop": 1,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vsj0x")
+}],
+"loop": 1,
+"name": &"Pressed",
+"speed": 5.0
+}]
+
+[sub_resource type="GDScript" id="GDScript_jkdwc"]
+script/source = "extends AnimatedSprite2D
+
+func _process(delta):
+	if Input.is_action_just_pressed(\"X\"):
+		$\"../X\".play(\"Pressed\")
+	
+	if Input.is_action_just_released(\"X\"):
+		$\"../X\".play(\"Idle\")
+"
+
+[sub_resource type="GDScript" id="GDScript_sesyt"]
+script/source = "extends AnimatedSprite2D
+
+@export_enum(\"Gameplay\", \"Squad Setup\") var Scene = \"\"
+
+func _process(delta):
+	if Input.is_action_just_pressed(\"Y\"):
+		$\"../Y\".play(\"Pressed\")
+		
+		match Scene:
+			\"Squad Setup\":
+				GlobalVariables.CamState = \"Squad Setup Transition\"
+				GlobalSignals.StartIntro.emit()
+				%\"Squad Setup\".visible = false
+				Scene = \"\"
+	
+	if Input.is_action_just_released(\"Y\"):
+		$\"../Y\".play(\"Idle\")
+"
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_ycmcx"]
+viewport_path = NodePath("../../../PlayerViewPorts/Card1")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_kupmu"]
+viewport_path = NodePath("../../../PlayerViewPorts/Card2")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_catpy"]
+viewport_path = NodePath("../../../PlayerViewPorts/Card3")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_41akx"]
+viewport_path = NodePath("../../../PlayerViewPorts/Card4")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_sesyt"]
+viewport_path = NodePath("../../../PlayerViewPorts/Card5")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_gglip"]
+viewport_path = NodePath("../../../PlayerViewPorts/Card6")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_0tsab"]
+viewport_path = NodePath("../../../PlayerViewPorts/Card7")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_i5tog"]
+viewport_path = NodePath("../../../PlayerViewPorts/Card8")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_rleeb"]
+viewport_path = NodePath("../../../PlayerViewPorts/Card9")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_wu1et"]
+viewport_path = NodePath("../../../PlayerViewPorts/Card10")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_wquew"]
+viewport_path = NodePath("../../../PlayerViewPorts/Card11")
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_pawqx"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_3vrs6"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_ukrhx"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_5ls34"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_fsl8s"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_x4rqp"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_6bb67"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_mgb8n"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_y6fpy"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_phcun"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_7crvc"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_wibvp"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_ymt3a"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_3dj8n"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_e4ov1"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_trtic"]
+
+[node name="UI" type="Control" unique_id=752675242]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = 11.0
+offset_right = 8.0
+offset_bottom = 11.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_yev5y")
+metadata/_edit_vertical_guides_ = [-354.0]
+
+[node name="Scoreboard" type="Control" parent="." unique_id=642380639]
+visible = false
+layout_mode = 1
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(1.3, 1.3)
+
+[node name="Sprite2D" type="Sprite2D" parent="Scoreboard" unique_id=946747125]
+texture_filter = 2
+position = Vector2(219.07692, 23.076927)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_x4jx1")
+
+[node name="HomeFlag" type="TextureRect" parent="Scoreboard" unique_id=1369479542]
+layout_mode = 0
+offset_left = 108.07693
+offset_top = 11.076929
+offset_right = 148.07693
+offset_bottom = 51.076927
+scale = Vector2(0.85, 0.555)
+expand_mode = 4
+
+[node name="AwayFlag" type="TextureRect" parent="Scoreboard" unique_id=1890487366]
+layout_mode = 0
+offset_left = 375.07693
+offset_top = 11.076927
+offset_right = 415.07693
+offset_bottom = 51.076927
+scale = Vector2(0.85, 0.555)
+expand_mode = 4
+
+[node name="HomeColor" type="ColorRect" parent="Scoreboard" unique_id=143873531]
+z_index = -1
+z_as_relative = false
+layout_mode = 0
+offset_left = 145.48692
+offset_top = 14.076926
+offset_right = 185.48692
+offset_bottom = 54.076927
+scale = Vector2(0.5, 0.5)
+color = Color(1, 1, 0, 1)
+
+[node name="AwayColor" type="ColorRect" parent="Scoreboard" unique_id=239857763]
+z_index = -1
+z_as_relative = false
+layout_mode = 0
+offset_left = 350.07693
+offset_top = 14.076926
+offset_right = 390.07693
+offset_bottom = 54.076927
+scale = Vector2(0.5, 0.5)
+color = Color(0, 1, 1, 1)
+
+[node name="HomeTeamName" type="RichTextLabel" parent="Scoreboard" unique_id=309671517]
+layout_mode = 0
+offset_left = 167.71692
+offset_top = 14.076926
+offset_right = 220.71692
+offset_bottom = 54.076927
+theme_override_fonts/normal_font = ExtResource("2_yev5y")
+theme_override_font_sizes/normal_font_size = 12
+text = "BRA"
+fit_content = true
+autowrap_mode = 0
+
+[node name="AwayTeamName" type="RichTextLabel" parent="Scoreboard" unique_id=1408195363]
+layout_mode = 0
+offset_left = 311.07693
+offset_top = 14.076926
+offset_right = 364.07693
+offset_bottom = 54.076927
+theme_override_fonts/normal_font = ExtResource("2_yev5y")
+theme_override_font_sizes/normal_font_size = 12
+text = "SPA"
+fit_content = true
+autowrap_mode = 0
+
+[node name="HomeGoal" type="RichTextLabel" parent="Scoreboard" unique_id=957641084]
+layout_mode = 0
+offset_left = 210.07692
+offset_top = 4.076926
+offset_right = 250.07692
+offset_bottom = 44.076927
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("2_yev5y")
+theme_override_font_sizes/normal_font_size = 16
+text = "0"
+autowrap_mode = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AwayGoal" type="RichTextLabel" parent="Scoreboard" unique_id=1267140527]
+layout_mode = 0
+offset_left = 269.07693
+offset_top = 4.076926
+offset_right = 309.07693
+offset_bottom = 44.076927
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("2_yev5y")
+theme_override_font_sizes/normal_font_size = 16
+text = "0"
+autowrap_mode = 0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TimeSec" type="RichTextLabel" parent="Scoreboard" unique_id=1252685076]
+layout_mode = 0
+offset_left = 55.076923
+offset_top = 4.076926
+offset_right = 95.07692
+offset_bottom = 44.076927
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("2_yev5y")
+theme_override_font_sizes/normal_font_size = 10
+text = "00"
+autowrap_mode = 0
+vertical_alignment = 1
+
+[node name="TimeMin" type="RichTextLabel" parent="Scoreboard" unique_id=126099727]
+layout_mode = 0
+offset_left = 3.0769243
+offset_top = 4.076926
+offset_right = 43.076923
+offset_bottom = 44.076927
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("2_yev5y")
+theme_override_font_sizes/normal_font_size = 10
+text = "0"
+autowrap_mode = 0
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Gameplay" type="Control" parent="." unique_id=1122363252]
+visible = false
+layout_mode = 1
+anchor_left = 0.7230903
+anchor_top = 1.2160494
+anchor_right = 0.7230903
+anchor_bottom = 1.2160494
+offset_left = -554.0
+offset_top = -309.00006
+offset_right = -514.0
+offset_bottom = -269.00006
+grow_horizontal = 2
+grow_vertical = 0
+scale = Vector2(15.22, 3.773)
+
+[node name="A" type="AnimatedSprite2D" parent="Gameplay" unique_id=1970376633]
+texture_filter = 1
+position = Vector2(19.012602, 27.542377)
+scale = Vector2(0.14005601, 0.56497175)
+sprite_frames = SubResource("SpriteFrames_p7vwb")
+animation = &"Idle"
+autoplay = "Idle"
+script = ExtResource("6_7dvkv")
+
+[node name="Label" type="Label" parent="Gameplay/A" unique_id=767723059]
+texture_filter = 1
+offset_left = -30.749985
+offset_top = 5.75
+offset_right = 33.250015
+offset_bottom = 51.75
+theme_override_colors/font_outline_color = Color(0.26293245, 0.26293245, 0.26293245, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("6_8dubc")
+text = "Run"
+horizontal_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="B" type="AnimatedSprite2D" parent="Gameplay" unique_id=385156305]
+texture_filter = 1
+position = Vector2(21.463583, 27.542377)
+scale = Vector2(0.14005601, 0.56497175)
+sprite_frames = SubResource("SpriteFrames_ktti3")
+animation = &"Idle"
+autoplay = "Idle"
+script = ExtResource("8_vdcm2")
+
+[node name="Label" type="Label" parent="Gameplay/B" unique_id=2136274863]
+texture_filter = 1
+offset_left = 10.25
+offset_top = -23.0
+offset_right = 74.25
+offset_bottom = 23.0
+theme_override_colors/font_outline_color = Color(0.26293245, 0.26293245, 0.26293245, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("6_8dubc")
+text = "Shoot"
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="X" type="AnimatedSprite2D" parent="Gameplay" unique_id=2016235576]
+texture_filter = 1
+position = Vector2(16.561625, 27.542377)
+scale = Vector2(0.14005601, 0.56497175)
+sprite_frames = SubResource("SpriteFrames_cgfq5")
+animation = &"Idle"
+autoplay = "Idle"
+script = ExtResource("9_6rmj2")
+
+[node name="Label" type="Label" parent="Gameplay/X" unique_id=76391717]
+texture_filter = 1
+offset_left = -73.75
+offset_top = -23.0
+offset_right = -9.75
+offset_bottom = 23.0
+theme_override_colors/font_outline_color = Color(0.26293245, 0.26293245, 0.26293245, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("6_8dubc")
+text = "Pass"
+horizontal_alignment = 2
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Y" type="AnimatedSprite2D" parent="Gameplay" unique_id=1612556943]
+texture_filter = 1
+position = Vector2(19.012602, 16.949154)
+scale = Vector2(0.14005601, 0.56497175)
+sprite_frames = SubResource("SpriteFrames_7dvkv")
+animation = &"Idle"
+autoplay = "Idle"
+script = ExtResource("10_vsj0x")
+Scene = "Gameplay"
+
+[node name="Label" type="Label" parent="Gameplay/Y" unique_id=320906509]
+texture_filter = 1
+offset_left = -32.249985
+offset_top = -53.0
+offset_right = 31.750015
+offset_bottom = -7.0
+theme_override_colors/font_outline_color = Color(0.26293245, 0.26293245, 0.26293245, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("6_8dubc")
+text = "Lob Pass"
+horizontal_alignment = 1
+vertical_alignment = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="Squad Setup" type="Control" parent="." unique_id=1537685631]
+unique_name_in_owner = true
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Scene1" type="Control" parent="Squad Setup" unique_id=298301054]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="HomeFlag" type="TextureRect" parent="Squad Setup/Scene1" unique_id=2088948592]
+layout_mode = 0
+offset_left = 2.0000076
+offset_top = -1.0
+offset_right = 42.000015
+offset_bottom = 39.0
+scale = Vector2(1.86, 1.214)
+expand_mode = 4
+
+[node name="HomeTeamName" type="RichTextLabel" parent="Squad Setup/Scene1" unique_id=1273748738]
+layout_mode = 0
+offset_left = 87.0
+offset_top = 6.0
+offset_right = 172.0
+offset_bottom = 46.0
+theme_override_fonts/normal_font = ExtResource("2_yev5y")
+theme_override_font_sizes/normal_font_size = 26
+text = "BRA"
+fit_content = true
+autowrap_mode = 0
+
+[node name="AddGL" type="TextureButton" parent="Squad Setup/Scene1" unique_id=1200327252]
+texture_filter = 1
+layout_mode = 0
+offset_left = 512.0
+offset_top = 471.0
+offset_right = 536.0
+offset_bottom = 503.0
+scale = Vector2(4, 4)
+focus_neighbor_left = NodePath("../Add1")
+focus_neighbor_top = NodePath("../Add1")
+focus_neighbor_right = NodePath("../Add1")
+focus_neighbor_bottom = NodePath("../Add4")
+focus_next = NodePath("../Add1")
+focus_previous = NodePath("../Add4")
+texture_normal = ExtResource("11_vdcm2")
+texture_hover = ExtResource("12_rlppe")
+texture_focused = ExtResource("12_rlppe")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Add1" type="TextureButton" parent="Squad Setup/Scene1" unique_id=591935243]
+texture_filter = 1
+layout_mode = 0
+offset_left = 512.0
+offset_top = 324.0
+offset_right = 536.0
+offset_bottom = 356.0
+scale = Vector2(4, 4)
+focus_neighbor_left = NodePath("../Add2")
+focus_neighbor_top = NodePath("../Add4")
+focus_neighbor_right = NodePath("../Add3")
+focus_neighbor_bottom = NodePath("../AddGL")
+focus_next = NodePath("../Add3")
+focus_previous = NodePath("../Add2")
+texture_normal = ExtResource("11_vdcm2")
+texture_hover = ExtResource("12_rlppe")
+texture_focused = ExtResource("12_rlppe")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Add2" type="TextureButton" parent="Squad Setup/Scene1" unique_id=905227747]
+texture_filter = 1
+layout_mode = 0
+offset_left = 225.0
+offset_top = 230.0
+offset_right = 249.0
+offset_bottom = 262.0
+scale = Vector2(4, 4)
+focus_neighbor_left = NodePath("../Add1")
+focus_neighbor_top = NodePath("../Add4")
+focus_neighbor_right = NodePath("../Add1")
+focus_neighbor_bottom = NodePath("../Add1")
+focus_next = NodePath("../Add4")
+focus_previous = NodePath("../Add1")
+texture_normal = ExtResource("11_vdcm2")
+texture_hover = ExtResource("12_rlppe")
+texture_focused = ExtResource("12_rlppe")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Add3" type="TextureButton" parent="Squad Setup/Scene1" unique_id=1862799602]
+texture_filter = 1
+layout_mode = 0
+offset_left = 799.0
+offset_top = 230.0
+offset_right = 823.0
+offset_bottom = 262.0
+scale = Vector2(4, 4)
+focus_neighbor_left = NodePath("../Add1")
+focus_neighbor_top = NodePath("../Add4")
+focus_neighbor_right = NodePath("../Add1")
+focus_neighbor_bottom = NodePath("../Add1")
+focus_next = NodePath("../Add4")
+focus_previous = NodePath("../Add1")
+texture_normal = ExtResource("11_vdcm2")
+texture_hover = ExtResource("12_rlppe")
+texture_focused = ExtResource("12_rlppe")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Add4" type="TextureButton" parent="Squad Setup/Scene1" unique_id=89665794]
+texture_filter = 1
+layout_mode = 0
+offset_left = 512.0
+offset_top = 146.0
+offset_right = 536.0
+offset_bottom = 178.0
+scale = Vector2(4, 4)
+focus_neighbor_left = NodePath("../Add2")
+focus_neighbor_top = NodePath("../AddGL")
+focus_neighbor_right = NodePath("../Add3")
+focus_neighbor_bottom = NodePath("../Add1")
+focus_next = NodePath("../Add3")
+focus_previous = NodePath("../Add3")
+texture_normal = ExtResource("11_vdcm2")
+texture_hover = ExtResource("12_rlppe")
+texture_focused = ExtResource("12_rlppe")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="CardHold" type="TextureButton" parent="Squad Setup/Scene1" unique_id=265107324]
+texture_filter = 1
+layout_mode = 0
+offset_left = -11.999998
+offset_top = 226.00002
+offset_right = 20.000002
+offset_bottom = 290.0
+scale = Vector2(7, 7)
+texture_normal = ExtResource("12_6rmj2")
+texture_pressed = ExtResource("12_6rmj2")
+texture_hover = ExtResource("14_cof4p")
+texture_focused = ExtResource("14_cof4p")
+
+[node name="Bg" type="Sprite2D" parent="Squad Setup/Scene1/CardHold" unique_id=961278866]
+z_index = -1
+position = Vector2(32.42857, 50.714283)
+scale = Vector2(2, 2)
+texture = ExtResource("13_vsj0x")
+
+[node name="X" type="AnimatedSprite2D" parent="Squad Setup/Scene1/CardHold" unique_id=1259772543]
+texture_filter = 1
+position = Vector2(9.571428, 6.285713)
+scale = Vector2(0.663, 0.663)
+sprite_frames = SubResource("SpriteFrames_cgfq5")
+animation = &"Idle"
+autoplay = "Idle"
+script = SubResource("GDScript_jkdwc")
+
+[node name="CoachName" type="RichTextLabel" parent="Squad Setup/Scene1" unique_id=1061107770]
+layout_mode = 0
+offset_left = 229.0
+offset_top = 592.0
+offset_right = 456.0
+offset_bottom = 632.0
+theme_override_fonts/normal_font = ExtResource("2_yev5y")
+theme_override_font_sizes/normal_font_size = 17
+fit_content = true
+autowrap_mode = 0
+
+[node name="CoachTItle" type="RichTextLabel" parent="Squad Setup/Scene1" unique_id=406348302]
+layout_mode = 0
+offset_left = 232.0
+offset_top = 614.0
+offset_right = 459.0
+offset_bottom = 654.0
+theme_override_colors/default_color = Color(0.93454415, 0.6534167, 0.5247454, 1)
+theme_override_fonts/normal_font = ExtResource("2_yev5y")
+theme_override_font_sizes/normal_font_size = 12
+text = "Head Coach"
+fit_content = true
+autowrap_mode = 0
+
+[node name="Coach" type="TextureRect" parent="Squad Setup/Scene1" unique_id=619131512]
+texture_filter = 1
+layout_mode = 0
+offset_left = 233.0
+offset_top = 443.0
+offset_right = 273.0
+offset_bottom = 483.0
+scale = Vector2(2.705, 3.606)
+expand_mode = 4
+
+[node name="Y" type="AnimatedSprite2D" parent="Squad Setup/Scene1" unique_id=2036073049]
+texture_filter = 1
+position = Vector2(1106, 596)
+scale = Vector2(4, 4)
+sprite_frames = SubResource("SpriteFrames_7dvkv")
+animation = &"Idle"
+autoplay = "Idle"
+script = SubResource("GDScript_sesyt")
+Scene = "Squad Setup"
+
+[node name="Label" type="Label" parent="Squad Setup/Scene1/Y" unique_id=1090091797]
+texture_filter = 1
+offset_left = -73.999985
+offset_top = -23.0
+offset_right = -9.999985
+offset_bottom = 23.0
+theme_override_colors/font_outline_color = Color(0.26293245, 0.26293245, 0.26293245, 1)
+theme_override_fonts/font = ExtResource("6_8dubc")
+text = "Confirm"
+horizontal_alignment = 2
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Players_Select" type="Control" parent="Squad Setup" unique_id=1765745490 node_paths=PackedStringArray("CardViewports", "CardsButtons")]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("15_f7tlh")
+CardViewports = [NodePath("PlayerViewPorts/Card1"), NodePath("PlayerViewPorts/Card2"), NodePath("PlayerViewPorts/Card3"), NodePath("PlayerViewPorts/Card4"), NodePath("PlayerViewPorts/Card5"), NodePath("PlayerViewPorts/Card6"), NodePath("PlayerViewPorts/Card7"), NodePath("PlayerViewPorts/Card8"), NodePath("PlayerViewPorts/Card9"), NodePath("PlayerViewPorts/Card10"), NodePath("PlayerViewPorts/Card11"), NodePath("PlayerViewPorts/Card12"), NodePath("PlayerViewPorts/Card13"), NodePath("PlayerViewPorts/Card14"), NodePath("PlayerViewPorts/Card15"), NodePath("PlayerViewPorts/Card16"), NodePath("PlayerViewPorts/Card17"), NodePath("PlayerViewPorts/Card18"), NodePath("PlayerViewPorts/Card19"), NodePath("PlayerViewPorts/Card20"), NodePath("PlayerViewPorts/Card21"), NodePath("PlayerViewPorts/Card22"), NodePath("PlayerViewPorts/Card23"), NodePath("PlayerViewPorts/Card24"), NodePath("PlayerViewPorts/Card25"), NodePath("PlayerViewPorts/Card26")]
+CardsButtons = [NodePath("ScrollContainer/GridContainer/TextureButton 1"), NodePath("ScrollContainer/GridContainer/TextureButton 2"), NodePath("ScrollContainer/GridContainer/TextureButton 3"), NodePath("ScrollContainer/GridContainer/TextureButton 4"), NodePath("ScrollContainer/GridContainer/TextureButton 5"), NodePath("ScrollContainer/GridContainer/TextureButton 6"), NodePath("ScrollContainer/GridContainer/TextureButton 7"), NodePath("ScrollContainer/GridContainer/TextureButton 8"), NodePath("ScrollContainer/GridContainer/TextureButton 9"), NodePath("ScrollContainer/GridContainer/TextureButton 10"), NodePath("ScrollContainer/GridContainer/TextureButton 11"), NodePath("ScrollContainer/GridContainer/TextureButton 12"), NodePath("ScrollContainer/GridContainer/TextureButton 13"), NodePath("ScrollContainer/GridContainer/TextureButton 14"), NodePath("ScrollContainer/GridContainer/TextureButton 15"), NodePath("ScrollContainer/GridContainer/TextureButton 16"), NodePath("ScrollContainer/GridContainer/TextureButton 17"), NodePath("ScrollContainer/GridContainer/TextureButton 18"), NodePath("ScrollContainer/GridContainer/TextureButton 19"), NodePath("ScrollContainer/GridContainer/TextureButton 20"), NodePath("ScrollContainer/GridContainer/TextureButton 21"), NodePath("ScrollContainer/GridContainer/TextureButton 22"), NodePath("ScrollContainer/GridContainer/TextureButton 23"), NodePath("ScrollContainer/GridContainer/TextureButton 24"), NodePath("ScrollContainer/GridContainer/TextureButton 25"), NodePath("ScrollContainer/GridContainer/TextureButton 26")]
+
+[node name="PlayerViewPorts" type="Control" parent="Squad Setup/Players_Select" unique_id=1907762042]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Card1" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=438737476 instance=ExtResource("17_rlppe")]
+
+[node name="Card2" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=958667514 instance=ExtResource("17_rlppe")]
+
+[node name="Card3" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=1633029433 instance=ExtResource("17_rlppe")]
+
+[node name="Card4" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=311010124 instance=ExtResource("17_rlppe")]
+
+[node name="Card5" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=1411493212 instance=ExtResource("17_rlppe")]
+
+[node name="Card6" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=1056336745 instance=ExtResource("17_rlppe")]
+
+[node name="Card7" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=544840470 instance=ExtResource("17_rlppe")]
+
+[node name="Card8" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=2111974925 instance=ExtResource("17_rlppe")]
+
+[node name="Card9" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=635287205 instance=ExtResource("17_rlppe")]
+
+[node name="Card10" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=748952268 instance=ExtResource("17_rlppe")]
+
+[node name="Card11" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=819795907 instance=ExtResource("17_rlppe")]
+
+[node name="Card12" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=844499956 instance=ExtResource("17_rlppe")]
+
+[node name="Card13" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=125058544 instance=ExtResource("17_rlppe")]
+
+[node name="Card14" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=183682233 instance=ExtResource("17_rlppe")]
+
+[node name="Card15" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=1588760058 instance=ExtResource("17_rlppe")]
+
+[node name="Card16" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=1005676292 instance=ExtResource("17_rlppe")]
+
+[node name="Card17" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=778856143 instance=ExtResource("17_rlppe")]
+
+[node name="Card18" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=895675320 instance=ExtResource("17_rlppe")]
+
+[node name="Card19" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=44368114 instance=ExtResource("17_rlppe")]
+
+[node name="Card20" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=1654252916 instance=ExtResource("17_rlppe")]
+
+[node name="Card21" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=242834775 instance=ExtResource("17_rlppe")]
+
+[node name="Card22" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=619113144 instance=ExtResource("17_rlppe")]
+
+[node name="Card23" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=410700705 instance=ExtResource("17_rlppe")]
+
+[node name="Card24" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=928932785 instance=ExtResource("17_rlppe")]
+
+[node name="Card25" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=978222799 instance=ExtResource("17_rlppe")]
+
+[node name="Card26" parent="Squad Setup/Players_Select/PlayerViewPorts" unique_id=1868336303 instance=ExtResource("17_rlppe")]
+
+[node name="BG" type="Sprite2D" parent="Squad Setup/Players_Select" unique_id=1441063800]
+texture_filter = 1
+position = Vector2(104, 413)
+scale = Vector2(3.5, 3.5)
+texture = ExtResource("16_8k7j3")
+
+[node name="PosFlag" type="TextureButton" parent="Squad Setup/Players_Select" unique_id=2054651638]
+texture_filter = 1
+layout_mode = 0
+offset_left = -7.9999986
+offset_top = 207.0
+offset_right = 51.0
+offset_bottom = 215.85715
+scale = Vector2(3.5, 3.5)
+texture_normal = ExtResource("17_jkdwc")
+texture_hover = ExtResource("19_rlppe")
+texture_focused = ExtResource("19_rlppe")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Squad Setup/Players_Select" unique_id=1006953956]
+custom_minimum_size = Vector2(208, 400)
+custom_maximum_size = Vector2(208, 400)
+layout_mode = 0
+offset_left = -6.0
+offset_top = 237.0
+offset_right = 202.0
+offset_bottom = 637.0
+offset_transform_enabled = true
+horizontal_scroll_mode = 0
+
+[node name="GridContainer" type="GridContainer" parent="Squad Setup/Players_Select/ScrollContainer" unique_id=1895114797]
+custom_minimum_size = Vector2(200, 400)
+layout_mode = 2
+columns = 2
+
+[node name="TextureButton 1" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=181727019 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_ycmcx")
+
+[node name="TextureButton 2" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=1153283816 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_kupmu")
+
+[node name="TextureButton 3" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=1691341860 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_catpy")
+
+[node name="TextureButton 4" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=679407189 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_41akx")
+
+[node name="TextureButton 5" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=511534723 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_sesyt")
+
+[node name="TextureButton 6" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=1266087568 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_gglip")
+
+[node name="TextureButton 7" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=1375921058 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_0tsab")
+
+[node name="TextureButton 8" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=478288018 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_i5tog")
+
+[node name="TextureButton 9" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=452909325 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_rleeb")
+
+[node name="TextureButton 10" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=1702522151 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_wu1et")
+
+[node name="TextureButton 11" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=495776152 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_wquew")
+
+[node name="TextureButton 12" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=475196800 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_pawqx")
+
+[node name="TextureButton 13" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=157492446 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_3vrs6")
+
+[node name="TextureButton 14" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=2086425953 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_ukrhx")
+
+[node name="TextureButton 15" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=731860138 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_5ls34")
+
+[node name="TextureButton 16" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=1171550548 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_fsl8s")
+
+[node name="TextureButton 17" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=1294231162 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_x4rqp")
+
+[node name="TextureButton 18" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=1909010917 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_6bb67")
+
+[node name="TextureButton 19" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=724373900 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_mgb8n")
+
+[node name="TextureButton 20" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=407007792 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_y6fpy")
+
+[node name="TextureButton 21" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=799123276 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_phcun")
+
+[node name="TextureButton 22" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=173863799 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_7crvc")
+
+[node name="TextureButton 23" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=1689103889 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_wibvp")
+
+[node name="TextureButton 24" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=1176577846 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_ymt3a")
+
+[node name="TextureButton 25" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=367915426 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_3dj8n")
+
+[node name="TextureButton 26" parent="Squad Setup/Players_Select/ScrollContainer/GridContainer" unique_id=1754342731 instance=ExtResource("21_ycmcx")]
+layout_mode = 2
+texture_normal = SubResource("ViewportTexture_e4ov1")
+
+[node name="SelectedCard" type="Sprite2D" parent="Squad Setup/Players_Select" unique_id=999423038]
+texture_filter = 2
+position = Vector2(1017, 472)
+scale = Vector2(0.62, 0.62)
+texture = SubResource("ViewportTexture_trtic")
+
+[node name="PlayerName" type="Label" parent="Squad Setup/Players_Select/SelectedCard" unique_id=1583524245]
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -1013.0322
+offset_top = -101.1613
+offset_right = -587.5272
+offset_bottom = -0.8913269
+grow_horizontal = 0
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0.7925876, 0.3890449, 0, 1)
+theme_override_constants/shadow_offset_x = 6
+theme_override_constants/shadow_offset_y = 5
+theme_override_fonts/font = ExtResource("2_yev5y")
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 2
+vertical_alignment = 2
+autowrap_mode = 1
+
+[connection signal="pressed" from="Squad Setup/Scene1/AddGL" to="Squad Setup/Players_Select" method="_on_add_gl_pressed"]
+[connection signal="pressed" from="Squad Setup/Scene1/Add1" to="Squad Setup/Players_Select" method="_on_add_1_pressed"]
+[connection signal="pressed" from="Squad Setup/Scene1/Add2" to="Squad Setup/Players_Select" method="_on_add_2_pressed"]
+[connection signal="pressed" from="Squad Setup/Scene1/Add3" to="Squad Setup/Players_Select" method="_on_add_3_pressed"]
+[connection signal="pressed" from="Squad Setup/Scene1/Add4" to="Squad Setup/Players_Select" method="_on_add_4_pressed"]
+[connection signal="pressed" from="Squad Setup/Scene1/CardHold" to="." method="_on_card_hold_pressed"]
+[connection signal="pressed" from="Squad Setup/Players_Select/PosFlag" to="." method="_on_pos_flag_pressed"]

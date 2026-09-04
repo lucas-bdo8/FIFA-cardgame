@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://by6rv7a6oeldy"
+path="res://.godot/imported/Kick off 2.ogg-bbedb66dc35992fc1e78b63fc90ea702.oggvorbisstr"
+
+[deps]
+
+source_file="res://Resources/Narrração/Kick off 2.ogg"
+dest_files=["res://.godot/imported/Kick off 2.ogg-bbedb66dc35992fc1e78b63fc90ea702.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

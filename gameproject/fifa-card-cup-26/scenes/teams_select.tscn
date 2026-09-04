@@ -1,0 +1,588 @@
+[gd_scene load_steps=53 format=3 uid="uid://b76kc2hckpjma"]
+
+[ext_resource type="PackedScene" uid="uid://cml8ivlojxonm" path="res://scenes/pitch.tscn" id="1_1oh2o"]
+[ext_resource type="Script" uid="uid://dunfdfp61gfwi" path="res://scenes/teams_select.gd" id="1_jt1bm"]
+[ext_resource type="PackedScene" uid="uid://bg7u0t4o7pg45" path="res://Resources/Game/3D/Banco de Reservas.glb" id="2_jt1bm"]
+[ext_resource type="PackedScene" uid="uid://ddfpxsrxrpqub" path="res://scenes/player_3d.tscn" id="3_k80l7"]
+[ext_resource type="Script" uid="uid://b1amksxh01ym" path="res://scenes/mini_player.gd" id="4_ktqd5"]
+[ext_resource type="FontFile" uid="uid://bjata0laffaik" path="res://Fonts/CutePixel.ttf" id="5_ynju2"]
+[ext_resource type="Texture2D" uid="uid://bk0lyxq4v6cp8" path="res://Resources/Game/Textures/Player/jogador Dom - HitBall-1.png" id="6_1c74a"]
+[ext_resource type="Texture2D" uid="uid://dxk5dgrwm18fp" path="res://Resources/Game/Textures/Player/jogador Catch.png" id="7_yqhy4"]
+[ext_resource type="Texture2D" uid="uid://0830v7eguetd" path="res://Resources/Game/Textures/Player/jogador Gol Jump.png" id="8_q6j1q"]
+[ext_resource type="Texture2D" uid="uid://d0ttjeblai548" path="res://Resources/Game/Textures/Player/jogador GL Idle.png" id="9_oj1ox"]
+[ext_resource type="Texture2D" uid="uid://crj76qk5y7k2h" path="res://Resources/Game/Textures/Player/jogador GL Breath.png" id="10_nlhr4"]
+[ext_resource type="Texture2D" uid="uid://vd6isvbkke8f" path="res://Resources/Game/Textures/Player/jogador Hurt.png" id="11_o1dbm"]
+[ext_resource type="Texture2D" uid="uid://brs81lqx8m3kg" path="res://Resources/Game/Textures/Player/jogador Idle.png" id="12_ojs8h"]
+[ext_resource type="Texture2D" uid="uid://dk1n20edx48ys" path="res://Resources/Game/Textures/Player/jogador HitBall-2.png" id="13_8yugs"]
+[ext_resource type="Texture2D" uid="uid://p8kxu07efdrk" path="res://Resources/Game/Textures/Player/jogador HitBall-3.png" id="14_hud43"]
+[ext_resource type="Texture2D" uid="uid://dbs3k51vie4wl" path="res://Resources/Game/Textures/Player/jogador HitBall-4.png" id="15_lxaxf"]
+[ext_resource type="Texture2D" uid="uid://cf30a5nue6v5b" path="res://Resources/Game/Textures/Player/jogador Tackle.png" id="16_mx2fa"]
+[ext_resource type="Texture2D" uid="uid://raqtl6wxrvsu" path="res://Resources/Game/Textures/Player/jogador Tackled.png" id="17_34ahe"]
+[ext_resource type="Texture2D" uid="uid://caor6cjbiintq" path="res://Resources/Game/Textures/Player/jogador walk 1.png" id="18_r2ud4"]
+[ext_resource type="Texture2D" uid="uid://dgkc0sfe8kbhn" path="res://Resources/Game/Textures/Player/jogador walk 2.png" id="19_4gdq7"]
+[ext_resource type="Script" uid="uid://bfc6l03eedq50" path="res://scenes/ChooseTeam.gd" id="20_1oh2o"]
+[ext_resource type="Texture2D" uid="uid://gowebqbdf4p5" path="res://Resources/UI/Game/Action Buttons.png" id="20_16v3q"]
+[ext_resource type="Texture2D" uid="uid://b86jjt1w2o6b0" path="res://Resources/UI/Game/Action Buttons Pressed.png" id="21_nhph0"]
+[ext_resource type="FontFile" uid="uid://dg5crqxhgqwx7" path="res://Fonts/DrukWideBold.ttf" id="23_hv40i"]
+[ext_resource type="Texture2D" uid="uid://b0ddqwp8rrmj7" path="res://Resources/UI/Game/Keyboard Buttons.png" id="23_ktqd5"]
+[ext_resource type="Texture2D" uid="uid://cmfqaavnovw2s" path="res://DATA/selecoes/africa do sul/Resources/Flag.webp" id="24_1oh2o"]
+[ext_resource type="Texture2D" uid="uid://bi5qoduc63opy" path="res://DATA/selecoes/alemanha/Resources/Flag.webp" id="25_jt1bm"]
+[ext_resource type="Texture2D" uid="uid://c6d6it4dq7mey" path="res://Resources/UI/Game/Keyboard Buttons Pressed.png" id="25_ynju2"]
+[ext_resource type="Texture2D" uid="uid://cwl6utghkyvl2" path="res://Resources/UI/Game/ChooseTeam/Iniciar.png" id="26_waat5"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_5roq5"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_o2dxl"]
+sky_material = SubResource("ProceduralSkyMaterial_5roq5")
+
+[sub_resource type="Environment" id="Environment_17nkv"]
+background_mode = 2
+sky = SubResource("Sky_o2dxl")
+tonemap_mode = 2
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6ablo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_1c74a")
+}],
+"loop": true,
+"name": &"Dom",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_yqhy4")
+}],
+"loop": true,
+"name": &"GL_Catch",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_q6j1q")
+}],
+"loop": true,
+"name": &"GL_Jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 6.0,
+"texture": ExtResource("9_oj1ox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_nlhr4")
+}],
+"loop": true,
+"name": &"GL_Posture",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_o1dbm")
+}],
+"loop": true,
+"name": &"Hurt",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_ojs8h")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_1c74a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_8yugs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_hud43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_lxaxf")
+}],
+"loop": false,
+"name": &"Pass-Shoot",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_mx2fa")
+}],
+"loop": true,
+"name": &"Tackle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_34ahe")
+}],
+"loop": true,
+"name": &"Tackled",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_r2ud4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ojs8h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_4gdq7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ojs8h")
+}],
+"loop": true,
+"name": &"Walk",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ktti3"]
+atlas = ExtResource("20_16v3q")
+region = Rect2(11, 31, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1c74a"]
+atlas = ExtResource("23_ktqd5")
+region = Rect2(11, 31, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6rmj2"]
+atlas = ExtResource("21_nhph0")
+region = Rect2(11, 35, 14, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yqhy4"]
+atlas = ExtResource("25_ynju2")
+region = Rect2(11, 31, 14, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_k80l7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ktti3")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1c74a")
+}],
+"loop": true,
+"name": &"IdleK",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6rmj2")
+}],
+"loop": true,
+"name": &"Pressed",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yqhy4")
+}],
+"loop": true,
+"name": &"PressedK",
+"speed": 5.0
+}]
+
+[sub_resource type="GDScript" id="GDScript_1oh2o"]
+script/source = "extends AnimatedSprite2D
+
+func _process(delta):
+	if Input.is_action_just_pressed(\"X\"):
+		$\".\".play(\"Pressed\")
+	
+	if Input.is_action_just_released(\"X\"):
+		$\".\".play(\"Idle\")
+"
+
+[sub_resource type="GDScript" id="GDScript_jt1bm"]
+script/source = "extends AnimatedSprite2D
+
+func _process(delta):
+	if Input.is_action_just_pressed(\"X\"):
+		$\".\".play(\"Pressed\")
+	
+	if Input.is_action_just_released(\"X\"):
+		$\".\".play(\"Idle\")
+"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7dvkv"]
+atlas = ExtResource("20_16v3q")
+region = Rect2(39, 31, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q6j1q"]
+atlas = ExtResource("23_ktqd5")
+region = Rect2(39, 31, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qsv74"]
+atlas = ExtResource("21_nhph0")
+region = Rect2(39, 35, 14, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oj1ox"]
+atlas = ExtResource("25_ynju2")
+region = Rect2(39, 31, 14, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c68s4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7dvkv")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q6j1q")
+}],
+"loop": true,
+"name": &"IdleK",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qsv74")
+}],
+"loop": true,
+"name": &"Pressed",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oj1ox")
+}],
+"loop": true,
+"name": &"PressedK",
+"speed": 5.0
+}]
+
+[sub_resource type="GDScript" id="GDScript_ki227"]
+script/source = "extends AnimatedSprite2D
+
+func _process(delta):
+	if Input.is_action_just_pressed(\"B\"):
+		$\".\".play(\"Pressed\")
+	
+	if Input.is_action_just_released(\"B\"):
+		$\".\".play(\"Idle\")
+"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p7vwb"]
+atlas = ExtResource("20_16v3q")
+region = Rect2(25, 47, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nlhr4"]
+atlas = ExtResource("23_ktqd5")
+region = Rect2(25, 47, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vdcm2"]
+atlas = ExtResource("21_nhph0")
+region = Rect2(25, 49, 14, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o1dbm"]
+atlas = ExtResource("25_ynju2")
+region = Rect2(25, 47, 14, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tsfqh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p7vwb")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nlhr4")
+}],
+"loop": true,
+"name": &"IdleK",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vdcm2")
+}],
+"loop": true,
+"name": &"Pressed",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o1dbm")
+}],
+"loop": true,
+"name": &"PressedK",
+"speed": 5.0
+}]
+
+[sub_resource type="GDScript" id="GDScript_tpn2s"]
+script/source = "extends AnimatedSprite2D
+
+func _process(delta):
+	if Input.is_action_just_pressed(\"A\"):
+		#get_tree().change_scene_to_file(\"res://scenes/game.tscn\")
+		$\"../A\".play(\"Pressed\")
+		
+	
+	if Input.is_action_just_released(\"A\"):
+		$\"../A\".play(\"Idle\")
+
+
+func _on_next_pressed() -> void:
+	#get_tree().change_scene_to_file(\"res://scenes/game.tscn\")
+	pass # Replace with function body.
+"
+
+[node name="TeamsSelect" type="Node"]
+script = ExtResource("1_jt1bm")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+directional_shadow_max_distance = 1.0
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_17nkv")
+
+[node name="Ambiente3D" type="Node3D" parent="."]
+
+[node name="pitch" parent="Ambiente3D" instance=ExtResource("1_1oh2o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.003926575, 0.30621594)
+
+[node name="Camera3D" type="Camera3D" parent="Ambiente3D"]
+transform = Transform3D(1, 0, 0, 0, 0.99966776, -0.025775658, 0, 0.025775658, 0.99966776, 0, 0.3111252, 0.40916932)
+fov = 92.8
+
+[node name="Banco Home" parent="Ambiente3D" instance=ExtResource("2_jt1bm")]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -0.4983724, 0, -0.41469562)
+
+[node name="Banco Away" parent="Ambiente3D" instance=ExtResource("2_jt1bm")]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0.498, 0, -0.415)
+
+[node name="HomeCard" parent="Ambiente3D" instance=ExtResource("3_k80l7")]
+transform = Transform3D(1.1464295, 0.4981962, -2.1776849e-08, 0, -5.4639237e-08, -1.25, -0.4981962, 1.1464295, -5.0112025e-08, -0.7098006, 0.3245971, -0.099908575)
+
+[node name="AwayCard" parent="Ambiente3D" instance=ExtResource("3_k80l7")]
+transform = Transform3D(1.1463251, -0.49843636, 2.1787345e-08, 0, -5.4639237e-08, -1.25, 0.49843636, 1.1463251, -5.010746e-08, 0.71, 0.325, -0.1)
+Player = 27
+
+[node name="HomeMini" type="Node3D" parent="Ambiente3D"]
+transform = Transform3D(0.8660254, 0, 0.5, 0, 1, 0, -0.5, 0, 0.8660254, -0.46534842, -0.008663312, -0.06328671)
+script = ExtResource("4_ktqd5")
+
+[node name="PlayerName" type="Label3D" parent="Ambiente3D/HomeMini"]
+transform = Transform3D(0.175, 0, 0, 0, 0.175, 0, 0, 0, 0.175, 0, 0.29023337, 0)
+billboard = 2
+text = "Player Name"
+font = ExtResource("5_ynju2")
+font_size = 64
+outline_size = 24
+
+[node name="PlayerAnim" type="AnimatedSprite3D" parent="Ambiente3D/HomeMini"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0.15054294, 0)
+shaded = true
+texture_filter = 0
+sprite_frames = SubResource("SpriteFrames_6ablo")
+animation = &"Dom"
+autoplay = "Idle"
+
+[node name="AwayMini" type="Node3D" parent="Ambiente3D"]
+transform = Transform3D(-0.8660254, 0, 0.49999997, 0, 1, 0, -0.49999997, 0, -0.8660254, 0.465, -0.009, -0.063)
+script = ExtResource("4_ktqd5")
+Player = 27
+
+[node name="PlayerName" type="Label3D" parent="Ambiente3D/AwayMini"]
+transform = Transform3D(0.175, 0, 0, 0, 0.175, 0, 0, 0, 0.175, 0, 0.29023337, 0)
+billboard = 2
+text = "Player Name"
+font = ExtResource("5_ynju2")
+font_size = 64
+outline_size = 24
+
+[node name="PlayerAnim" type="AnimatedSprite3D" parent="Ambiente3D/AwayMini"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0.15054294, 0)
+shaded = true
+texture_filter = 0
+sprite_frames = SubResource("SpriteFrames_6ablo")
+animation = &"Dom"
+autoplay = "Idle"
+
+[node name="UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("20_1oh2o")
+
+[node name="HomeSwitchUniform" type="AnimatedSprite2D" parent="UI"]
+texture_filter = 1
+position = Vector2(373.00003, 465)
+scale = Vector2(3.285, 3.285)
+sprite_frames = SubResource("SpriteFrames_k80l7")
+animation = &"IdleK"
+autoplay = "Idle"
+script = SubResource("GDScript_1oh2o")
+
+[node name="Label" type="Label" parent="UI/HomeSwitchUniform"]
+texture_filter = 1
+offset_left = -13.089811
+offset_top = -22.83105
+offset_right = 50.910187
+offset_bottom = 23.16895
+theme_override_colors/font_outline_color = Color(0.26293245, 0.26293245, 0.26293245, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("5_ynju2")
+text = "<   >"
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="HomeSwitchUniform2" type="AnimatedSprite2D" parent="UI"]
+texture_filter = 1
+position = Vector2(779.54, 465)
+scale = Vector2(3.285, 3.285)
+sprite_frames = SubResource("SpriteFrames_k80l7")
+animation = &"IdleK"
+autoplay = "Idle"
+script = SubResource("GDScript_jt1bm")
+
+[node name="Label" type="Label" parent="UI/HomeSwitchUniform2"]
+texture_filter = 1
+offset_left = -13.089811
+offset_top = -22.83105
+offset_right = 50.910187
+offset_bottom = 23.16895
+theme_override_colors/font_outline_color = Color(0.26293245, 0.26293245, 0.26293245, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("5_ynju2")
+text = "<   >"
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Voltar" type="AnimatedSprite2D" parent="UI"]
+texture_filter = 1
+position = Vector2(23.000002, 25)
+scale = Vector2(2.54, 2.54)
+sprite_frames = SubResource("SpriteFrames_c68s4")
+animation = &"IdleK"
+autoplay = "Idle"
+script = SubResource("GDScript_ki227")
+
+[node name="Label" type="Label" parent="UI/Voltar"]
+texture_filter = 1
+offset_left = 10.25
+offset_top = -23.0
+offset_right = 74.25
+offset_bottom = 23.0
+theme_override_colors/font_outline_color = Color(0.26293245, 0.26293245, 0.26293245, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("5_ynju2")
+text = "Voltar"
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="TeamHome" type="Label" parent="UI"]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 63.0
+offset_right = 1622.774
+offset_bottom = 186.0
+scale = Vector2(0.31, 0.31)
+theme_override_fonts/font = ExtResource("23_hv40i")
+theme_override_font_sizes/font_size = 96
+text = "AFRICA DO SUL"
+horizontal_alignment = 1
+uppercase = true
+
+[node name="HomeFlag" type="TextureRect" parent="UI"]
+layout_mode = 0
+offset_left = 200.0
+offset_top = 120.99999
+offset_right = 240.0
+offset_bottom = 161.0
+scale = Vector2(4, 2.612)
+texture = ExtResource("24_1oh2o")
+expand_mode = 4
+
+[node name="Label" type="Label" parent="UI"]
+layout_mode = 0
+offset_left = 435.0
+offset_top = 129.0
+offset_right = 687.0
+offset_bottom = 240.0
+theme_override_fonts/font = ExtResource("23_hv40i")
+theme_override_font_sizes/font_size = 86
+text = "VS"
+horizontal_alignment = 1
+uppercase = true
+
+[node name="TeamAway" type="Label" parent="UI"]
+layout_mode = 0
+offset_left = 568.00006
+offset_top = 61.0
+offset_right = 2174.4514
+offset_bottom = 184.0
+scale = Vector2(0.31, 0.31)
+theme_override_fonts/font = ExtResource("23_hv40i")
+theme_override_font_sizes/font_size = 96
+text = "Alemanha"
+horizontal_alignment = 1
+uppercase = true
+
+[node name="AwayFlag" type="TextureRect" parent="UI"]
+layout_mode = 0
+offset_left = 742.0
+offset_top = 117.999985
+offset_right = 782.0
+offset_bottom = 158.0
+scale = Vector2(4, 2.612)
+texture = ExtResource("25_jt1bm")
+expand_mode = 4
+
+[node name="Next" type="TextureButton" parent="UI"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 459.00003
+offset_top = 523.0
+offset_right = 523.0
+offset_bottom = 555.0
+scale = Vector2(3.305, 3.305)
+texture_normal = ExtResource("26_waat5")
+
+[node name="Label" type="Label" parent="UI/Next"]
+layout_mode = 0
+offset_left = 9.984851
+offset_top = 8.472012
+offset_right = 811.98486
+offset_bottom = 259.47202
+scale = Vector2(0.055, 0.055)
+theme_override_fonts/font = ExtResource("23_hv40i")
+theme_override_font_sizes/font_size = 196
+text = "Next"
+uppercase = true
+
+[node name="A" type="AnimatedSprite2D" parent="UI/Next"]
+texture_filter = 1
+position = Vector2(63.237495, 27.83662)
+sprite_frames = SubResource("SpriteFrames_tsfqh")
+animation = &"IdleK"
+autoplay = "Idle"
+script = SubResource("GDScript_tpn2s")
+
+[connection signal="pressed" from="UI/Next" to="UI/Next/A" method="_on_next_pressed"]
