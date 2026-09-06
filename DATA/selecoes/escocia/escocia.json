@@ -1,0 +1,401 @@
+{
+  "Sigla": "SCO",
+  "Cor": "#005EB8",
+  "Tecnico": {
+	"Name": "Steve Clarke",
+	"BonusType": "DEF",
+	"BonusValue": 2
+  },
+  "Players": {
+	"518": {
+	  "CID": 2,
+	  "Number": 1,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Angus Gunn",
+		"POS": "GOL",
+		"ATK": 0,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 1,
+		"PAS": 3,
+		"STA": 2
+	  }
+	},
+	"519": {
+	  "CID": 4,
+	  "Number": 2,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Aaron Hickey",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"520": {
+	  "CID": 9,
+	  "Number": 3,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Andy Robertson",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"521": {
+	  "CID": 8,
+	  "Number": 4,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Scott McTominay",
+		"POS": "MEI",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"522": {
+	  "CID": 5,
+	  "Number": 5,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Grant Hanley",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"523": {
+	  "CID": 10,
+	  "Number": 6,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Kieran Tierney",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"524": {
+	  "CID": 7,
+	  "Number": 7,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "John McGinn",
+		"POS": "MEI",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 2,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"525": {
+	  "CID": 11,
+	  "Number": 8,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Tyler Fletcher",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"526": {
+	  "CID": 3,
+	  "Number": 9,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Lyndon Dykes",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"527": {
+	  "CID": 1,
+	  "Number": 10,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Che Adams",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"528": {
+	  "CID": 6,
+	  "Number": 11,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Ryan Christie",
+		"POS": "MEI",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"529": {
+	  "CID": 3,
+	  "Number": 12,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Liam Kelly",
+		"POS": "GOL",
+		"ATK": 0,
+		"DRI": 1,
+		"DEF": 2,
+		"VEL": 1,
+		"PAS": 2,
+		"STA": 2
+	  }
+	},
+	"530": {
+	  "CID": 6,
+	  "Number": 13,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Jack Hendry",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"531": {
+	  "CID": 11,
+	  "Number": 14,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Ross Stewart",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"532": {
+	  "CID": 10,
+	  "Number": 15,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "John Souttar",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"533": {
+	  "CID": 4,
+	  "Number": 16,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Dominic Hyam",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"534": {
+	  "CID": 2,
+	  "Number": 17,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Ben Gannon-Doak",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"535": {
+	  "CID": 5,
+	  "Number": 18,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "George Hirst",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"536": {
+	  "CID": 3,
+	  "Number": 19,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Lewis Ferguson",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"537": {
+	  "CID": 8,
+	  "Number": 20,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Lawrence Shankland",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"538": {
+	  "CID": 1,
+	  "Number": 21,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Craig Gordon",
+		"POS": "GOL",
+		"ATK": 0,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 1,
+		"PAS": 2,
+		"STA": 2
+	  }
+	},
+	"539": {
+	  "CID": 7,
+	  "Number": 22,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Nathan Patterson",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"540": {
+	  "CID": 5,
+	  "Number": 23,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Kenny McLean",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"541": {
+	  "CID": 2,
+	  "Number": 24,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Anthony Ralston",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"542": {
+	  "CID": 4,
+	  "Number": 25,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Findlay Curtis",
+		"POS": "ATA",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"543": {
+	  "CID": 10,
+	  "Number": 26,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Scott McKenna",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	}
+  }
+}

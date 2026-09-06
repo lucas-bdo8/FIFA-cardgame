@@ -1,0 +1,401 @@
+{
+  "Sigla": "AUT",
+  "Cor": "#FFFFFF",
+  "Tecnico": {
+    "Name": "Ralf Rangnick",
+    "BonusType": "DEF",
+    "BonusValue": 2
+  },
+  "Players": {
+    "157": {
+      "CID": 1,
+      "Number": 1,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Alexander Schlager",
+        "POS": "GOL",
+        "ATK": 0,
+        "DRI": 1,
+        "DEF": 3,
+        "VEL": 1,
+        "PAS": 2,
+        "STA": 2
+      }
+    },
+    "158": {
+      "CID": 2,
+      "Number": 12,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Florian Wiegele",
+        "POS": "GOL",
+        "ATK": 0,
+        "DRI": 1,
+        "DEF": 2,
+        "VEL": 1,
+        "PAS": 2,
+        "STA": 2
+      }
+    },
+    "159": {
+      "CID": 3,
+      "Number": 13,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Patrick Pentz",
+        "POS": "GOL",
+        "ATK": 0,
+        "DRI": 1,
+        "DEF": 3,
+        "VEL": 1,
+        "PAS": 2,
+        "STA": 2
+      }
+    },
+    "160": {
+      "CID": 4,
+      "Number": 2,
+      "Foot": "right",
+      "Stats": {
+        "Name": "David Affengruber",
+        "POS": "DEF",
+        "ATK": 1,
+        "DRI": 1,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "161": {
+      "CID": 5,
+      "Number": 3,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Kevin Danso",
+        "POS": "DEF",
+        "ATK": 1,
+        "DRI": 1,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "162": {
+      "CID": 6,
+      "Number": 5,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Stefan Posch",
+        "POS": "DEF",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "163": {
+      "CID": 7,
+      "Number": 8,
+      "Foot": "left",
+      "Stats": {
+        "Name": "David Alaba",
+        "POS": "DEF",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "164": {
+      "CID": 8,
+      "Number": 15,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Philipp Lienhart",
+        "POS": "DEF",
+        "ATK": 1,
+        "DRI": 1,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "165": {
+      "CID": 9,
+      "Number": 16,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Phillip Mwene",
+        "POS": "DEF",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 2,
+        "VEL": 3,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "166": {
+      "CID": 10,
+      "Number": 23,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Marco Friedl",
+        "POS": "DEF",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "167": {
+      "CID": 11,
+      "Number": 25,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Michael Svoboda",
+        "POS": "DEF",
+        "ATK": 1,
+        "DRI": 1,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "168": {
+      "CID": 12,
+      "Number": 4,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Xaver Schlager",
+        "POS": "MEI",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "169": {
+      "CID": 13,
+      "Number": 6,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Nicolas Seiwald",
+        "POS": "MEI",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "170": {
+      "CID": 14,
+      "Number": 9,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Marcel Sabitzer",
+        "POS": "MEI",
+        "ATK": 3,
+        "DRI": 2,
+        "DEF": 2,
+        "VEL": 2,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "171": {
+      "CID": 15,
+      "Number": 10,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Florian Grillitsch",
+        "POS": "MEI",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "172": {
+      "CID": 16,
+      "Number": 17,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Carney Chukwuemeka",
+        "POS": "MEI",
+        "ATK": 2,
+        "DRI": 3,
+        "DEF": 2,
+        "VEL": 3,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "173": {
+      "CID": 17,
+      "Number": 18,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Romano Schmid",
+        "POS": "MEI",
+        "ATK": 2,
+        "DRI": 3,
+        "DEF": 1,
+        "VEL": 3,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "174": {
+      "CID": 18,
+      "Number": 19,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Dejan Ljubicic",
+        "POS": "MEI",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 2,
+        "VEL": 2,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "175": {
+      "CID": 19,
+      "Number": 20,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Konrad Laimer",
+        "POS": "MEI",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 3,
+        "VEL": 3,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "176": {
+      "CID": 20,
+      "Number": 21,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Alexander Prass",
+        "POS": "MEI",
+        "ATK": 2,
+        "DRI": 3,
+        "DEF": 2,
+        "VEL": 3,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "177": {
+      "CID": 21,
+      "Number": 22,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Paul Wanner",
+        "POS": "MEI",
+        "ATK": 2,
+        "DRI": 3,
+        "DEF": 1,
+        "VEL": 3,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "178": {
+      "CID": 22,
+      "Number": 24,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Alessandro Schoepf",
+        "POS": "MEI",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 2,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "179": {
+      "CID": 23,
+      "Number": 7,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Marko Arnautovic",
+        "POS": "ATA",
+        "ATK": 3,
+        "DRI": 3,
+        "DEF": 1,
+        "VEL": 2,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "180": {
+      "CID": 24,
+      "Number": 11,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Michael Gregoritsch",
+        "POS": "ATA",
+        "ATK": 3,
+        "DRI": 2,
+        "DEF": 1,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "181": {
+      "CID": 25,
+      "Number": 14,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Sasa Kalajdzic",
+        "POS": "ATA",
+        "ATK": 3,
+        "DRI": 2,
+        "DEF": 1,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "182": {
+      "CID": 26,
+      "Number": 21,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Patrick Wimmer",
+        "POS": "ATA",
+        "ATK": 2,
+        "DRI": 3,
+        "DEF": 1,
+        "VEL": 3,
+        "PAS": 2,
+        "STA": 3
+      }
+    }
+  }
+}

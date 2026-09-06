@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bp0xedp3ak1bj"
+path="res://.godot/imported/Fim de jogo empatado.ogg-af18b77394bdf455c129e418ea035fce.oggvorbisstr"
+
+[deps]
+
+source_file="res://Resources/Narrração/Fim de jogo empatado.ogg"
+dest_files=["res://.godot/imported/Fim de jogo empatado.ogg-af18b77394bdf455c129e418ea035fce.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

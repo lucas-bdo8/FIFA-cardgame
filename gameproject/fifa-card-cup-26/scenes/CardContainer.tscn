@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://byce1k5xom06t"]
+
+[ext_resource type="PackedScene" uid="uid://b4fcn0oc0ox1m" path="res://scenes/sub_viewport.tscn" id="1_7ptyt"]
+
+[node name="SubViewportContainer" type="SubViewportContainer"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SubViewport" parent="." instance=ExtResource("1_7ptyt")]

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://l4nnume1iap5"]
+
+[ext_resource type="PackedScene" uid="uid://cdwivrenvgpdr" path="res://Resources/Game/3D/trionda-ball-world-cup-2026/source/Trionda 2026.glb" id="1_7s4qf"]
+
+[node name="Ball" type="Node3D"]
+
+[node name="Trionda 2026" parent="." instance=ExtResource("1_7s4qf")]
+transform = Transform3D(0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0)

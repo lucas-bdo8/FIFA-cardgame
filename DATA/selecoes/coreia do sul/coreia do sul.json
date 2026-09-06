@@ -1,0 +1,401 @@
+{
+  "Sigla": "KOR",
+  "Cor": "#CD2E3A",
+  "Tecnico": {
+	"Name": "Hong Myung-bo",
+	"BonusType": "DEF",
+	"BonusValue": 2
+  },
+  "Players": {
+	"362": {
+	  "CID": 3,
+	  "Number": 1,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Kim Seung-gyu",
+		"POS": "GOL",
+		"ATK": 0,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 1,
+		"PAS": 3,
+		"STA": 2
+	  }
+	},
+	"363": {
+	  "CID": 1,
+	  "Number": 12,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Song Bum-keun",
+		"POS": "GOL",
+		"ATK": 0,
+		"DRI": 1,
+		"DEF": 2,
+		"VEL": 1,
+		"PAS": 2,
+		"STA": 2
+	  }
+	},
+	"364": {
+	  "CID": 2,
+	  "Number": 21,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Jo Hyeon-woo",
+		"POS": "GOL",
+		"ATK": 0,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 1,
+		"PAS": 2,
+		"STA": 2
+	  }
+	},
+	"365": {
+	  "CID": 1,
+	  "Number": 2,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Han-beom Lee",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"366": {
+	  "CID": 4,
+	  "Number": 4,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Min-jae Kim",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"367": {
+	  "CID": 7,
+	  "Number": 5,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Tae-hyeon Kim",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"368": {
+	  "CID": 8,
+	  "Number": 13,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Tae-seok Lee",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"369": {
+	  "CID": 9,
+	  "Number": 14,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Wije Cho",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"370": {
+	  "CID": 5,
+	  "Number": 15,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Moon-hwan Kim",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"371": {
+	  "CID": 3,
+	  "Number": 16,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Jin-seob Park",
+		"POS": "DEF",
+		"ATK": 1,
+		"DRI": 1,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"372": {
+	  "CID": 6,
+	  "Number": 22,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Young-woo Seol",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"373": {
+	  "CID": 2,
+	  "Number": 23,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Jens Castrop",
+		"POS": "DEF",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 2,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"374": {
+	  "CID": 3,
+	  "Number": 3,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Gi-hyuk Lee",
+		"POS": "MEI",
+		"ATK": 1,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"375": {
+	  "CID": 5,
+	  "Number": 6,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "In-beom Hwang",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"376": {
+	  "CID": 10,
+	  "Number": 8,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Seung-ho Paik",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"377": {
+	  "CID": 6,
+	  "Number": 10,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Jae-sung Lee",
+		"POS": "MEI",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 2,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"378": {
+	  "CID": 4,
+	  "Number": 11,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Hee-chan Hwang",
+		"POS": "MEI",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"379": {
+	  "CID": 1,
+	  "Number": 17,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Jun-ho Bae",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"380": {
+	  "CID": 9,
+	  "Number": 19,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Kang-in Lee",
+		"POS": "MEI",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"381": {
+	  "CID": 11,
+	  "Number": 20,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Hyun-jun Yang",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"382": {
+	  "CID": 8,
+	  "Number": 24,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Jing-yu Kim",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 2,
+		"DEF": 3,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"383": {
+	  "CID": 7,
+	  "Number": 25,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Ji-sung Eom",
+		"POS": "MEI",
+		"ATK": 2,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"384": {
+	  "CID": 2,
+	  "Number": 26,
+	  "Foot": "left",
+	  "Stats": {
+		"Name": "Dong-kyeong Lee",
+		"POS": "MEI",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"385": {
+	  "CID": 2,
+	  "Number": 7,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Heung-min Son",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 3,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 3,
+		"STA": 3
+	  }
+	},
+	"386": {
+	  "CID": 1,
+	  "Number": 9,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Gue-sung Cho",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 2,
+		"PAS": 2,
+		"STA": 3
+	  }
+	},
+	"387": {
+	  "CID": 3,
+	  "Number": 18,
+	  "Foot": "right",
+	  "Stats": {
+		"Name": "Hyeong-yu Oh",
+		"POS": "ATA",
+		"ATK": 3,
+		"DRI": 2,
+		"DEF": 1,
+		"VEL": 3,
+		"PAS": 2,
+		"STA": 3
+	  }
+	}
+  }
+}

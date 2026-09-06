@@ -1,0 +1,729 @@
+[gd_scene format=3 uid="uid://bcjed83emgelj"]
+
+[ext_resource type="Script" uid="uid://bsc1crf01defg" path="res://scenes/game.gd" id="1_iywne"]
+[ext_resource type="PackedScene" uid="uid://cml8ivlojxonm" path="res://scenes/pitch.tscn" id="1_uwrxv"]
+[ext_resource type="Script" uid="uid://dsb8ikdg8m0ip" path="res://scenes/squad_setup_cam.gd" id="3_lbhrr"]
+[ext_resource type="PackedScene" uid="uid://bnbc7v66iwc00" path="res://scenes/ui.tscn" id="3_lnu2h"]
+[ext_resource type="PackedScene" uid="uid://l4nnume1iap5" path="res://scenes/ball.tscn" id="3_p57ef"]
+[ext_resource type="AudioStream" uid="uid://rwprjgdeeijn" path="res://Resources/Narrração/Intro 2.ogg" id="4_trtic"]
+[ext_resource type="PackedScene" uid="uid://ddfpxsrxrpqub" path="res://scenes/player_3d.tscn" id="4_u5sy4"]
+[ext_resource type="Script" uid="uid://qshromdlmcd8" path="res://Scripts/player3D.gd" id="5_vtaks"]
+[ext_resource type="PackedScene" uid="uid://bi5wfxejksox5" path="res://scenes/MiniPlayer.tscn" id="7_kvpfn"]
+[ext_resource type="Texture2D" uid="uid://da73xeufqe282" path="res://DATA/selecoes/alemanha/Cartas/Common/27.png" id="8_5newe"]
+[ext_resource type="Texture2D" uid="uid://bai541mwjsjyw" path="res://Resources/Cartas/Huds/CommonCard.png" id="9_37s47"]
+[ext_resource type="Texture2D" uid="uid://1ubr154vaytl" path="res://Resources/Cartas/Huds/EpicCard.png" id="10_bt5mj"]
+[ext_resource type="Animation" uid="uid://660hhlp0vwy5" path="res://animations/Intro.res" id="10_ir15t"]
+[ext_resource type="Animation" uid="uid://bjtmh4mw876mp" path="res://animations/IntroBall.res" id="11_ca42v"]
+[ext_resource type="Texture2D" uid="uid://dmrh2u5n55ic1" path="res://Resources/Cartas/Huds/LegendCard.png" id="11_e1j6l"]
+[ext_resource type="Texture2D" uid="uid://5cwfoai530ft" path="res://Resources/Cartas/Huds/RareCard.png" id="12_pl11u"]
+[ext_resource type="Animation" uid="uid://umou3xgifms8" path="res://animations/IntroCamera.res" id="12_rysoc"]
+[ext_resource type="FontFile" uid="uid://dg5crqxhgqwx7" path="res://Fonts/DrukWideBold.ttf" id="13_bhx41"]
+[ext_resource type="Animation" uid="uid://0ocu4gqwcyeb" path="res://animations/IntroTeamH.res" id="13_ssvqc"]
+[ext_resource type="Animation" uid="uid://bge0oa5ju0xdu" path="res://animations/Squad_Setup_TransitionCards.res" id="14_264po"]
+[ext_resource type="Texture2D" uid="uid://bi5qoduc63opy" path="res://DATA/selecoes/alemanha/Resources/Flag.webp" id="14_qnb83"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_u5sy4"]
+ground_bottom_color = Color(0.35744107, 0.4300148, 0.86574185, 1)
+
+[sub_resource type="Sky" id="Sky_gee14"]
+sky_material = SubResource("ProceduralSkyMaterial_u5sy4")
+
+[sub_resource type="Environment" id="Environment_yqjtg"]
+background_mode = 2
+sky = SubResource("Sky_gee14")
+ambient_light_source = 3
+ambient_light_color = Color(1, 1, 1, 1)
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_5newe"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_37s47"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_bt5mj"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_e1j6l"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_pl11u"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_bhx41"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_qnb83"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_sww3w"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_suyxu"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_sgl2t"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_qouja"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_wljb1"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_v2yb1"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_js0lu"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_gxtfn"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_twgab"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_02fa5"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_nepv3"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_7025r"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_m4url"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_8ool0"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_pr1ej"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_05nbr"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_0sl42"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_oaba0"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_458eo"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_h3rex"]
+viewport_path = NodePath("Squad Setup/Players_Select/PlayerViewPorts/Card1")
+
+[sub_resource type="Animation" id="Animation_8ool0"]
+resource_name = "Ball rolling"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../Ball:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0, -6.265732)]
+}
+
+[sub_resource type="Animation" id="Animation_q8j3a"]
+resource_name = "H4vA4"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../TEAMs/Team_H/4:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../TEAMs/Team_H/4:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.99666667, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(-0.12558626, -0.10227379, 0.21294549), Vector3(-0.12467186, -0.10227379, 0.21294549), Vector3(-0.12558626, -0.10227379, 0.21294549)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../TEAMs/Team_H/4:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.99666667, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(1.4830072, 1.5707968, 1.4032017), Vector3(1.4830072, 2.20439, 1.4032016), Vector3(1.4830072, 1.5707968, 1.4032017)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../TEAMs/Team_A/4:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0.14672877, 0.23961057, 0.27363077)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../TEAMs/Team_A/4:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.5015894, -1.4409199, -1.1954936)]
+}
+
+[sub_resource type="Animation" id="Animation_pr1ej"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../Ball:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../TEAMs/Team_H/4:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("../TEAMs/Team_H/4:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-0.179, -0.162, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../TEAMs/Team_H/4:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.5707964, 0, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("../TEAMs/Team_A/4:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0.14672877, 0.23961057, 0.27363077)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("../TEAMs/Team_A/4:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.5015894, -1.4409199, -1.1954936)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_05nbr"]
+_data = {
+&"Ball rolling": SubResource("Animation_8ool0"),
+&"H4vA4": SubResource("Animation_q8j3a"),
+&"RESET": SubResource("Animation_pr1ej")
+}
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_fedci"]
+viewport_path = NodePath("Gameplay/TEAMs/Team_H/4/MeshInstance3D/SubViewportContainer/SubViewport")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5newe"]
+resource_local_to_scene = true
+albedo_texture = SubResource("ViewportTexture_fedci")
+texture_filter = 0
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_8qswn"]
+resource_local_to_scene = true
+material = SubResource("StandardMaterial3D_5newe")
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qlg0r"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_37s47")
+}],
+"loop": 1,
+"name": &"Common",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_bt5mj")
+}],
+"loop": 1,
+"name": &"Epic",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_e1j6l")
+}],
+"loop": 1,
+"name": &"Legend",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_pl11u")
+}],
+"loop": 1,
+"name": &"Rare",
+"speed": 5.0
+}]
+
+[sub_resource type="GDScript" id="GDScript_8ool0"]
+script/source = "extends Node3D
+
+@export var Player := 1
+@export var Name = \"\"
+var actionState = \"\"
+var BallPoss := false
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	setupPlayer(Player)
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+
+
+func setupPlayer(Player: int):
+	var p = DATA.get_player(Player)
+	
+	if !p.is_empty():
+		Name = p[\"Stats\"][\"Name\"]
+	
+	$PlayerName.text = Name
+	
+"
+
+[sub_resource type="Animation" id="Animation_trtic"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../../Cutscene Cam:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-1.094, 0.936, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../../Cutscene Cam:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-1.2495337, -1.5707965, 1.3134768e-07)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ir15t"]
+_data = {
+&"RESET": SubResource("Animation_trtic")
+}
+
+[sub_resource type="Animation" id="Animation_ca42v"]
+resource_name = "RESET"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("../../Cutscene Cam:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-1.094, 0.936, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_h3rex"]
+_data = {
+&"Intro": ExtResource("10_ir15t"),
+&"IntroBall": ExtResource("11_ca42v"),
+&"IntroCamera": ExtResource("12_rysoc"),
+&"IntroTeamH": ExtResource("13_ssvqc"),
+&"RESET": SubResource("Animation_ca42v"),
+&"Squad_Setup_TransitionCards": ExtResource("14_264po")
+}
+
+[node name="GAME" type="Node3D" unique_id=1778709964]
+script = ExtResource("1_iywne")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1607115692]
+environment = SubResource("Environment_yqjtg")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1916869476]
+transform = Transform3D(0.938026, -0.26902318, -0.21848081, 0.337516, 0.566016, 0.7521362, -0.0786784, -0.77926403, 0.62173736, 0, 2.52035, 2.79368)
+shadow_enabled = true
+
+[node name="pitch" parent="." unique_id=1731418391 instance=ExtResource("1_uwrxv")]
+metadata/_edit_lock_ = true
+
+[node name="UI" parent="." unique_id=157698456 instance=ExtResource("3_lnu2h")]
+
+[node name="Players_Select" parent="UI/Squad Setup" parent_id_path=PackedInt32Array(157698456, 1537685631) index="1" unique_id=1765745490 node_paths=PackedStringArray("CardViewports", "CardsButtons")]
+CardViewports = []
+CardsButtons = []
+
+[node name="ScrollContainer" parent="UI/Squad Setup/Players_Select" index="3" unique_id=1006953956]
+offset_left = -2.0
+offset_top = 239.0
+offset_right = 786.0
+offset_bottom = 1747.0
+
+[node name="TextureButton 1" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="0" unique_id=181727019]
+texture_normal = SubResource("ViewportTexture_5newe")
+
+[node name="TextureButton 2" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="1" unique_id=1153283816]
+texture_normal = SubResource("ViewportTexture_37s47")
+
+[node name="TextureButton 3" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="2" unique_id=1691341860]
+texture_normal = SubResource("ViewportTexture_bt5mj")
+
+[node name="TextureButton 4" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="3" unique_id=679407189]
+texture_normal = SubResource("ViewportTexture_e1j6l")
+
+[node name="TextureButton 5" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="4" unique_id=511534723]
+texture_normal = SubResource("ViewportTexture_pl11u")
+
+[node name="TextureButton 6" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="5" unique_id=1266087568]
+texture_normal = SubResource("ViewportTexture_bhx41")
+
+[node name="TextureButton 7" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="6" unique_id=1375921058]
+texture_normal = SubResource("ViewportTexture_qnb83")
+
+[node name="TextureButton 8" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="7" unique_id=478288018]
+texture_normal = SubResource("ViewportTexture_sww3w")
+
+[node name="TextureButton 9" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="8" unique_id=452909325]
+texture_normal = SubResource("ViewportTexture_suyxu")
+
+[node name="TextureButton 10" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="9" unique_id=1702522151]
+texture_normal = SubResource("ViewportTexture_sgl2t")
+
+[node name="TextureButton 11" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="10" unique_id=495776152]
+texture_normal = SubResource("ViewportTexture_qouja")
+
+[node name="TextureButton 12" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="11" unique_id=475196800]
+texture_normal = SubResource("ViewportTexture_wljb1")
+
+[node name="TextureButton 13" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="12" unique_id=157492446]
+texture_normal = SubResource("ViewportTexture_v2yb1")
+
+[node name="TextureButton 14" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="13" unique_id=2086425953]
+texture_normal = SubResource("ViewportTexture_js0lu")
+
+[node name="TextureButton 15" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="14" unique_id=731860138]
+texture_normal = SubResource("ViewportTexture_gxtfn")
+
+[node name="TextureButton 16" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="15" unique_id=1171550548]
+texture_normal = SubResource("ViewportTexture_twgab")
+
+[node name="TextureButton 17" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="16" unique_id=1294231162]
+texture_normal = SubResource("ViewportTexture_02fa5")
+
+[node name="TextureButton 18" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="17" unique_id=1909010917]
+texture_normal = SubResource("ViewportTexture_nepv3")
+
+[node name="TextureButton 19" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="18" unique_id=724373900]
+texture_normal = SubResource("ViewportTexture_7025r")
+
+[node name="TextureButton 20" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="19" unique_id=407007792]
+texture_normal = SubResource("ViewportTexture_m4url")
+
+[node name="TextureButton 21" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="20" unique_id=799123276]
+texture_normal = SubResource("ViewportTexture_8ool0")
+
+[node name="TextureButton 22" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="21" unique_id=173863799]
+texture_normal = SubResource("ViewportTexture_pr1ej")
+
+[node name="TextureButton 23" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="22" unique_id=1689103889]
+texture_normal = SubResource("ViewportTexture_05nbr")
+
+[node name="TextureButton 24" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="23" unique_id=1176577846]
+texture_normal = SubResource("ViewportTexture_0sl42")
+
+[node name="TextureButton 25" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="24" unique_id=367915426]
+texture_normal = SubResource("ViewportTexture_oaba0")
+
+[node name="TextureButton 26" parent="UI/Squad Setup/Players_Select/ScrollContainer/GridContainer" parent_id_path=PackedInt32Array(157698456, 1895114797) index="25" unique_id=1754342731]
+texture_normal = SubResource("ViewportTexture_458eo")
+
+[node name="SelectedCard" parent="UI/Squad Setup/Players_Select" index="4" unique_id=999423038]
+texture = SubResource("ViewportTexture_h3rex")
+
+[node name="Narração" type="AudioStreamPlayer3D" parent="." unique_id=1267261948]
+stream = ExtResource("4_trtic")
+
+[node name="Gameplay" type="Node3D" parent="." unique_id=1150948845]
+
+[node name="Gameplay Cam" type="Camera3D" parent="Gameplay" unique_id=1396759070]
+transform = Transform3D(1, 0, 0, 0, 0.9986295, 0.0523359, 0, -0.0523359, 0.9986295, 0, 0.24400002, 0.5)
+top_level = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Gameplay/Gameplay Cam" unique_id=2020256650]
+libraries/ = SubResource("AnimationLibrary_05nbr")
+
+[node name="Ball" parent="Gameplay" unique_id=1076315279 instance=ExtResource("3_p57ef")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.017, 0)
+
+[node name="TEAMs" type="Node3D" parent="Gameplay" unique_id=1893482234]
+metadata/_edit_lock_ = true
+
+[node name="Team_H" type="Node3D" parent="Gameplay/TEAMs" unique_id=1275538531]
+script = ExtResource("5_vtaks")
+
+[node name="GL" parent="Gameplay/TEAMs/Team_H" unique_id=1093598334 instance=ExtResource("4_u5sy4")]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -1.0732968, 0.167573, 0)
+visible = false
+
+[node name="1" parent="Gameplay/TEAMs/Team_H" unique_id=643595339 instance=ExtResource("4_u5sy4")]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -0.6460668, 0.167573, 0)
+visible = false
+Player = 4
+
+[node name="2" parent="Gameplay/TEAMs/Team_H" unique_id=93184968 instance=ExtResource("4_u5sy4")]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -0.42874563, 0.167573, -0.5589731)
+visible = false
+Player = 12
+
+[node name="3" parent="Gameplay/TEAMs/Team_H" unique_id=600588268 instance=ExtResource("4_u5sy4")]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -0.23513588, 0.167573, -0.18747723)
+Player = 13
+
+[node name="4" type="Node3D" parent="Gameplay/TEAMs/Team_H" unique_id=742896789]
+transform = Transform3D(1, 0, 0, 0, -4.3711392e-08, -0.99999994, 0, 1.0000001, -4.3711385e-08, -0.179, -0.162, 0)
+visible = false
+script = ExtResource("5_vtaks")
+Player = 26
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Gameplay/TEAMs/Team_H/4" unique_id=1491999137]
+transform = Transform3D(0.1, 0, 0, 0, 0.040935982, 0, 0, 0, 0.133, 0, 0.058724746, -0.34523892)
+gi_mode = 2
+mesh = SubResource("PlaneMesh_8qswn")
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="Gameplay/TEAMs/Team_H/4/MeshInstance3D" unique_id=211460816]
+offset_left = -390.345
+offset_right = -5.345001
+offset_bottom = 517.0
+
+[node name="SubViewport" type="SubViewport" parent="Gameplay/TEAMs/Team_H/4/MeshInstance3D/SubViewportContainer" unique_id=1124047742]
+handle_input_locally = false
+size = Vector2i(385, 517)
+render_target_update_mode = 4
+
+[node name="Player" type="Node2D" parent="Gameplay/TEAMs/Team_H/4/MeshInstance3D/SubViewportContainer/SubViewport" unique_id=1437054225]
+position = Vector2(192, 256)
+scale = Vector2(0.185, 0.185)
+
+[node name="CARTA" type="Sprite2D" parent="Gameplay/TEAMs/Team_H/4/MeshInstance3D/SubViewportContainer/SubViewport/Player" unique_id=1440744374]
+scale = Vector2(1.23, 1.23)
+texture = ExtResource("8_5newe")
+
+[node name="HUD" type="AnimatedSprite2D" parent="Gameplay/TEAMs/Team_H/4/MeshInstance3D/SubViewportContainer/SubViewport/Player" unique_id=792343585]
+texture_filter = 1
+scale = Vector2(86, 86)
+sprite_frames = SubResource("SpriteFrames_qlg0r")
+animation = &"Rare"
+
+[node name="INFO" type="Sprite2D" parent="Gameplay/TEAMs/Team_H/4/MeshInstance3D/SubViewportContainer/SubViewport/Player" unique_id=1391102486]
+position = Vector2(0, 0.117)
+
+[node name="Name" type="Label" parent="Gameplay/TEAMs/Team_H/4/MeshInstance3D/SubViewportContainer/SubViewport/Player/INFO" unique_id=1209478422]
+offset_left = 47.0
+offset_top = 747.883
+offset_right = 349.0
+offset_bottom = 830.883
+theme_override_fonts/font = ExtResource("13_bhx41")
+theme_override_font_sizes/font_size = 64
+text = "Vini Jr"
+metadata/_edit_use_anchors_ = true
+
+[node name="ATK" type="Label" parent="Gameplay/TEAMs/Team_H/4/MeshInstance3D/SubViewportContainer/SubViewport/Player/INFO" unique_id=836452990]
+offset_left = 50.0
+offset_top = 880.0
+offset_right = 379.0
+offset_bottom = 963.0
+theme_override_fonts/font = ExtResource("13_bhx41")
+theme_override_font_sizes/font_size = 64
+text = "ATK  91"
+uppercase = true
+metadata/_edit_use_anchors_ = true
+
+[node name="VEL" type="Label" parent="Gameplay/TEAMs/Team_H/4/MeshInstance3D/SubViewportContainer/SubViewport/Player/INFO" unique_id=336098218]
+offset_left = 465.0
+offset_top = 880.0
+offset_right = 826.0
+offset_bottom = 963.0
+theme_override_fonts/font = ExtResource("13_bhx41")
+theme_override_font_sizes/font_size = 64
+text = "VEL  90"
+uppercase = true
+metadata/_edit_use_anchors_ = true
+
+[node name="DRI" type="Label" parent="Gameplay/TEAMs/Team_H/4/MeshInstance3D/SubViewportContainer/SubViewport/Player/INFO" unique_id=10231753]
+offset_left = 50.0
+offset_top = 990.0
+offset_right = 384.0
+offset_bottom = 1073.0
+theme_override_fonts/font = ExtResource("13_bhx41")
+theme_override_font_sizes/font_size = 64
+text = "DRI  92"
+uppercase = true
+metadata/_edit_use_anchors_ = true
+
+[node name="PAS" type="Label" parent="Gameplay/TEAMs/Team_H/4/MeshInstance3D/SubViewportContainer/SubViewport/Player/INFO" unique_id=2082584024]
+offset_left = 465.0
+offset_top = 990.0
+offset_right = 793.0
+offset_bottom = 1073.0
+theme_override_fonts/font = ExtResource("13_bhx41")
+theme_override_font_sizes/font_size = 64
+text = "PAS  71"
+uppercase = true
+metadata/_edit_use_anchors_ = true
+
+[node name="DEF" type="Label" parent="Gameplay/TEAMs/Team_H/4/MeshInstance3D/SubViewportContainer/SubViewport/Player/INFO" unique_id=372314222]
+offset_left = 50.0
+offset_top = 1096.883
+offset_right = 406.0
+offset_bottom = 1179.883
+theme_override_fonts/font = ExtResource("13_bhx41")
+theme_override_font_sizes/font_size = 64
+text = "DEF  32"
+uppercase = true
+metadata/_edit_use_anchors_ = true
+
+[node name="STA" type="Label" parent="Gameplay/TEAMs/Team_H/4/MeshInstance3D/SubViewportContainer/SubViewport/Player/INFO" unique_id=2047086999]
+offset_left = 465.0
+offset_top = 1100.0
+offset_right = 821.0
+offset_bottom = 1183.0
+theme_override_fonts/font = ExtResource("13_bhx41")
+theme_override_font_sizes/font_size = 64
+text = "STA  85"
+uppercase = true
+metadata/_edit_use_anchors_ = true
+
+[node name="HomeFlag" type="TextureRect" parent="Gameplay/TEAMs/Team_H/4/MeshInstance3D/SubViewportContainer/SubViewport/Player/INFO" unique_id=349944765]
+offset_left = -945.99994
+offset_top = -1253.1171
+offset_right = -905.99994
+offset_bottom = -1213.1171
+scale = Vector2(8.595, 5.609)
+texture = ExtResource("14_qnb83")
+expand_mode = 4
+metadata/_edit_use_anchors_ = true
+
+[node name="Mini4" parent="Gameplay/TEAMs/Team_H" unique_id=87089117 instance=ExtResource("7_kvpfn")]
+transform = Transform3D(0.5309577, -0.09840717, 0, 0.09840717, 0.5309577, 0, 0, 0, 0.54, -0.17165183, 0.087270975, 0.019501448)
+visible = false
+Player = 26
+
+[node name="Team_A" type="Node3D" parent="Gameplay/TEAMs" unique_id=1718793235]
+metadata/_edit_lock_ = true
+
+[node name="GL" parent="Gameplay/TEAMs/Team_A" unique_id=136569486 instance=ExtResource("4_u5sy4")]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 1.073, 0.168, 0)
+visible = false
+Player = 27
+
+[node name="1" parent="Gameplay/TEAMs/Team_A" unique_id=299023065 instance=ExtResource("4_u5sy4")]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.646, 0.168, 0)
+visible = false
+Player = 30
+
+[node name="2" parent="Gameplay/TEAMs/Team_A" unique_id=547094504 instance=ExtResource("4_u5sy4")]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.429, 0.168, -0.559)
+visible = false
+Player = 41
+
+[node name="3" parent="Gameplay/TEAMs/Team_A" unique_id=2015174695 instance=ExtResource("4_u5sy4")]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.429, 0.168, 0.728)
+visible = false
+Player = 45
+
+[node name="4" parent="Gameplay/TEAMs/Team_A" unique_id=1186367371 instance=ExtResource("4_u5sy4")]
+transform = Transform3D(0.9678255, -0.24209979, -0.06856927, -0.0643385, 0.02534784, -0.99760616, 0.24325839, 0.9699202, 0.008955947, 0.14672877, 0.23961057, 0.27363077)
+Player = 49
+
+[node name="Mini4" parent="Gameplay/TEAMs/Team_A" unique_id=1753262218 instance=ExtResource("7_kvpfn")]
+transform = Transform3D(-0.5309577, 0.09840717, -8.147204e-08, 0.098327905, 0.53052986, -0.021671169, -0.0039491765, -0.021308297, -0.5395649, 0.172, 0.087, 0.02)
+visible = false
+script = SubResource("GDScript_8ool0")
+Player = 49
+
+[node name="Cutscene Cam" type="Camera3D" parent="." unique_id=1274074972]
+transform = Transform3D(-3.8293095e-08, 0.94883746, -0.31576478, 4.1474983e-08, 0.31576487, 0.9488372, 1, 2.3237575e-08, -5.144462e-08, -1.094, 0.936, 0)
+current = true
+script = ExtResource("3_lbhrr")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Cutscene Cam" unique_id=2103506122]
+root_node = NodePath("../../Intro Scene/Team_H")
+libraries/ = SubResource("AnimationLibrary_ir15t")
+libraries/Animations = SubResource("AnimationLibrary_h3rex")
+autoplay = &"RESET"
+
+[node name="Intro Scene" type="Node3D" parent="." unique_id=432867611]
+visible = false
+
+[node name="Ball" parent="Intro Scene" unique_id=1015461255 instance=ExtResource("3_p57ef")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.016887702, 0.9558104)
+visible = false
+
+[node name="Team_H" type="Node3D" parent="Intro Scene" unique_id=321771839]
+
+[node name="GL" parent="Intro Scene/Team_H" unique_id=454381360 instance=ExtResource("4_u5sy4")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -1.0732968, 0.167573, 0)
+
+[node name="1" parent="Intro Scene/Team_H" unique_id=249875207 instance=ExtResource("4_u5sy4")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -0.6460668, 0.167573, 0)
+Player = 4
+
+[node name="2" parent="Intro Scene/Team_H" unique_id=1549144331 instance=ExtResource("4_u5sy4")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -0.42874563, 0.167573, -0.5589731)
+Player = 12
+
+[node name="3" parent="Intro Scene/Team_H" unique_id=127585214 instance=ExtResource("4_u5sy4")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -0.42874563, 0.167573, 0.72783196)
+Player = 13
+
+[node name="4" parent="Intro Scene/Team_H" unique_id=2139341898 instance=ExtResource("4_u5sy4")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -0.17924555, 0.167573, 0)
+Player = 26
+
+[editable path="UI"]

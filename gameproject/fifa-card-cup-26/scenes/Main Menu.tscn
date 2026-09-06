@@ -1,0 +1,741 @@
+[gd_scene load_steps=56 format=3 uid="uid://7qwqjg3llu6s"]
+
+[ext_resource type="PackedScene" uid="uid://cml8ivlojxonm" path="res://scenes/pitch.tscn" id="1_15uo5"]
+[ext_resource type="Texture2D" uid="uid://dbv0abe35qxji" path="res://Resources/Game/Textures/Player/Spotlighted Player/Lamine Idle.png" id="2_mslyy"]
+[ext_resource type="Texture2D" uid="uid://diuuqtsf1c1ti" path="res://Resources/Game/Textures/Player/Spotlighted Player/Lamine Breath.png" id="3_im4cs"]
+[ext_resource type="Texture2D" uid="uid://pjts0eg76o8m" path="res://Resources/Game/Textures/Player/Spotlighted Player/Lamine W1.png" id="4_chhbp"]
+[ext_resource type="Texture2D" uid="uid://c4fvriyfuml8a" path="res://Resources/Game/Textures/Player/Spotlighted Player/Lamine W2.png" id="5_n0q5r"]
+[ext_resource type="FontFile" uid="uid://bjata0laffaik" path="res://Fonts/CutePixel.ttf" id="6_chhbp"]
+[ext_resource type="Script" uid="uid://bg3ciwaqjk1kb" path="res://scenes/spotlighted_player.gd" id="6_khfdq"]
+[ext_resource type="PackedScene" uid="uid://l4nnume1iap5" path="res://scenes/ball.tscn" id="6_skvia"]
+[ext_resource type="Texture2D" uid="uid://bk5u1p8yljnag" path="res://Resources/UI/Game/Main Menu/Tornament Icon.png" id="7_im4cs"]
+[ext_resource type="FontFile" uid="uid://dg5crqxhgqwx7" path="res://Fonts/DrukWideBold.ttf" id="8_chhbp"]
+[ext_resource type="Script" uid="uid://wsesbr34f2yy" path="res://scenes/modes_ui.gd" id="10_khfdq"]
+[ext_resource type="Texture2D" uid="uid://gowebqbdf4p5" path="res://Resources/UI/Game/Action Buttons.png" id="10_mtiyh"]
+[ext_resource type="Texture2D" uid="uid://b86jjt1w2o6b0" path="res://Resources/UI/Game/Action Buttons Pressed.png" id="11_ma6vl"]
+[ext_resource type="PackedScene" uid="uid://b1pdt8l2hfeam" path="res://Resources/Game/3D/world-cup-trophy/source/world cup trophy.glb" id="12_nxisu"]
+[ext_resource type="Texture2D" uid="uid://blaxi42l60uea" path="res://Resources/UI/Game/Main Menu/WorldCup_Mode.png" id="13_l3c6x"]
+[ext_resource type="Texture2D" uid="uid://d1ypcka7t6xxm" path="res://Resources/UI/Game/Main Menu/Draft_Mode.png" id="14_ld6kw"]
+[ext_resource type="Texture2D" uid="uid://b0ddqwp8rrmj7" path="res://Resources/UI/Game/Keyboard Buttons.png" id="14_qxwtn"]
+[ext_resource type="Texture2D" uid="uid://jltioclckyl0" path="res://Resources/UI/Game/Main Menu/VS_Mode.png" id="15_l3c6x"]
+[ext_resource type="Texture2D" uid="uid://dvww68yu1ujlq" path="res://Resources/UI/Game/Main Menu/Album_Mode.png" id="16_ld6kw"]
+[ext_resource type="Texture2D" uid="uid://c6d6it4dq7mey" path="res://Resources/UI/Game/Keyboard Buttons Pressed.png" id="16_vk2xn"]
+[ext_resource type="Texture2D" uid="uid://dhxitwg61iul1" path="res://Resources/UI/Game/Main Menu/Options_Mode.png" id="17_1fbba"]
+[ext_resource type="Texture2D" uid="uid://doqejd4x5t7fr" path="res://Resources/Game/Textures/Player/Spotlighted Player/Lamine Yamal.png" id="18_50kmc"]
+[ext_resource type="Texture2D" uid="uid://bai541mwjsjyw" path="res://Resources/Cartas/Huds/CommonCard.png" id="19_khfdq"]
+[ext_resource type="Texture2D" uid="uid://1ubr154vaytl" path="res://Resources/Cartas/Huds/EpicCard.png" id="20_i5clu"]
+[ext_resource type="Texture2D" uid="uid://dmrh2u5n55ic1" path="res://Resources/Cartas/Huds/LegendCard.png" id="21_04aus"]
+[ext_resource type="Texture2D" uid="uid://5cwfoai530ft" path="res://Resources/Cartas/Huds/RareCard.png" id="22_ssorb"]
+[ext_resource type="Texture2D" uid="uid://bmcilk12higem" path="res://Resources/Game/Textures/Player/Spotlighted Player/Flag_of_Spain.jpg" id="23_50kmc"]
+[ext_resource type="Script" uid="uid://bhqatgsodp18k" path="res://scenes/disc.gd" id="27_ssorb"]
+[ext_resource type="Texture2D" uid="uid://cy1mu4f8lmtbe" path="res://Resources/UI/Game/Main Menu/Disc.png" id="35_r03eo"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_7g0gv"]
+sky_top_color = Color(0.45673692, 0.4002673, 0.6678524, 1)
+sky_horizon_color = Color(0.52311563, 0.6939027, 0.6817252, 1)
+ground_bottom_color = Color(0.22859278, 0.08623285, 0.3274217, 1)
+ground_horizon_color = Color(0.5633118, 0.6905547, 0.61903435, 1)
+ground_curve = 0.020705262
+sun_angle_max = 208.15
+
+[sub_resource type="Sky" id="Sky_j420w"]
+sky_material = SubResource("ProceduralSkyMaterial_7g0gv")
+
+[sub_resource type="Environment" id="Environment_7fusm"]
+background_mode = 2
+sky = SubResource("Sky_j420w")
+ambient_light_source = 2
+ambient_light_color = Color(1, 1, 1, 1)
+tonemap_mode = 1
+tonemap_exposure = 0.7
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b2lsp"]
+animations = [{
+"frames": [{
+"duration": 7.0,
+"texture": ExtResource("2_mslyy")
+}, {
+"duration": 1.5,
+"texture": ExtResource("3_im4cs")
+}],
+"loop": true,
+"name": &"Breath",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 6.0,
+"texture": ExtResource("2_mslyy")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_chhbp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_mslyy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_n0q5r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_mslyy")
+}],
+"loop": true,
+"name": &"Walk",
+"speed": 5.0
+}]
+
+[sub_resource type="Animation" id="Animation_r03eo"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_vofng"]
+resource_name = "Roll"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0, -6.2831855)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_nxisu"]
+_data = {
+&"RESET": SubResource("Animation_r03eo"),
+&"Roll": SubResource("Animation_vofng")
+}
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p7vwb"]
+atlas = ExtResource("10_mtiyh")
+region = Rect2(25, 47, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nlhr4"]
+atlas = ExtResource("14_qxwtn")
+region = Rect2(25, 47, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uge4m"]
+atlas = ExtResource("14_qxwtn")
+region = Rect2(25, 15, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1c74a"]
+atlas = ExtResource("14_qxwtn")
+region = Rect2(11, 31, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_113si"]
+atlas = ExtResource("14_qxwtn")
+region = Rect2(25, 47, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q6j1q"]
+atlas = ExtResource("14_qxwtn")
+region = Rect2(39, 31, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vdcm2"]
+atlas = ExtResource("11_ma6vl")
+region = Rect2(25, 49, 14, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o1dbm"]
+atlas = ExtResource("16_vk2xn")
+region = Rect2(25, 47, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n84r6"]
+atlas = ExtResource("16_vk2xn")
+region = Rect2(25, 15, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yqhy4"]
+atlas = ExtResource("16_vk2xn")
+region = Rect2(11, 31, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vofng"]
+atlas = ExtResource("16_vk2xn")
+region = Rect2(25, 47, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oj1ox"]
+atlas = ExtResource("16_vk2xn")
+region = Rect2(39, 31, 14, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1fbba"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p7vwb")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nlhr4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uge4m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1c74a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_113si")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q6j1q")
+}],
+"loop": true,
+"name": &"IdleK",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vdcm2")
+}],
+"loop": true,
+"name": &"Pressed",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o1dbm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n84r6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yqhy4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vofng")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oj1ox")
+}],
+"loop": true,
+"name": &"PressedK",
+"speed": 5.0
+}]
+
+[sub_resource type="GDScript" id="GDScript_50kmc"]
+script/source = "extends AnimatedSprite2D
+
+func _process(delta):
+	if Input.is_action_just_pressed(\"A\"):
+		$\"../A\".play(\"Pressed\")
+		$\"..\".Selected.emit()
+		
+	
+	if Input.is_action_just_released(\"A\"):
+		$\"../A\".play(\"Idle\")
+"
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qxwtn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_khfdq")
+}],
+"loop": true,
+"name": &"Common",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_i5clu")
+}],
+"loop": true,
+"name": &"Epic",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("21_04aus")
+}],
+"loop": true,
+"name": &"Legend",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22_ssorb")
+}],
+"loop": true,
+"name": &"Rare",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ktti3"]
+atlas = ExtResource("10_mtiyh")
+region = Rect2(11, 31, 14, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6rmj2"]
+atlas = ExtResource("11_ma6vl")
+region = Rect2(11, 35, 14, 14)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_r03eo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ktti3")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1c74a")
+}],
+"loop": true,
+"name": &"IdleK",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6rmj2")
+}],
+"loop": true,
+"name": &"Pressed",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yqhy4")
+}],
+"loop": true,
+"name": &"PressedK",
+"speed": 5.0
+}]
+
+[sub_resource type="GDScript" id="GDScript_nxisu"]
+script/source = "extends AnimatedSprite2D
+
+func _process(delta):
+	if Input.is_action_just_pressed(\"X\"):
+		$\"../X\".play(\"Pressed\")
+	
+	if Input.is_action_just_released(\"X\"):
+		$\"../X\".play(\"Idle\")
+"
+
+[node name="Node3D" type="Node3D"]
+
+[node name="pitch" parent="." instance=ExtResource("1_15uo5")]
+metadata/_edit_lock_ = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_7fusm")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.935228, 0.35404623, 0, -0.35404623, 0.935228, 0, 0.9457773, 2.3256035)
+shadow_enabled = true
+directional_shadow_max_distance = 1.0
+
+[node name="world cup trophy" parent="." instance=ExtResource("12_nxisu")]
+transform = Transform3D(-0.24897954, 0, -0.055083442, 0, 0.255, 0, 0.055083442, 0, -0.24897954, 0.1414335, 0.12514326, -0.2028043)
+
+[node name="SpotlightedPlayer" type="AnimatedSprite3D" parent="."]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, -0.05, 0.081, 0)
+shaded = true
+texture_filter = 0
+sprite_frames = SubResource("SpriteFrames_b2lsp")
+animation = &"Walk"
+autoplay = "Breath"
+script = ExtResource("6_khfdq")
+
+[node name="Player Name" type="Label3D" parent="SpotlightedPlayer"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.014100369, 0.2165913, 0)
+billboard = 2
+double_sided = false
+texture_filter = 0
+text = "Lamine Y."
+font = ExtResource("6_chhbp")
+vertical_alignment = 2
+
+[node name="Camera3D" type="Camera3D" parent="SpotlightedPlayer"]
+transform = Transform3D(3.241762, 0, -0.77594477, 0, 3.333333, 0, 0.77594477, 0, 3.241762, 0.4380776, 0.07891792, 0.9143047)
+fov = 76.8
+
+[node name="Ball" parent="." instance=ExtResource("6_skvia")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.013105281, 0)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Ball"]
+libraries = {
+&"": SubResource("AnimationLibrary_nxisu")
+}
+
+[node name="UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TitleUI" type="Control" parent="UI"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="WCIcon" type="Sprite2D" parent="UI/TitleUI"]
+position = Vector2(53.445007, 81.36)
+scale = Vector2(0.415, 0.415)
+texture = ExtResource("7_im4cs")
+
+[node name="CompanyName" type="Label" parent="UI/TitleUI"]
+layout_mode = 0
+offset_left = 120.44501
+offset_top = 17.360008
+offset_right = 323.445
+offset_bottom = 100.36001
+theme_override_colors/font_color = Color(0.53333336, 0.44313726, 0.23529412, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 4
+theme_override_constants/shadow_offset_y = 3
+theme_override_fonts/font = ExtResource("8_chhbp")
+theme_override_font_sizes/font_size = 32
+text = "FIFA"
+
+[node name="GameTitle" type="Label" parent="UI/TitleUI"]
+layout_mode = 0
+offset_left = 115.44501
+offset_top = 49.36001
+offset_right = 509.445
+offset_bottom = 113.36001
+theme_override_colors/font_shadow_color = Color(0.5647059, 0.4627451, 0.22745098, 1)
+theme_override_constants/shadow_offset_x = -6
+theme_override_constants/shadow_offset_y = 4
+theme_override_fonts/font = ExtResource("8_chhbp")
+theme_override_font_sizes/font_size = 48
+text = "CARD CUP"
+
+[node name="ModesUI" type="Control" parent="UI"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("10_khfdq")
+
+[node name="A" type="AnimatedSprite2D" parent="UI/ModesUI"]
+texture_filter = 1
+position = Vector2(20, 525)
+scale = Vector2(2, 2)
+sprite_frames = SubResource("SpriteFrames_1fbba")
+animation = &"PressedK"
+autoplay = "Idle"
+script = SubResource("GDScript_50kmc")
+
+[node name="Label" type="Label" parent="UI/ModesUI/A"]
+texture_filter = 1
+anchors_preset = -1
+anchor_right = 2.544474
+offset_left = 11.320757
+offset_top = -8.301836
+offset_right = 75.320755
+offset_bottom = 37.698166
+theme_override_colors/font_outline_color = Color(0.32509434, 0.58341134, 0.15114462, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("6_chhbp")
+text = "SELECIONAR"
+metadata/_edit_use_anchors_ = true
+
+[node name="WorldCup_Mode" type="TextureButton" parent="UI/ModesUI"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 30.0
+offset_top = 545.0
+offset_right = 126.0
+offset_bottom = 593.0
+scale = Vector2(2.5, 2)
+texture_normal = ExtResource("13_l3c6x")
+
+[node name="Title" type="Label" parent="UI/ModesUI/WorldCup_Mode"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 5.6
+offset_top = 15.500006
+offset_right = 186.6
+offset_bottom = 45.500008
+scale = Vector2(0.53, 0.53)
+theme_override_colors/font_shadow_color = Color(0.44705883, 0.011764706, 0.011764706, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 2
+theme_override_fonts/font = ExtResource("6_chhbp")
+theme_override_font_sizes/font_size = 29
+text = "COPA DO MUNDO"
+
+[node name="Draft_Mode" type="TextureButton" parent="UI/ModesUI"]
+z_index = -1
+texture_filter = 1
+layout_mode = 0
+offset_left = 180.0
+offset_top = 565.0
+offset_right = 276.0
+offset_bottom = 613.0
+scale = Vector2(2, 1.6)
+texture_normal = ExtResource("14_ld6kw")
+
+[node name="Title" type="Label" parent="UI/ModesUI/Draft_Mode"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 21.0
+offset_top = 11.25
+offset_right = 92.42859
+offset_bottom = 41.25
+scale = Vector2(0.785, 0.785)
+theme_override_colors/font_color = Color(0.7902737, 0.18770623, 0.18378937, 1)
+theme_override_colors/font_shadow_color = Color(0.15686275, 0.011764706, 0.011764706, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 2
+theme_override_fonts/font = ExtResource("6_chhbp")
+theme_override_font_sizes/font_size = 29
+text = "DRAFT"
+
+[node name="VS_Mode" type="TextureButton" parent="UI/ModesUI"]
+z_index = -2
+texture_filter = 1
+layout_mode = 0
+offset_left = 280.0
+offset_top = 565.0
+offset_right = 376.0
+offset_bottom = 613.0
+scale = Vector2(2, 1.6)
+texture_normal = ExtResource("15_l3c6x")
+
+[node name="Title" type="Label" parent="UI/ModesUI/VS_Mode"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 18.0
+offset_top = 11.25
+offset_right = 94.0
+offset_bottom = 41.25
+scale = Vector2(0.785, 0.785)
+theme_override_colors/font_color = Color(0.54786086, 0.66630846, 0.9864096, 1)
+theme_override_colors/font_shadow_color = Color(0.078431375, 0.12941177, 0.44705883, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 2
+theme_override_fonts/font = ExtResource("6_chhbp")
+theme_override_font_sizes/font_size = 29
+text = "VERSUS"
+
+[node name="Album_Mode" type="TextureButton" parent="UI/ModesUI"]
+z_index = -3
+texture_filter = 1
+layout_mode = 0
+offset_left = 377.0
+offset_top = 565.0
+offset_right = 473.0
+offset_bottom = 613.0
+scale = Vector2(2, 1.6)
+texture_normal = ExtResource("16_ld6kw")
+
+[node name="Title" type="Label" parent="UI/ModesUI/Album_Mode"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 21.5
+offset_top = 11.25
+offset_right = 97.5
+offset_bottom = 41.25
+scale = Vector2(0.785, 0.785)
+theme_override_colors/font_color = Color(0.9390428, 0.70953286, 0.69612896, 1)
+theme_override_colors/font_shadow_color = Color(0.24313726, 0.05490196, 0.05490196, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 2
+theme_override_fonts/font = ExtResource("6_chhbp")
+theme_override_font_sizes/font_size = 29
+text = "ALBUM"
+
+[node name="Options_Mode" type="TextureButton" parent="UI/ModesUI"]
+z_index = -4
+texture_filter = 1
+layout_mode = 0
+offset_left = 465.0
+offset_top = 565.0
+offset_right = 561.0
+offset_bottom = 613.0
+scale = Vector2(2, 1.6)
+texture_normal = ExtResource("17_1fbba")
+
+[node name="Title" type="Label" parent="UI/ModesUI/Options_Mode"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 13.5
+offset_top = 11.25
+offset_right = 102.5
+offset_bottom = 41.25
+scale = Vector2(0.785, 0.785)
+theme_override_colors/font_color = Color(0.20950255, 0.22612572, 0.23720056, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 2
+theme_override_fonts/font = ExtResource("6_chhbp")
+theme_override_font_sizes/font_size = 29
+text = "OPTIONS"
+
+[node name="SpotlightCardUI" type="Control" parent="UI"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Player" type="Node2D" parent="UI/SpotlightCardUI"]
+position = Vector2(983, 297)
+scale = Vector2(0.125, 0.125)
+
+[node name="CARTA" type="Sprite2D" parent="UI/SpotlightCardUI/Player"]
+scale = Vector2(1.23, 1.23)
+texture = ExtResource("18_50kmc")
+
+[node name="HUD" type="AnimatedSprite2D" parent="UI/SpotlightCardUI/Player"]
+texture_filter = 1
+scale = Vector2(86, 86)
+sprite_frames = SubResource("SpriteFrames_qxwtn")
+animation = &"Legend"
+
+[node name="INFO" type="Sprite2D" parent="UI/SpotlightCardUI/Player"]
+position = Vector2(0, 0.117)
+
+[node name="Name" type="Label" parent="UI/SpotlightCardUI/Player/INFO"]
+offset_left = 47.0
+offset_top = 747.883
+offset_right = 349.0
+offset_bottom = 830.883
+theme_override_fonts/font = ExtResource("8_chhbp")
+theme_override_font_sizes/font_size = 64
+text = "Lamine Yamal"
+metadata/_edit_use_anchors_ = true
+
+[node name="ATK" type="Label" parent="UI/SpotlightCardUI/Player/INFO"]
+offset_left = 50.0
+offset_top = 880.0
+offset_right = 379.0
+offset_bottom = 963.0
+theme_override_fonts/font = ExtResource("8_chhbp")
+theme_override_font_sizes/font_size = 64
+text = "ATK  3"
+uppercase = true
+metadata/_edit_use_anchors_ = true
+
+[node name="VEL" type="Label" parent="UI/SpotlightCardUI/Player/INFO"]
+offset_left = 465.0
+offset_top = 880.0
+offset_right = 826.0
+offset_bottom = 963.0
+theme_override_fonts/font = ExtResource("8_chhbp")
+theme_override_font_sizes/font_size = 64
+text = "VEL  3"
+uppercase = true
+metadata/_edit_use_anchors_ = true
+
+[node name="DRI" type="Label" parent="UI/SpotlightCardUI/Player/INFO"]
+offset_left = 50.0
+offset_top = 990.0
+offset_right = 384.0
+offset_bottom = 1073.0
+theme_override_fonts/font = ExtResource("8_chhbp")
+theme_override_font_sizes/font_size = 64
+text = "DRI  3"
+uppercase = true
+metadata/_edit_use_anchors_ = true
+
+[node name="PAS" type="Label" parent="UI/SpotlightCardUI/Player/INFO"]
+offset_left = 465.0
+offset_top = 990.0
+offset_right = 793.0
+offset_bottom = 1073.0
+theme_override_fonts/font = ExtResource("8_chhbp")
+theme_override_font_sizes/font_size = 64
+text = "PAS  2"
+uppercase = true
+metadata/_edit_use_anchors_ = true
+
+[node name="DEF" type="Label" parent="UI/SpotlightCardUI/Player/INFO"]
+offset_left = 50.0
+offset_top = 1096.883
+offset_right = 406.0
+offset_bottom = 1179.883
+theme_override_fonts/font = ExtResource("8_chhbp")
+theme_override_font_sizes/font_size = 64
+text = "DEF  1"
+uppercase = true
+metadata/_edit_use_anchors_ = true
+
+[node name="STA" type="Label" parent="UI/SpotlightCardUI/Player/INFO"]
+offset_left = 465.0
+offset_top = 1100.0
+offset_right = 821.0
+offset_bottom = 1183.0
+theme_override_fonts/font = ExtResource("8_chhbp")
+theme_override_font_sizes/font_size = 64
+text = "STA  2"
+uppercase = true
+metadata/_edit_use_anchors_ = true
+
+[node name="HomeFlag" type="TextureRect" parent="UI/SpotlightCardUI/Player/INFO"]
+offset_left = -945.99994
+offset_top = -1253.1171
+offset_right = -905.99994
+offset_bottom = -1213.1171
+scale = Vector2(8.595, 5.609)
+texture = ExtResource("23_50kmc")
+expand_mode = 4
+metadata/_edit_use_anchors_ = true
+
+[node name="MusicUI" type="Control" parent="UI"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="UI/MusicUI"]
+texture_filter = 1
+layout_mode = 0
+offset_left = 669.0
+offset_top = 607.0
+offset_right = 1663.0
+offset_bottom = 656.0
+scale = Vector2(0.425, 0.425)
+theme_override_fonts/font = ExtResource("8_chhbp")
+theme_override_font_sizes/font_size = 38
+text = "Shakira & Burna Boy - Dai Dai"
+horizontal_alignment = 2
+autowrap_mode = 2
+
+[node name="Disc" type="Sprite2D" parent="UI/MusicUI"]
+texture_filter = 1
+position = Vector2(1122, 619)
+texture = ExtResource("35_r03eo")
+script = ExtResource("27_ssorb")
+
+[node name="X" type="AnimatedSprite2D" parent="UI/MusicUI"]
+texture_filter = 1
+position = Vector2(1137, 577)
+scale = Vector2(1.555, 1.555)
+sprite_frames = SubResource("SpriteFrames_r03eo")
+animation = &"IdleK"
+autoplay = "Idle"
+script = SubResource("GDScript_nxisu")
+
+[node name="Label" type="Label" parent="UI/MusicUI/X"]
+texture_filter = 1
+offset_left = -73.75
+offset_top = -23.0
+offset_right = -9.75
+offset_bottom = 23.0
+theme_override_colors/font_outline_color = Color(0.26293245, 0.26293245, 0.26293245, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("6_chhbp")
+text = "Próxima"
+horizontal_alignment = 2
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true

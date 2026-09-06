@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://e1j7vooh7imh"
+path="res://.godot/imported/fim do 1 tempo.ogg-ba6fd24f2db6949ed650fae71753a3b8.oggvorbisstr"
+
+[deps]
+
+source_file="res://Resources/Narrração/fim do 1 tempo.ogg"
+dest_files=["res://.godot/imported/fim do 1 tempo.ogg-ba6fd24f2db6949ed650fae71753a3b8.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

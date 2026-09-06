@@ -1,0 +1,401 @@
+{
+  "Sigla": "ARG",
+  "Cor": "#75AADB",
+  "Tecnico": {
+    "Name": "Lionel Scaloni",
+    "BonusType": "DEF",
+    "BonusValue": 2
+  },
+  "Players": {
+    "105": {
+      "CID": 1,
+      "Number": 1,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Juan Musso",
+        "POS": "GOL",
+        "ATK": 0,
+        "DRI": 1,
+        "DEF": 3,
+        "VEL": 1,
+        "PAS": 2,
+        "STA": 2
+      }
+    },
+    "106": {
+      "CID": 2,
+      "Number": 12,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Geronimo Rulli",
+        "POS": "GOL",
+        "ATK": 0,
+        "DRI": 1,
+        "DEF": 3,
+        "VEL": 1,
+        "PAS": 2,
+        "STA": 2
+      }
+    },
+    "107": {
+      "CID": 3,
+      "Number": 23,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Emiliano Martínez",
+        "POS": "GOL",
+        "ATK": 0,
+        "DRI": 1,
+        "DEF": 3,
+        "VEL": 1,
+        "PAS": 2,
+        "STA": 2
+      }
+    },
+    "108": {
+      "CID": 4,
+      "Number": 2,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Marcos Senesi",
+        "POS": "DEF",
+        "ATK": 1,
+        "DRI": 1,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "109": {
+      "CID": 5,
+      "Number": 3,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Nicolas Tagliafico",
+        "POS": "DEF",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "110": {
+      "CID": 6,
+      "Number": 4,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Gonzalo Montiel",
+        "POS": "DEF",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "111": {
+      "CID": 7,
+      "Number": 6,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Lisandro Martínez",
+        "POS": "DEF",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "112": {
+      "CID": 8,
+      "Number": 13,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Cristian Romero",
+        "POS": "DEF",
+        "ATK": 2,
+        "DRI": 1,
+        "DEF": 3,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "113": {
+      "CID": 9,
+      "Number": 17,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Nicolas Otamendi",
+        "POS": "DEF",
+        "ATK": 1,
+        "DRI": 1,
+        "DEF": 3,
+        "VEL": 1,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "114": {
+      "CID": 10,
+      "Number": 25,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Facundo Medina",
+        "POS": "DEF",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 3,
+        "VEL": 3,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "115": {
+      "CID": 11,
+      "Number": 26,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Nahuel Molina",
+        "POS": "DEF",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 2,
+        "VEL": 3,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "116": {
+      "CID": 12,
+      "Number": 5,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Leandro Paredes",
+        "POS": "MEI",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 2,
+        "VEL": 1,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "117": {
+      "CID": 13,
+      "Number": 7,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Rodrigo De Paul",
+        "POS": "MEI",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 2,
+        "VEL": 2,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "118": {
+      "CID": 14,
+      "Number": 14,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Valentin Barco",
+        "POS": "MEI",
+        "ATK": 2,
+        "DRI": 3,
+        "DEF": 2,
+        "VEL": 3,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "119": {
+      "CID": 15,
+      "Number": 20,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Giovani Lo Celso",
+        "POS": "MEI",
+        "ATK": 3,
+        "DRI": 3,
+        "DEF": 1,
+        "VEL": 2,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "120": {
+      "CID": 16,
+      "Number": 8,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Exequiel Palacios",
+        "POS": "MEI",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 2,
+        "VEL": 2,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "121": {
+      "CID": 17,
+      "Number": 15,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Nico González",
+        "POS": "MEI",
+        "ATK": 3,
+        "DRI": 3,
+        "DEF": 1,
+        "VEL": 3,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "122": {
+      "CID": 18,
+      "Number": 20,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Alexis Mac Allister",
+        "POS": "MEI",
+        "ATK": 3,
+        "DRI": 2,
+        "DEF": 2,
+        "VEL": 2,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "123": {
+      "CID": 19,
+      "Number": 24,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Enzo Fernández",
+        "POS": "MEI",
+        "ATK": 3,
+        "DRI": 2,
+        "DEF": 2,
+        "VEL": 2,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "124": {
+      "CID": 20,
+      "Number": 9,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Julián Álvarez",
+        "POS": "ATA",
+        "ATK": 3,
+        "DRI": 3,
+        "DEF": 1,
+        "VEL": 3,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "125": {
+      "CID": 21,
+      "Number": 10,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Lionel Messi",
+        "POS": "ATA",
+        "ATK": 3,
+        "DRI": 3,
+        "DEF": 1,
+        "VEL": 2,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "126": {
+      "CID": 22,
+      "Number": 16,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Thiago Almada",
+        "POS": "ATA",
+        "ATK": 3,
+        "DRI": 3,
+        "DEF": 1,
+        "VEL": 3,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "127": {
+      "CID": 23,
+      "Number": 22,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Giuliano Simeone",
+        "POS": "ATA",
+        "ATK": 2,
+        "DRI": 2,
+        "DEF": 1,
+        "VEL": 3,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "128": {
+      "CID": 24,
+      "Number": 18,
+      "Foot": "left",
+      "Stats": {
+        "Name": "Nico Paz",
+        "POS": "ATA",
+        "ATK": 3,
+        "DRI": 3,
+        "DEF": 1,
+        "VEL": 3,
+        "PAS": 3,
+        "STA": 3
+      }
+    },
+    "129": {
+      "CID": 25,
+      "Number": 19,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Jose Manuel Lopez",
+        "POS": "ATA",
+        "ATK": 3,
+        "DRI": 2,
+        "DEF": 1,
+        "VEL": 2,
+        "PAS": 2,
+        "STA": 3
+      }
+    },
+    "130": {
+      "CID": 26,
+      "Number": 21,
+      "Foot": "right",
+      "Stats": {
+        "Name": "Lautaro Martínez",
+        "POS": "ATA",
+        "ATK": 3,
+        "DRI": 3,
+        "DEF": 1,
+        "VEL": 3,
+        "PAS": 2,
+        "STA": 3
+      }
+    }
+  }
+}
