@@ -1,0 +1,375 @@
+{
+	"Sigla": "SWE",
+	"Cor": "#FECC00",
+	"Tecnico": {
+		"Name": "Graham Potter",
+		"BonusType": "ATA",
+		"BonusValue": 2
+	},
+	"Players": {
+		"1": {
+			"Number": 1,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Jacob Widell Zetterström",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"2": {
+			"Number": 2,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Gustaf Lagerbielke",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"3": {
+			"Number": 3,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Victor Lindelöf",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"4": {
+			"Number": 4,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Isak Hien",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"5": {
+			"Number": 5,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Gabriel Gudmundsson",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"6": {
+			"Number": 6,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Herman Johansson",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"7": {
+			"Number": 7,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Lucas Bergvall",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 2
+			}
+		},
+		"8": {
+			"Number": 8,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Daniel Svensson",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"9": {
+			"Number": 9,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Alexander Isak",
+				"POS": "ATA",
+				"ATK": 3,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"10": {
+			"Number": 10,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Benjamin Nygren",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"11": {
+			"Number": 11,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Anthony Elanga",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"12": {
+			"Number": 12,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Viktor Johansson",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"13": {
+			"Number": 13,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Ken Sema",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"14": {
+			"Number": 14,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Hjalmar Ekdal",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"15": {
+			"Number": 15,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Carl Starfelt",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"16": {
+			"Number": 16,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Jesper Karlström",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"17": {
+			"Number": 17,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Viktor Gyökeres",
+				"POS": "ATA",
+				"ATK": 3,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"18": {
+			"Number": 18,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Yasin Ayari",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"19": {
+			"Number": 19,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Mattias Svanberg",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"20": {
+			"Number": 20,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Eric Smith",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"21": {
+			"Number": 21,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Alexander Bernhardsson",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"22": {
+			"Number": 22,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Besfort Zeneli",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"23": {
+			"Number": 23,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Kristoffer Nordfeldt",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"24": {
+			"Number": 24,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Elliot Stroud",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"25": {
+			"Number": 25,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Gustaf Nilsson",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 1,
+				"DEF": 1,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"26": {
+			"Number": 26,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Taha Ali",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		}
+	}
+}

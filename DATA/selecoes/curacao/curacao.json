@@ -1,401 +1,375 @@
 {
-  "Sigla": "CUW",
-  "Cor": "#003DA5",
-  "Tecnico": {
-	"Name": "Dick Advocaat",
-	"BonusType": "DEF",
-	"BonusValue": 2
-  },
-  "Players": {
-	"440": {
-	  "CID": 3,
-	  "Number": 1,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Eloy Room",
-		"POS": "GOL",
-		"ATK": 0,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 1,
-		"PAS": 2,
-		"STA": 2
-	  }
+	"Sigla": "CUW",
+	"Cor": "#002B7F",
+	"Tecnico": {
+		"Name": "Dick Advocaat",
+		"BonusType": "DEF",
+		"BonusValue": 2
 	},
-	"441": {
-	  "CID": 1,
-	  "Number": 21,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Tyrick Bodak",
-		"POS": "GOL",
-		"ATK": 0,
-		"DRI": 1,
-		"DEF": 2,
-		"VEL": 1,
-		"PAS": 2,
-		"STA": 2
-	  }
-	},
-	"442": {
-	  "CID": 2,
-	  "Number": 23,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Trevor Doornbusch",
-		"POS": "GOL",
-		"ATK": 0,
-		"DRI": 1,
-		"DEF": 2,
-		"VEL": 1,
-		"PAS": 2,
-		"STA": 2
-	  }
-	},
-	"443": {
-	  "CID": 7,
-	  "Number": 2,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Shurandy Sambo",
-		"POS": "DEF",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 2,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"444": {
-	  "CID": 3,
-	  "Number": 4,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Jurien Gaari",
-		"POS": "DEF",
-		"ATK": 1,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"445": {
-	  "CID": 8,
-	  "Number": 5,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Roshon van Eijma",
-		"POS": "DEF",
-		"ATK": 1,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"446": {
-	  "CID": 6,
-	  "Number": 6,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Sherel Floranus",
-		"POS": "DEF",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 2,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"447": {
-	  "CID": 1,
-	  "Number": 15,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Armando Obispo",
-		"POS": "DEF",
-		"ATK": 1,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"448": {
-	  "CID": 2,
-	  "Number": 21,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Joshua Brenet",
-		"POS": "DEF",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 2,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"449": {
-	  "CID": 5,
-	  "Number": 8,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Riechedly Bazoer",
-		"POS": "DEF",
-		"ATK": 1,
-		"DRI": 2,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"450": {
-	  "CID": 4,
-	  "Number": 17,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Deveron Fonville",
-		"POS": "DEF",
-		"ATK": 1,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"451": {
-	  "CID": 6,
-	  "Number": 6,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Godfried Roemeratoe",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 2,
-		"VEL": 2,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"452": {
-	  "CID": 2,
-	  "Number": 7,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Juninho Bacuna",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 2,
-		"VEL": 2,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"453": {
-	  "CID": 4,
-	  "Number": 8,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Livano Comenencia",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 2,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"454": {
-	  "CID": 3,
-	  "Number": 10,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Leandro Bacuna",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 2,
-		"VEL": 2,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"455": {
-	  "CID": 1,
-	  "Number": 14,
-	  "Foot": "left",
-	  "Stats": {
-		"Name": "Arjany Martha",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"456": {
-	  "CID": 7,
-	  "Number": 18,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Tahith Chong",
-		"POS": "MEI",
-		"ATK": 3,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"457": {
-	  "CID": 5,
-	  "Number": 20,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Kevin Felida",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 2,
-		"VEL": 2,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"458": {
-	  "CID": 4,
-	  "Number": 9,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Juergen Locadia",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 2,
-		"DEF": 1,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"459": {
-	  "CID": 1,
-	  "Number": 11,
-	  "Foot": "left",
-	  "Stats": {
-		"Name": "Jeremy Antonisse",
-		"POS": "ATA",
-		"ATK": 2,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"460": {
-	  "CID": 3,
-	  "Number": 12,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Sontje Hansen",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"461": {
-	  "CID": 8,
-	  "Number": 13,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Tyrese Noslin",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"462": {
-	  "CID": 2,
-	  "Number": 14,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Kenji Gorre",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"463": {
-	  "CID": 7,
-	  "Number": 16,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Jearl Margaritha",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 2,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"464": {
-	  "CID": 6,
-	  "Number": 17,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Brandley Kuwas",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"465": {
-	  "CID": 5,
-	  "Number": 19,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Gervane Kastaneer",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 2,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
+	"Players": {
+		"1": {
+			"Number": 1,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Eloy Room",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"2": {
+			"Number": 2,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Shurandy Sambo",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"3": {
+			"Number": 3,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Juriën Gaari",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"4": {
+			"Number": 4,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Roshon van Eijma",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"5": {
+			"Number": 5,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Sherel Floranus",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"6": {
+			"Number": 6,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Godfried Roemeratoe",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"7": {
+			"Number": 7,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Juninho Bacuna",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 3
+			}
+		},
+		"8": {
+			"Number": 8,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Livano Comenencia",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"9": {
+			"Number": 9,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Jürgen Locadia",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"10": {
+			"Number": 10,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Leandro Bacuna",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"11": {
+			"Number": 11,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Jeremy Antonisse",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"12": {
+			"Number": 12,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Sontje Hansen",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"13": {
+			"Number": 13,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Tyrese Noslin",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"14": {
+			"Number": 14,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Kenji Gorré",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"15": {
+			"Number": 15,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Ar'jany Martha",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"16": {
+			"Number": 16,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Jearl Margaritha",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"17": {
+			"Number": 17,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Brandley Kuwas",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"18": {
+			"Number": 18,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Armando Obispo",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"19": {
+			"Number": 19,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Gervane Kastaneer",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"20": {
+			"Number": 20,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Joshua Brenet",
+				"POS": "DEF",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"21": {
+			"Number": 21,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Tahith Chong",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"22": {
+			"Number": 22,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Kevin Felida",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"23": {
+			"Number": 23,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Riechedly Bazoer",
+				"POS": "DEF",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 2
+			}
+		},
+		"24": {
+			"Number": 24,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Deveron Fonville",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"25": {
+			"Number": 25,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Tyrick Bodak",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"26": {
+			"Number": 26,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Trevor Doornbusch",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		}
 	}
-  }
 }

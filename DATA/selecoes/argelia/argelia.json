@@ -1,401 +1,375 @@
-﻿{
-  "Sigla": "ALG",
-  "Cor": "#FFFFFF",
-  "Tecnico": {
-    "Name": "Vladimir Petković",
-    "BonusType": "PAS",
-    "BonusValue": 2
-  },
-  "Players": {
-    "53": {
-      "CID": 1,
-      "Number": 1,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Melvin Mastil",
-        "POS": "GOL",
-        "ATK": 0,
-        "DRI": 1,
-        "DEF": 2,
-        "VEL": 1,
-        "PAS": 2,
-        "STA": 2
-      }
-    },
-    "54": {
-      "CID": 2,
-      "Number": 16,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Oussama Benbot",
-        "POS": "GOL",
-        "ATK": 0,
-        "DRI": 1,
-        "DEF": 2,
-        "VEL": 1,
-        "PAS": 2,
-        "STA": 2
-      }
-    },
-    "55": {
-      "CID": 3,
-      "Number": 23,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Luca Zidane",
-        "POS": "GOL",
-        "ATK": 0,
-        "DRI": 1,
-        "DEF": 2,
-        "VEL": 1,
-        "PAS": 3,
-        "STA": 2
-      }
-    },
-    "56": {
-      "CID": 4,
-      "Number": 2,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Aïssa Mandi",
-        "POS": "DEF",
-        "ATK": 1,
-        "DRI": 1,
-        "DEF": 3,
-        "VEL": 1,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "57": {
-      "CID": 5,
-      "Number": 3,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Achref Abada",
-        "POS": "DEF",
-        "ATK": 1,
-        "DRI": 2,
-        "DEF": 2,
-        "VEL": 2,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "58": {
-      "CID": 6,
-      "Number": 4,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Mohamed Tougai",
-        "POS": "DEF",
-        "ATK": 1,
-        "DRI": 1,
-        "DEF": 3,
-        "VEL": 2,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "59": {
-      "CID": 7,
-      "Number": 5,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Zineddine Belaid",
-        "POS": "DEF",
-        "ATK": 1,
-        "DRI": 1,
-        "DEF": 3,
-        "VEL": 2,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "60": {
-      "CID": 8,
-      "Number": 13,
-      "Foot": "left",
-      "Stats": {
-        "Name": "Jaouen Hadjam",
-        "POS": "DEF",
-        "ATK": 2,
-        "DRI": 2,
-        "DEF": 2,
-        "VEL": 3,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "61": {
-      "CID": 9,
-      "Number": 15,
-      "Foot": "left",
-      "Stats": {
-        "Name": "Rayan Aït-Nouri",
-        "POS": "DEF",
-        "ATK": 3,
-        "DRI": 3,
-        "DEF": 2,
-        "VEL": 3,
-        "PAS": 3,
-        "STA": 3
-      }
-    },
-    "62": {
-      "CID": 10,
-      "Number": 17,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Rafik Belghali",
-        "POS": "DEF",
-        "ATK": 2,
-        "DRI": 2,
-        "DEF": 2,
-        "VEL": 3,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "63": {
-      "CID": 11,
-      "Number": 21,
-      "Foot": "left",
-      "Stats": {
-        "Name": "Ramy Bensebaini",
-        "POS": "DEF",
-        "ATK": 2,
-        "DRI": 2,
-        "DEF": 3,
-        "VEL": 2,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "64": {
-      "CID": 12,
-      "Number": 26,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Samir Chergui",
-        "POS": "DEF",
-        "ATK": 1,
-        "DRI": 1,
-        "DEF": 2,
-        "VEL": 2,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "65": {
-      "CID": 13,
-      "Number": 6,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Ramiz Zerrouki",
-        "POS": "MEI",
-        "ATK": 2,
-        "DRI": 2,
-        "DEF": 3,
-        "VEL": 1,
-        "PAS": 3,
-        "STA": 3
-      }
-    },
-    "66": {
-      "CID": 14,
-      "Number": 8,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Houssem Aouar",
-        "POS": "MEI",
-        "ATK": 3,
-        "DRI": 3,
-        "DEF": 1,
-        "VEL": 2,
-        "PAS": 3,
-        "STA": 3
-      }
-    },
-    "67": {
-      "CID": 15,
-      "Number": 10,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Fares Chaïbi",
-        "POS": "MEI",
-        "ATK": 3,
-        "DRI": 3,
-        "DEF": 1,
-        "VEL": 3,
-        "PAS": 3,
-        "STA": 3
-      }
-    },
-    "68": {
-      "CID": 16,
-      "Number": 14,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Hicham Boudaoui",
-        "POS": "MEI",
-        "ATK": 2,
-        "DRI": 3,
-        "DEF": 2,
-        "VEL": 3,
-        "PAS": 3,
-        "STA": 3
-      }
-    },
-    "69": {
-      "CID": 17,
-      "Number": 19,
-      "Foot": "left",
-      "Stats": {
-        "Name": "Nabil Bentaleb",
-        "POS": "MEI",
-        "ATK": 2,
-        "DRI": 2,
-        "DEF": 3,
-        "VEL": 2,
-        "PAS": 3,
-        "STA": 3
-      }
-    },
-    "70": {
-      "CID": 18,
-      "Number": 22,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Ibrahim Maza",
-        "POS": "MEI",
-        "ATK": 3,
-        "DRI": 3,
-        "DEF": 1,
-        "VEL": 3,
-        "PAS": 3,
-        "STA": 3
-      }
-    },
-    "71": {
-      "CID": 19,
-      "Number": 24,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Yassine Titraoui",
-        "POS": "MEI",
-        "ATK": 2,
-        "DRI": 2,
-        "DEF": 2,
-        "VEL": 2,
-        "PAS": 3,
-        "STA": 3
-      }
-    },
-    "72": {
-      "CID": 20,
-      "Number": 7,
-      "Foot": "left",
-      "Stats": {
-        "Name": "Riyad Mahrez",
-        "POS": "ATA",
-        "ATK": 3,
-        "DRI": 3,
-        "DEF": 1,
-        "VEL": 2,
-        "PAS": 3,
-        "STA": 3
-      }
-    },
-    "73": {
-      "CID": 21,
-      "Number": 9,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Amine Gouiri",
-        "POS": "ATA",
-        "ATK": 3,
-        "DRI": 3,
-        "DEF": 1,
-        "VEL": 3,
-        "PAS": 3,
-        "STA": 3
-      }
-    },
-    "74": {
-      "CID": 22,
-      "Number": 11,
-      "Foot": "left",
-      "Stats": {
-        "Name": "Anis Hadj Moussa",
-        "POS": "ATA",
-        "ATK": 3,
-        "DRI": 3,
-        "DEF": 1,
-        "VEL": 3,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "75": {
-      "CID": 23,
-      "Number": 12,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Nadhir Benbouali",
-        "POS": "ATA",
-        "ATK": 3,
-        "DRI": 2,
-        "DEF": 1,
-        "VEL": 2,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "76": {
-      "CID": 24,
-      "Number": 18,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Mohamed Amoura",
-        "POS": "ATA",
-        "ATK": 3,
-        "DRI": 3,
-        "DEF": 1,
-        "VEL": 3,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "77": {
-      "CID": 25,
-      "Number": 20,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Adil Boulbina",
-        "POS": "ATA",
-        "ATK": 3,
-        "DRI": 3,
-        "DEF": 1,
-        "VEL": 3,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "78": {
-      "CID": 26,
-      "Number": 25,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Fares Ghedjemis",
-        "POS": "ATA",
-        "ATK": 2,
-        "DRI": 3,
-        "DEF": 1,
-        "VEL": 3,
-        "PAS": 2,
-        "STA": 2
-      }
-    }
-  }
+{
+	"Sigla": "ALG",
+	"Cor": "#FFFFFF",
+	"Tecnico": {
+		"Name": "Vladimir Petković",
+		"BonusType": "DEF",
+		"BonusValue": 2
+	},
+	"Players": {
+		"1": {
+			"Number": 1,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Melvin Mastil",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"2": {
+			"Number": 2,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Aïssa Mandi",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"3": {
+			"Number": 3,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Achref Abada",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"4": {
+			"Number": 4,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Mohamed Tougaï",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"5": {
+			"Number": 5,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Zineddine Belaïd",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"6": {
+			"Number": 6,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Ramiz Zerrouki",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"7": {
+			"Number": 7,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Riyad Mahrez",
+				"POS": "ATA",
+				"ATK": 3,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 2
+			}
+		},
+		"8": {
+			"Number": 8,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Houssem Aouar",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 2
+			}
+		},
+		"9": {
+			"Number": 9,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Amine Gouiri",
+				"POS": "ATA",
+				"ATK": 3,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"10": {
+			"Number": 10,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Farès Chaïbi",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 3
+			}
+		},
+		"11": {
+			"Number": 11,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Anis Hadj Moussa",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"12": {
+			"Number": 12,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Nadhir Benbouali",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 1,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"13": {
+			"Number": 13,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Jaouen Hadjam",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"14": {
+			"Number": 14,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Hicham Boudaoui",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"15": {
+			"Number": 15,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Rayan Aït-Nouri",
+				"POS": "DEF",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 2,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"16": {
+			"Number": 16,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Oussama Benbot",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"17": {
+			"Number": 17,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Rafik Belghali",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"18": {
+			"Number": 18,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Mohamed Amoura",
+				"POS": "ATA",
+				"ATK": 3,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"19": {
+			"Number": 19,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Nabil Bentaleb",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 3,
+				"STA": 2
+			}
+		},
+		"20": {
+			"Number": 20,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Adil Boulbina",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"21": {
+			"Number": 21,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Ramy Bensebaini",
+				"POS": "DEF",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"22": {
+			"Number": 22,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Ibrahim Maza",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"23": {
+			"Number": 23,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Luca Zidane",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"24": {
+			"Number": 24,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Yassine Titraoui",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"25": {
+			"Number": 25,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Farès Ghedjemis",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"26": {
+			"Number": 26,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Samir Chergui",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		}
+	}
 }

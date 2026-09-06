@@ -1,401 +1,375 @@
 {
-  "Sigla": "USA",
-  "Cor": "#FFFFFF",
-  "Tecnico": {
-	"Name": "Mauricio Pochettino",
-	"BonusType": "DEF",
-	"BonusValue": 2
-  },
-  "Players": {
-	"570": {
-	  "CID": 15,
-	  "Number": 1,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Matt Turner",
-		"POS": "GOL",
-		"ATK": 0,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 1,
-		"PAS": 3,
-		"STA": 2
-	  }
+	"Sigla": "USA",
+	"Cor": "#FFFFFF",
+	"Tecnico": {
+		"Name": "Mauricio Pochettino",
+		"BonusType": "MEI",
+		"BonusValue": 2
 	},
-	"571": {
-	  "CID": 14,
-	  "Number": 24,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Matt Freese",
-		"POS": "GOL",
-		"ATK": 0,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 1,
-		"PAS": 3,
-		"STA": 2
-	  }
-	},
-	"572": {
-	  "CID": 5,
-	  "Number": 25,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Chris Brady",
-		"POS": "GOL",
-		"ATK": 0,
-		"DRI": 1,
-		"DEF": 2,
-		"VEL": 1,
-		"PAS": 2,
-		"STA": 2
-	  }
-	},
-	"573": {
-	  "CID": 20,
-	  "Number": 2,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Sergino Dest",
-		"POS": "DEF",
-		"ATK": 2,
-		"DRI": 3,
-		"DEF": 2,
-		"VEL": 3,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"574": {
-	  "CID": 6,
-	  "Number": 3,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Chris Richards",
-		"POS": "DEF",
-		"ATK": 1,
-		"DRI": 2,
-		"DEF": 3,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"575": {
-	  "CID": 2,
-	  "Number": 5,
-	  "Foot": "left",
-	  "Stats": {
-		"Name": "Antonee Robinson",
-		"POS": "DEF",
-		"ATK": 2,
-		"DRI": 3,
-		"DEF": 2,
-		"VEL": 3,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"576": {
-	  "CID": 3,
-	  "Number": 6,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Auston Trusty",
-		"POS": "DEF",
-		"ATK": 1,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"577": {
-	  "CID": 17,
-	  "Number": 12,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Miles Robinson",
-		"POS": "DEF",
-		"ATK": 1,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"578": {
-	  "CID": 21,
-	  "Number": 13,
-	  "Foot": "left",
-	  "Stats": {
-		"Name": "Tim Ream",
-		"POS": "DEF",
-		"ATK": 1,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"579": {
-	  "CID": 1,
-	  "Number": 16,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Alex Freeman",
-		"POS": "DEF",
-		"ATK": 2,
-		"DRI": 3,
-		"DEF": 2,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"580": {
-	  "CID": 16,
-	  "Number": 18,
-	  "Foot": "left",
-	  "Stats": {
-		"Name": "Max Arfsten",
-		"POS": "DEF",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 2,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"581": {
-	  "CID": 13,
-	  "Number": 22,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Mark McKenzie",
-		"POS": "DEF",
-		"ATK": 1,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"582": {
-	  "CID": 12,
-	  "Number": 23,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Joe Scally",
-		"POS": "DEF",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 2,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"583": {
-	  "CID": 23,
-	  "Number": 4,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Tyler Adams",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 3,
-		"VEL": 3,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"584": {
-	  "CID": 10,
-	  "Number": 7,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Giovanni Reyna",
-		"POS": "MEI",
-		"ATK": 3,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 2,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"585": {
-	  "CID": 26,
-	  "Number": 8,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Weston McKennie",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 3,
-		"VEL": 3,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"586": {
-	  "CID": 19,
-	  "Number": 14,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Sebastian Berhalter",
-		"POS": "MEI",
-		"ATK": 1,
-		"DRI": 1,
-		"DEF": 2,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"587": {
-	  "CID": 8,
-	  "Number": 15,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Cristian Roldan",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 2,
-		"VEL": 2,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"588": {
-	  "CID": 13,
-	  "Number": 20,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Malik Tillman",
-		"POS": "MEI",
-		"ATK": 3,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 2,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"589": {
-	  "CID": 18,
-	  "Number": 9,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Ricardo Pepi",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 2,
-		"DEF": 1,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"590": {
-	  "CID": 7,
-	  "Number": 10,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Christian Pulisic",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"591": {
-	  "CID": 4,
-	  "Number": 11,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Brenden Aaronson",
-		"POS": "ATA",
-		"ATK": 2,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"592": {
-	  "CID": 11,
-	  "Number": 19,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Haji Wright",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 2,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"593": {
-	  "CID": 9,
-	  "Number": 21,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Folarin Balogun",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 2,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"594": {
-	  "CID": 22,
-	  "Number": 17,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Timothy Weah",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"595": {
-	  "CID": 1,
-	  "Number": 18,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Alex Zendejas",
-		"POS": "ATA",
-		"ATK": 2,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 3,
-		"STA": 3
-	  }
+	"Players": {
+		"1": {
+			"Number": 1,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Matt Turner",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"2": {
+			"Number": 2,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Sergiño Dest",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 3,
+				"DEF": 2,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"3": {
+			"Number": 3,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Chris Richards",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"4": {
+			"Number": 4,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Tyler Adams",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 3,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"5": {
+			"Number": 5,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Antonee Robinson",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 3,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"6": {
+			"Number": 6,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Auston Trusty",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"7": {
+			"Number": 7,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Gio Reyna",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 2
+			}
+		},
+		"8": {
+			"Number": 8,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Weston McKennie",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"9": {
+			"Number": 9,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Ricardo Pepi",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"10": {
+			"Number": 10,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Christian Pulisic",
+				"POS": "ATA",
+				"ATK": 3,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 3,
+				"STA": 3
+			}
+		},
+		"11": {
+			"Number": 11,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Brenden Aaronson",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"12": {
+			"Number": 12,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Miles Robinson",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"13": {
+			"Number": 13,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Tim Ream",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"14": {
+			"Number": 14,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Sebastian Berhalter",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"15": {
+			"Number": 15,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Cristian Roldan",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"16": {
+			"Number": 16,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Alex Freeman",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"17": {
+			"Number": 17,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Malik Tillman",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 2
+			}
+		},
+		"18": {
+			"Number": 18,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Max Arfsten",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"19": {
+			"Number": 19,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Haji Wright",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"20": {
+			"Number": 20,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Folarin Balogun",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"21": {
+			"Number": 21,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Timothy Weah",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"22": {
+			"Number": 22,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Mark McKenzie",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"23": {
+			"Number": 23,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Joe Scally",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"24": {
+			"Number": 24,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Matt Freese",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"25": {
+			"Number": 25,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Chris Brady",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"26": {
+			"Number": 26,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Alex Zendejas",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		}
 	}
-  }
 }

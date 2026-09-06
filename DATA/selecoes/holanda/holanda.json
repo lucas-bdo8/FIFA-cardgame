@@ -1,0 +1,375 @@
+{
+	"Sigla": "NED",
+	"Cor": "#F36C21",
+	"Tecnico": {
+		"Name": "Ronald Koeman",
+		"BonusType": "MEI",
+		"BonusValue": 3
+	},
+	"Players": {
+		"1": {
+			"Number": 1,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Bart Verbruggen",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 3
+			}
+		},
+		"2": {
+			"Number": 2,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Lutsharel Geertruida",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"3": {
+			"Number": 3,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Marten de Roon",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"4": {
+			"Number": 4,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Virgil van Dijk",
+				"POS": "DEF",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 3
+			}
+		},
+		"5": {
+			"Number": 5,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Nathan Aké",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"6": {
+			"Number": 6,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Jan Paul van Hecke",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"7": {
+			"Number": 7,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Justin Kluivert",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"8": {
+			"Number": 8,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Ryan Gravenberch",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 3
+			}
+		},
+		"9": {
+			"Number": 9,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Wout Weghorst",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 1,
+				"DEF": 1,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 3
+			}
+		},
+		"10": {
+			"Number": 10,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Memphis Depay",
+				"POS": "ATA",
+				"ATK": 3,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"11": {
+			"Number": 11,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Cody Gakpo",
+				"POS": "ATA",
+				"ATK": 3,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"12": {
+			"Number": 12,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Mats Wieffer",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"13": {
+			"Number": 13,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Robin Roefs",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"14": {
+			"Number": 14,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Tijjani Reijnders",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 3
+			}
+		},
+		"15": {
+			"Number": 15,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Micky van de Ven",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 3,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"16": {
+			"Number": 16,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Guus Til",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"17": {
+			"Number": 17,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Noa Lang",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"18": {
+			"Number": 18,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Donyell Malen",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"19": {
+			"Number": 19,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Brian Brobbey",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"20": {
+			"Number": 20,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Teun Koopmeiners",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 3
+			}
+		},
+		"21": {
+			"Number": 21,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Frenkie de Jong",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 3
+			}
+		},
+		"22": {
+			"Number": 22,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Denzel Dumfries",
+				"POS": "DEF",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"23": {
+			"Number": 23,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Mark Flekken",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"24": {
+			"Number": 24,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Crysencio Summerville",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"25": {
+			"Number": 25,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Jorrel Hato",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"26": {
+			"Number": 26,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Quinten Timber",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		}
+	}
+}

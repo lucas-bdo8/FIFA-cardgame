@@ -1,0 +1,375 @@
+{
+	"Sigla": "SEN",
+	"Cor": "#00853F",
+	"Tecnico": {
+		"Name": "Pape Thiaw",
+		"BonusType": "DEF",
+		"BonusValue": 3
+	},
+	"Players": {
+		"1": {
+			"Number": 1,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Yehvann Diouf",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"2": {
+			"Number": 2,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Mamadou Sarr",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"3": {
+			"Number": 3,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Kalidou Koulibaly",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"4": {
+			"Number": 4,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Abdoulaye Seck",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"5": {
+			"Number": 5,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Idrissa Gueye",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"6": {
+			"Number": 6,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Pathé Ciss",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"7": {
+			"Number": 7,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Assane Diao",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"8": {
+			"Number": 8,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Lamine Camara",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 3
+			}
+		},
+		"9": {
+			"Number": 9,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Bamba Dieng",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"10": {
+			"Number": 10,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Sadio Mané",
+				"POS": "ATA",
+				"ATK": 3,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 3,
+				"STA": 3
+			}
+		},
+		"11": {
+			"Number": 11,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Nicolas Jackson",
+				"POS": "ATA",
+				"ATK": 3,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"12": {
+			"Number": 12,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Cherif Ndiaye",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 1,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"13": {
+			"Number": 13,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Iliman Ndiaye",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"14": {
+			"Number": 14,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Ismail Jakobs",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"15": {
+			"Number": 15,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Krépin Diatta",
+				"POS": "DEF",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 2,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"16": {
+			"Number": 16,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Édouard Mendy",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"17": {
+			"Number": 17,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Pape Matar Sarr",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 3,
+				"PAS": 3,
+				"STA": 3
+			}
+		},
+		"18": {
+			"Number": 18,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Ismaïla Sarr",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"19": {
+			"Number": 19,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Moussa Niakhaté",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"20": {
+			"Number": 20,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Ibrahim Mbaye",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"21": {
+			"Number": 21,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Habib Diarra",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"22": {
+			"Number": 22,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Bara Ndiaye",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"23": {
+			"Number": 23,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Mory Diaw",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"24": {
+			"Number": 24,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Antoine Mendy",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"25": {
+			"Number": 25,
+			"Foot": "left",
+			"Stats": {
+				"Name": "El Hadji Malick Diouf",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"26": {
+			"Number": 26,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Pape Gueye",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		}
+	}
+}

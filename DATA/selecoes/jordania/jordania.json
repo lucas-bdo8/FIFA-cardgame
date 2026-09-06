@@ -1,0 +1,375 @@
+{
+	"Sigla": "JOR",
+	"Cor": "#FFFFFF",
+	"Tecnico": {
+		"Name": "Jamal Sellami",
+		"BonusType": "DEF",
+		"BonusValue": 2
+	},
+	"Players": {
+		"1": {
+			"Number": 1,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Yazeed Abulaila",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"2": {
+			"Number": 2,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Mohammad Abu Hasheesh",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"3": {
+			"Number": 3,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Abdallah Nasib",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 3
+			}
+		},
+		"4": {
+			"Number": 4,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Husam Abu Dahab",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"5": {
+			"Number": 5,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Yazan Al-Arab",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 3
+			}
+		},
+		"6": {
+			"Number": 6,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Amer Jamous",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"7": {
+			"Number": 7,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Mohammad Abu Zrayq",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"8": {
+			"Number": 8,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Noor Al-Rawabdeh",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"9": {
+			"Number": 9,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Ali Olwan",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"10": {
+			"Number": 10,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Musa Al-Taamari",
+				"POS": "ATA",
+				"ATK": 3,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 3,
+				"STA": 3
+			}
+		},
+		"11": {
+			"Number": 11,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Odeh Fakhoury",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"12": {
+			"Number": 12,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Nour Bani Ateyah",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 1,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"13": {
+			"Number": 13,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Mahmoud Al-Mardi",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 3
+			}
+		},
+		"14": {
+			"Number": 14,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Rajaei Ayed",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"15": {
+			"Number": 15,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Ibrahim Sadeh",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"16": {
+			"Number": 16,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Mohammad Abualnadi",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"17": {
+			"Number": 17,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Saleem Obaid",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"18": {
+			"Number": 18,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Mohammad Abughoush",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"19": {
+			"Number": 19,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Saed Al-Rosan",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"20": {
+			"Number": 20,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Mohannad Abu Taha",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"21": {
+			"Number": 21,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Nizar Al-Rashdan",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"22": {
+			"Number": 22,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Abdallah Al-Fakhouri",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"23": {
+			"Number": 23,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Ehsan Haddad",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"24": {
+			"Number": 24,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Ali Azaizeh",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"25": {
+			"Number": 25,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Mohammad Al-Daoud",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"26": {
+			"Number": 26,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Anas Badawi",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		}
+	}
+}

@@ -2,400 +2,374 @@
 	"Sigla": "RSA",
 	"Cor": "#FFB81C",
 	"Tecnico": {
-	  "Name": "Hugo Broos",
-	  "BonusType": "DEF",
-	  "BonusValue": 2
+		"Name": "Hugo Broos",
+		"BonusType": "DEF",
+		"BonusValue": 2
 	},
 	"Players": {
-	  "1": {
-		"CID": 20,
-		"Number": 1,
-		"Foot": "right",
-		"Stats": {
-		  "Name": "Ronwen Williams",
-		  "POS": "GOL",
-		  "ATK": 0,
-		  "DRI": 1,
-		  "DEF": 3,
-		  "VEL": 1,
-		  "PAS": 2,
-		  "STA": 2
+		"1": {
+			"Number": 1,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Ronwen Williams",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"2": {
+			"Number": 2,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Thabang Matuludi",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"3": {
+			"Number": 3,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Khulumani Ndamane",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"4": {
+			"Number": 4,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Teboho Mokoena",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 3
+			}
+		},
+		"5": {
+			"Number": 5,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Thalente Mbatha",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"6": {
+			"Number": 6,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Aubrey Modiba",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"7": {
+			"Number": 7,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Oswin Appollis",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"8": {
+			"Number": 8,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Tshepang Moremi",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"9": {
+			"Number": 9,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Lyle Foster",
+				"POS": "ATA",
+				"ATK": 3,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"10": {
+			"Number": 10,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Relebohile Mofokeng",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"11": {
+			"Number": 11,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Themba Zwane",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 2
+			}
+		},
+		"12": {
+			"Number": 12,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Thapelo Maseko",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"13": {
+			"Number": 13,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Sphephelo Sithole",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"14": {
+			"Number": 14,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Mbekezeli Mbokazi",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"15": {
+			"Number": 15,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Iqraam Rayners",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"16": {
+			"Number": 16,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Sipho Chaine",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"17": {
+			"Number": 17,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Evidence Makgopa",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 1,
+				"DEF": 1,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"18": {
+			"Number": 18,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Samukele Kabini",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"19": {
+			"Number": 19,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Nkosinathi Sibisi",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"20": {
+			"Number": 20,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Khuliso Mudau",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"21": {
+			"Number": 21,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Ime Okon",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"22": {
+			"Number": 22,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Ricardo Goss",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"23": {
+			"Number": 23,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Jayden Adams",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"24": {
+			"Number": 24,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Olwethu Makhanya",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"25": {
+			"Number": 25,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Kamogelo Sebelebele",
+				"POS": "ATA",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"26": {
+			"Number": 26,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Bradley Cross",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
 		}
-	  },
-	  "2": {
-		"CID": 24,
-		"Number": 16,
-		"Foot": "right",
-		"Stats": {
-		  "Name": "Sipho Chaine",
-		  "POS": "GOL",
-		  "ATK": 0,
-		  "DRI": 1,
-		  "DEF": 2,
-		  "VEL": 1,
-		  "PAS": 1,
-		  "STA": 2
-		}
-	  },
-	  "3": {
-		"CID": 19,
-		"Number": 23,
-		"Foot": "right",
-		"Stats": {
-		  "Name": "Ricardo Goss",
-		  "POS": "GOL",
-		  "ATK": 0,
-		  "DRI": 1,
-		  "DEF": 2,
-		  "VEL": 1,
-		  "PAS": 1,
-		  "STA": 2
-		}
-	  },
-		  "4": {
-		"CID": 26,
-		"Number": 2,
-		"Foot": "right",
-		"Stats": {
-		  "Name": "Thabang Matuludi",
-		  "POS": "DEF",
-		  "ATK": 1,
-		  "DRI": 1,
-		  "DEF": 2,
-		  "VEL": 2,
-		  "PAS": 1,
-		  "STA": 2
-		}
-	  },
-	  "5": {
-		"CID": 9,
-		"Number": 3,
-		"Foot": "left",
-		"Stats": {
-		  "Name": "Khulumani Ndamane",
-		  "POS": "DEF",
-		  "ATK": 1,
-		  "DRI": 1,
-		  "DEF": 2,
-		  "VEL": 1,
-		  "PAS": 1,
-		  "STA": 2
-		}
-	  },
-	  "6": {
-		"CID": 2,
-		"Number": 6,
-		"Foot": "left",
-		"Stats": {
-		  "Name": "Aubrey Modiba",
-		  "POS": "DEF",
-		  "ATK": 2,
-		  "DRI": 2,
-		  "DEF": 2,
-		  "VEL": 2,
-		  "PAS": 2,
-		  "STA": 3
-		}
-	  },
-	  "7": {
-		"CID": 12,
-		"Number": 4,
-		"Foot": "left",
-		"Stats": {
-		  "Name": "Mbekezeli Mbokazi",
-		  "POS": "DEF",
-		  "ATK": 1,
-		  "DRI": 1,
-		  "DEF": 2,
-		  "VEL": 1,
-		  "PAS": 1,
-		  "STA": 2
-		}
-	  },
-	  "8": {
-		"CID": 21,
-		"Number": 5,
-		"Foot": "left",
-		"Stats": {
-		  "Name": "Samukele Kabini",
-		  "POS": "DEF",
-		  "ATK": 1,
-		  "DRI": 1,
-		  "DEF": 2,
-		  "VEL": 1,
-		  "PAS": 1,
-		  "STA": 2
-		}
-	  },
-	  "9": {
-		"CID": 15,
-		"Number": 14,
-		"Foot": "right",
-		"Stats": {
-		  "Name": "Nkosinathi Sibisi",
-		  "POS": "DEF",
-		  "ATK": 1,
-		  "DRI": 1,
-		  "DEF": 2,
-		  "VEL": 1,
-		  "PAS": 1,
-		  "STA": 2
-		}
-	  },
-	  "10": {
-		"CID": 10,
-		"Number": 20,
-		"Foot": "right",
-		"Stats": {
-		  "Name": "Khuliso Mudau",
-		  "POS": "DEF",
-		  "ATK": 1,
-		  "DRI": 2,
-		  "DEF": 2,
-		  "VEL": 2,
-		  "PAS": 2,
-		  "STA": 3
-		}
-	  },
-	  "11": {
-		"CID": 6,
-		"Number": 21,
-		"Foot": "right",
-		"Stats": {
-		  "Name": "Ime Okon",
-		  "POS": "DEF",
-		  "ATK": 1,
-		  "DRI": 1,
-		  "DEF": 2,
-		  "VEL": 2,
-		  "PAS": 1,
-		  "STA": 2
-		}
-	  },
-	  "12": {
-		"CID": 17,
-		"Number": 22,
-		"Foot": "left",
-		"Stats": {
-		  "Name": "Olwethu Makhanya",
-		  "POS": "DEF",
-		  "ATK": 1,
-		  "DRI": 1,
-		  "DEF": 2,
-		  "VEL": 1,
-		  "PAS": 1,
-		  "STA": 2
-		}
-	  },
-	  "13": {
-		"CID": 3,
-		"Number": 23,
-		"Foot": "left",
-		"Stats": {
-		  "Name": "Bradley Cross",
-		  "POS": "DEF",
-		  "ATK": 1,
-		  "DRI": 2,
-		  "DEF": 2,
-		  "VEL": 2,
-		  "PAS": 2,
-		  "STA": 3
-		}
-	  },
-		  "14": {
-		"CID": 4,
-		"Number": 4,
-		"Foot": "right",
-		"Stats": {
-		  "Name": "Teboho Mokoena",
-		  "POS": "MEI",
-		  "ATK": 3,
-		  "DRI": 2,
-		  "DEF": 3,
-		  "VEL": 2,
-		  "PAS": 3,
-		  "STA": 3
-		}
-	  },
-	  "15": {
-		"CID": 5,
-		"Number": 5,
-		"Foot": "right",
-		"Stats": {
-		  "Name": "Thalente Mbatha",
-		  "POS": "MEI",
-		  "ATK": 2,
-		  "DRI": 2,
-		  "DEF": 2,
-		  "VEL": 2,
-		  "PAS": 2,
-		  "STA": 3
-		}
-	  },
-	  "16": {
-		"CID": 11,
-		"Number": 11,
-		"Foot": "right",
-		"Stats": {
-		  "Name": "Themba Zwane",
-		  "POS": "MEI",
-		  "ATK": 3,
-		  "DRI": 3,
-		  "DEF": 1,
-		  "VEL": 1,
-		  "PAS": 3,
-		  "STA": 2
-		}
-	  },
-	  "17": {
-		"CID": 13,
-		"Number": 13,
-		"Foot": "left",
-		"Stats": {
-		  "Name": "Sphephelo Sithole",
-		  "POS": "MEI",
-		  "ATK": 2,
-		  "DRI": 2,
-		  "DEF": 2,
-		  "VEL": 2,
-		  "PAS": 2,
-		  "STA": 3
-		}
-	  },
-	  "18": {
-		"CID": 23,
-		"Number": 23,
-		"Foot": "right",
-		"Stats": {
-		  "Name": "Jayden Adams",
-		  "POS": "MEI",
-		  "ATK": 2,
-		  "DRI": 2,
-		  "DEF": 2,
-		  "VEL": 2,
-		  "PAS": 2,
-		  "STA": 3
-		}
-	  },
-		  "19": {
-		"CID": 7,
-		"Number": 7,
-		"Foot": "left",
-		"Stats": {
-		  "Name": "Oswin Appollis",
-		  "POS": "ATA",
-		  "ATK": 3,
-		  "DRI": 3,
-		  "DEF": 1,
-		  "VEL": 3,
-		  "PAS": 2,
-		  "STA": 3
-		}
-	  },
-	  "20": {
-		"CID": 18,
-		"Number": 18,
-		"Foot": "right",
-		"Stats": {
-		  "Name": "Tshepang Moremi",
-		  "POS": "ATA",
-		  "ATK": 2,
-		  "DRI": 2,
-		  "DEF": 1,
-		  "VEL": 2,
-		  "PAS": 2,
-		  "STA": 2
-		}
-	  },
-	  "21": {
-		"CID": 8,
-		"Number": 9,
-		"Foot": "right",
-		"Stats": {
-		  "Name": "Lyle Foster",
-		  "POS": "ATA",
-		  "ATK": 3,
-		  "DRI": 2,
-		  "DEF": 1,
-		  "VEL": 3,
-		  "PAS": 2,
-		  "STA": 3
-		}
-	  },
-	  "22": {
-		"CID": 16,
-		"Number": 10,
-		"Foot": "right",
-		"Stats": {
-		  "Name": "Relebohile Mofokeng",
-		  "POS": "ATA",
-		  "ATK": 3,
-		  "DRI": 3,
-		  "DEF": 1,
-		  "VEL": 3,
-		  "PAS": 2,
-		  "STA": 2
-		}
-	  },
-	  "23": {
-		"CID": 14,
-		"Number": 17,
-		"Foot": "left",
-		"Stats": {
-		  "Name": "Thapelo Maseko",
-		  "POS": "ATA",
-		  "ATK": 2,
-		  "DRI": 3,
-		  "DEF": 1,
-		  "VEL": 3,
-		  "PAS": 2,
-		  "STA": 2
-		}
-	  },
-	  "24": {
-		"CID": 22,
-		"Number": 14,
-		"Foot": "right",
-		"Stats": {
-		  "Name": "Iqraam Rayners",
-		  "POS": "ATA",
-		  "ATK": 3,
-		  "DRI": 2,
-		  "DEF": 1,
-		  "VEL": 2,
-		  "PAS": 2,
-		  "STA": 3
-		}
-	  },
-	  "25": {
-		"CID": 1,
-		"Number": 22,
-		"Foot": "left",
-		"Stats": {
-		  "Name": "Evidence Makgopa",
-		  "POS": "ATA",
-		  "ATK": 2,
-		  "DRI": 2,
-		  "DEF": 1,
-		  "VEL": 2,
-		  "PAS": 1,
-		  "STA": 3
-		}
-	  },
-	  "26": {
-		"CID": 25,
-		"Number": 25,
-		"Foot": "right",
-		"Stats": {
-		  "Name": "Kamogelo Sebelebele",
-		  "POS": "ATA",
-		  "ATK": 2,
-		  "DRI": 2,
-		  "DEF": 1,
-		  "VEL": 2,
-		  "PAS": 2,
-		  "STA": 2
-		}
-	  }
 	}
-  }
+}

@@ -1,401 +1,375 @@
 {
-  "Sigla": "BEL",
-  "Cor": "#A31D23",
-  "Tecnico": {
-    "Name": "Rudi Garcia",
-    "BonusType": "DEF",
-    "BonusValue": 2
-  },
-  "Players": {
-    "183": {
-      "CID": 1,
-      "Number": 1,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Thibaut Courtois",
-        "POS": "GOL",
-        "ATK": 0,
-        "DRI": 1,
-        "DEF": 3,
-        "VEL": 1,
-        "PAS": 2,
-        "STA": 2
-      }
-    },
-    "184": {
-      "CID": 2,
-      "Number": 13,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Senne Lammens",
-        "POS": "GOL",
-        "ATK": 0,
-        "DRI": 1,
-        "DEF": 3,
-        "VEL": 1,
-        "PAS": 2,
-        "STA": 2
-      }
-    },
-    "185": {
-      "CID": 3,
-      "Number": 12,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Mike Penders",
-        "POS": "GOL",
-        "ATK": 0,
-        "DRI": 1,
-        "DEF": 2,
-        "VEL": 1,
-        "PAS": 2,
-        "STA": 2
-      }
-    },
-    "186": {
-      "CID": 4,
-      "Number": 2,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Zeno Debast",
-        "POS": "DEF",
-        "ATK": 2,
-        "DRI": 2,
-        "DEF": 3,
-        "VEL": 2,
-        "PAS": 3,
-        "STA": 3
-      }
-    },
-    "187": {
-      "CID": 5,
-      "Number": 3,
-      "Foot": "left",
-      "Stats": {
-        "Name": "Arthur Theate",
-        "POS": "DEF",
-        "ATK": 2,
-        "DRI": 2,
-        "DEF": 3,
-        "VEL": 2,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "188": {
-      "CID": 6,
-      "Number": 4,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Brandon Mechele",
-        "POS": "DEF",
-        "ATK": 1,
-        "DRI": 1,
-        "DEF": 3,
-        "VEL": 2,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "189": {
-      "CID": 7,
-      "Number": 5,
-      "Foot": "left",
-      "Stats": {
-        "Name": "Maxim De Cuyper",
-        "POS": "DEF",
-        "ATK": 2,
-        "DRI": 3,
-        "DEF": 2,
-        "VEL": 3,
-        "PAS": 3,
-        "STA": 3
-      }
-    },
-    "190": {
-      "CID": 8,
-      "Number": 15,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Thomas Meunier",
-        "POS": "DEF",
-        "ATK": 2,
-        "DRI": 2,
-        "DEF": 2,
-        "VEL": 2,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "191": {
-      "CID": 9,
-      "Number": 16,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Koni De Winter",
-        "POS": "DEF",
-        "ATK": 1,
-        "DRI": 1,
-        "DEF": 3,
-        "VEL": 2,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "192": {
-      "CID": 10,
-      "Number": 18,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Joaquin Seys",
-        "POS": "DEF",
-        "ATK": 2,
-        "DRI": 2,
-        "DEF": 2,
-        "VEL": 3,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "193": {
-      "CID": 11,
-      "Number": 21,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Timothy Castagne",
-        "POS": "DEF",
-        "ATK": 2,
-        "DRI": 2,
-        "DEF": 2,
-        "VEL": 3,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "194": {
-      "CID": 12,
-      "Number": 25,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Nathan Ngoy",
-        "POS": "DEF",
-        "ATK": 1,
-        "DRI": 1,
-        "DEF": 3,
-        "VEL": 2,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "195": {
-      "CID": 13,
-      "Number": 6,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Axel Witsel",
-        "POS": "MEI",
-        "ATK": 2,
-        "DRI": 2,
-        "DEF": 3,
-        "VEL": 1,
-        "PAS": 3,
-        "STA": 3
-      }
-    },
-    "196": {
-      "CID": 14,
-      "Number": 7,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Kevin De Bruyne",
-        "POS": "MEI",
-        "ATK": 3,
-        "DRI": 3,
-        "DEF": 1,
-        "VEL": 2,
-        "PAS": 3,
-        "STA": 3
-      }
-    },
-    "197": {
-      "CID": 15,
-      "Number": 8,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Youri Tielemans",
-        "POS": "MEI",
-        "ATK": 3,
-        "DRI": 2,
-        "DEF": 2,
-        "VEL": 2,
-        "PAS": 3,
-        "STA": 3
-      }
-    },
-    "198": {
-      "CID": 16,
-      "Number": 19,
-      "Foot": "left",
-      "Stats": {
-        "Name": "Diego Moreira",
-        "POS": "MEI",
-        "ATK": 2,
-        "DRI": 3,
-        "DEF": 1,
-        "VEL": 3,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "199": {
-      "CID": 17,
-      "Number": 20,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Hans Vanaken",
-        "POS": "MEI",
-        "ATK": 3,
-        "DRI": 2,
-        "DEF": 2,
-        "VEL": 1,
-        "PAS": 3,
-        "STA": 3
-      }
-    },
-    "200": {
-      "CID": 18,
-      "Number": 22,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Alexis Saelemaekers",
-        "POS": "MEI",
-        "ATK": 2,
-        "DRI": 3,
-        "DEF": 2,
-        "VEL": 3,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "201": {
-      "CID": 19,
-      "Number": 23,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Nicolas Raskin",
-        "POS": "MEI",
-        "ATK": 2,
-        "DRI": 2,
-        "DEF": 3,
-        "VEL": 2,
-        "PAS": 3,
-        "STA": 3
-      }
-    },
-    "202": {
-      "CID": 20,
-      "Number": 24,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Amadou Onana",
-        "POS": "MEI",
-        "ATK": 2,
-        "DRI": 2,
-        "DEF": 3,
-        "VEL": 3,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "203": {
-      "CID": 21,
-      "Number": 9,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Romelu Lukaku",
-        "POS": "ATA",
-        "ATK": 3,
-        "DRI": 2,
-        "DEF": 1,
-        "VEL": 2,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "204": {
-      "CID": 22,
-      "Number": 10,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Leandro Trossard",
-        "POS": "ATA",
-        "ATK": 3,
-        "DRI": 3,
-        "DEF": 1,
-        "VEL": 3,
-        "PAS": 3,
-        "STA": 3
-      }
-    },
-    "205": {
-      "CID": 23,
-      "Number": 11,
-      "Foot": "right",
-      "Stats": {
-        "Name": "Jeremy Doku",
-        "POS": "ATA",
-        "ATK": 3,
-        "DRI": 3,
-        "DEF": 1,
-        "VEL": 3,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "206": {
-      "CID": 24,
-      "Number": 14,
-      "Foot": "left",
-      "Stats": {
-        "Name": "Dodi Lukebakio",
-        "POS": "ATA",
-        "ATK": 3,
-        "DRI": 3,
-        "DEF": 1,
-        "VEL": 3,
-        "PAS": 2,
-        "STA": 3
-      }
-    },
-    "207": {
-      "CID": 25,
-      "Number": 17,
-      "Foot": "left",
-      "Stats": {
-        "Name": "Charles De Ketelaere",
-        "POS": "ATA",
-        "ATK": 3,
-        "DRI": 3,
-        "DEF": 1,
-        "VEL": 2,
-        "PAS": 3,
-        "STA": 3
-      }
-    },
-    "208": {
-      "CID": 26,
-      "Number": 26,
-      "Foot": "left",
-      "Stats": {
-        "Name": "Matias Fernandez-Pardo",
-        "POS": "ATA",
-        "ATK": 2,
-        "DRI": 3,
-        "DEF": 1,
-        "VEL": 3,
-        "PAS": 2,
-        "STA": 3
-      }
-    }
-  }
+	"Sigla": "BEL",
+	"Cor": "#E30613",
+	"Tecnico": {
+		"Name": "Rudi Garcia",
+		"BonusType": "ATA",
+		"BonusValue": 2
+	},
+	"Players": {
+		"1": {
+			"Number": 1,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Thibaut Courtois",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"2": {
+			"Number": 2,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Zeno Debast",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 2
+			}
+		},
+		"3": {
+			"Number": 3,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Arthur Theate",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"4": {
+			"Number": 4,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Brandon Mechele",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"5": {
+			"Number": 5,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Maxim De Cuyper",
+				"POS": "DEF",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 2
+			}
+		},
+		"6": {
+			"Number": 6,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Axel Witsel",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"7": {
+			"Number": 7,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Kevin De Bruyne",
+				"POS": "MEI",
+				"ATK": 3,
+				"DRI": 3,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 3
+			}
+		},
+		"8": {
+			"Number": 8,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Youri Tielemans",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 2
+			}
+		},
+		"9": {
+			"Number": 9,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Romelu Lukaku",
+				"POS": "ATA",
+				"ATK": 3,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"10": {
+			"Number": 10,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Leandro Trossard",
+				"POS": "ATA",
+				"ATK": 3,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"11": {
+			"Number": 11,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Jérémy Doku",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"12": {
+			"Number": 12,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Senne Lammens",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"13": {
+			"Number": 13,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Mike Penders",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"14": {
+			"Number": 14,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Dodi Lukébakio",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"15": {
+			"Number": 15,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Thomas Meunier",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"16": {
+			"Number": 16,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Koni De Winter",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"17": {
+			"Number": 17,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Charles De Ketelaere",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 2
+			}
+		},
+		"18": {
+			"Number": 18,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Joaquin Seys",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"19": {
+			"Number": 19,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Diego Moreira",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"20": {
+			"Number": 20,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Hans Vanaken",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 3,
+				"STA": 2
+			}
+		},
+		"21": {
+			"Number": 21,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Timothy Castagne",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"22": {
+			"Number": 22,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Alexis Saelemaekers",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"23": {
+			"Number": 23,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Nicolas Raskin",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"24": {
+			"Number": 24,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Amadou Onana",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"25": {
+			"Number": 25,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Nathan Ngoy",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"26": {
+			"Number": 26,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Matias Fernandez-Pardo",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		}
+	}
 }

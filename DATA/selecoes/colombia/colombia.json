@@ -1,401 +1,375 @@
 {
-  "Sigla": "COL",
-  "Cor": "#FCD116",
-  "Tecnico": {
-	"Name": "Nestor Lorenzo",
-	"BonusType": "DEF",
-	"BonusValue": 2
-  },
-  "Players": {
-	"336": {
-	  "CID": 2,
-	  "Number": 1,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "David Ospina",
-		"POS": "GOL",
-		"ATK": 0,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 1,
-		"PAS": 3,
-		"STA": 2
-	  }
+	"Sigla": "COL",
+	"Cor": "#FCD116",
+	"Tecnico": {
+		"Name": "Néstor Lorenzo",
+		"BonusType": "DEF",
+		"BonusValue": 2
 	},
-	"337": {
-	  "CID": 3,
-	  "Number": 12,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Camilo Vargas",
-		"POS": "GOL",
-		"ATK": 0,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 1,
-		"PAS": 2,
-		"STA": 2
-	  }
-	},
-	"338": {
-	  "CID": 1,
-	  "Number": 24,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Álvaro Montero",
-		"POS": "GOL",
-		"ATK": 0,
-		"DRI": 1,
-		"DEF": 2,
-		"VEL": 1,
-		"PAS": 2,
-		"STA": 2
-	  }
-	},
-	"339": {
-	  "CID": 1,
-	  "Number": 2,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Daniel Muñoz",
-		"POS": "DEF",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 3,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"340": {
-	  "CID": 5,
-	  "Number": 3,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Jhon Lucumí",
-		"POS": "DEF",
-		"ATK": 1,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"341": {
-	  "CID": 7,
-	  "Number": 4,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Santiago Arias",
-		"POS": "DEF",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 2,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"342": {
-	  "CID": 9,
-	  "Number": 13,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Yerry Mina",
-		"POS": "DEF",
-		"ATK": 2,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"343": {
-	  "CID": 4,
-	  "Number": 14,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Gustavo Puerta",
-		"POS": "DEF",
-		"ATK": 1,
-		"DRI": 2,
-		"DEF": 2,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"344": {
-	  "CID": 6,
-	  "Number": 17,
-	  "Foot": "left",
-	  "Stats": {
-		"Name": "Johan Mojica",
-		"POS": "DEF",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 2,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"345": {
-	  "CID": 8,
-	  "Number": 18,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Willer Ditta",
-		"POS": "DEF",
-		"ATK": 1,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"346": {
-	  "CID": 3,
-	  "Number": 22,
-	  "Foot": "left",
-	  "Stats": {
-		"Name": "Deiver Machado",
-		"POS": "DEF",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 2,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"347": {
-	  "CID": 2,
-	  "Number": 23,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Davinson Sánchez",
-		"POS": "DEF",
-		"ATK": 1,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"348": {
-	  "CID": 7,
-	  "Number": 5,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Kevin Castaño",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"349": {
-	  "CID": 8,
-	  "Number": 6,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Richard Ríos",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 3,
-		"DEF": 2,
-		"VEL": 3,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"350": {
-	  "CID": 4,
-	  "Number": 8,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Jorge Carrascal",
-		"POS": "MEI",
-		"ATK": 3,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"351": {
-	  "CID": 1,
-	  "Number": 10,
-	  "Foot": "left",
-	  "Stats": {
-		"Name": "James Rodríguez",
-		"POS": "MEI",
-		"ATK": 3,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 2,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"352": {
-	  "CID": 3,
-	  "Number": 11,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Jhon Arias",
-		"POS": "MEI",
-		"ATK": 3,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"353": {
-	  "CID": 5,
-	  "Number": 15,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Juan Camilo Portilla",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"354": {
-	  "CID": 2,
-	  "Number": 16,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Jefferson Lerma",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"355": {
-	  "CID": 6,
-	  "Number": 20,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Juan Fernando Quintero",
-		"POS": "MEI",
-		"ATK": 3,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 2,
-		"PAS": 3,
-		"STA": 2
-	  }
-	},
-	"356": {
-	  "CID": 5,
-	  "Number": 7,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Luis Díaz",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"357": {
-	  "CID": 3,
-	  "Number": 9,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Jhon Córdoba",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 2,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"358": {
-	  "CID": 4,
-	  "Number": 19,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Juan Camilo Hernández",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"359": {
-	  "CID": 2,
-	  "Number": 21,
-	  "Foot": "left",
-	  "Stats": {
-		"Name": "Jaminton Campaz",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"360": {
-	  "CID": 6,
-	  "Number": 25,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Luis Javier Suárez",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 2,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"361": {
-	  "CID": 1,
-	  "Number": 26,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Andrés Gómez",
-		"POS": "ATA",
-		"ATK": 2,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
+	"Players": {
+		"1": {
+			"Number": 1,
+			"Foot": "right",
+			"Stats": {
+				"Name": "David Ospina",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"2": {
+			"Number": 2,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Daniel Muñoz",
+				"POS": "DEF",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 3,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"3": {
+			"Number": 3,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Jhon Lucumí",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"4": {
+			"Number": 4,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Santiago Arias",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"5": {
+			"Number": 5,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Kevin Castaño",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"6": {
+			"Number": 6,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Richard Ríos",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"7": {
+			"Number": 7,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Luis Díaz",
+				"POS": "ATA",
+				"ATK": 3,
+				"DRI": 3,
+				"DEF": 2,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"8": {
+			"Number": 8,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Jorge Carrascal",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"9": {
+			"Number": 9,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Jhon Córdoba",
+				"POS": "ATA",
+				"ATK": 3,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 3
+			}
+		},
+		"10": {
+			"Number": 10,
+			"Foot": "left",
+			"Stats": {
+				"Name": "James Rodríguez",
+				"POS": "MEI",
+				"ATK": 3,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 1,
+				"PAS": 3,
+				"STA": 2
+			}
+		},
+		"11": {
+			"Number": 11,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Jhon Arias",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 2,
+				"VEL": 3,
+				"PAS": 3,
+				"STA": 3
+			}
+		},
+		"12": {
+			"Number": 12,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Camilo Vargas",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"13": {
+			"Number": 13,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Yerry Mina",
+				"POS": "DEF",
+				"ATK": 2,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"14": {
+			"Number": 14,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Gustavo Puerta",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"15": {
+			"Number": 15,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Juan Camilo Portilla",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"16": {
+			"Number": 16,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Jefferson Lerma",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"17": {
+			"Number": 17,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Johan Mojica",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"18": {
+			"Number": 18,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Willer Ditta",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"19": {
+			"Number": 19,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Cucho Hernández",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"20": {
+			"Number": 20,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Juan Fernando Quintero",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 1,
+				"PAS": 3,
+				"STA": 2
+			}
+		},
+		"21": {
+			"Number": 21,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Jaminton Campaz",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"22": {
+			"Number": 22,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Deiver Machado",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"23": {
+			"Number": 23,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Davinson Sánchez",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 3
+			}
+		},
+		"24": {
+			"Number": 24,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Álvaro Montero",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"25": {
+			"Number": 25,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Luis Suárez",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"26": {
+			"Number": 26,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Andrés Gómez",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 1,
+				"STA": 2
+			}
+		}
 	}
-  }
 }

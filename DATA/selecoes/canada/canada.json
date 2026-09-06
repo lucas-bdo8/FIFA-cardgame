@@ -1,371 +1,375 @@
 {
-  "Sigla": "CAN",
-  "Cor": "#FF0000",
-  "Tecnico": {
-	"Name": "Jesse Marsch",
-	"BonusType": "DEF",
-	"BonusValue": 2
-  },
-  "Players": {
-	"286": {
-	  "CID": 1,
-	  "Number": 1,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Dayne St. Clair",
-		"POS": "GOL",
-		"ATK": 0,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 1,
-		"PAS": 2,
-		"STA": 2
-	  }
+	"Sigla": "CAN",
+	"Cor": "#FF0000",
+	"Tecnico": {
+		"Name": "Jesse Marsch",
+		"BonusType": "DEF",
+		"BonusValue": 2
 	},
-	"287": {
-	  "CID": 2,
-	  "Number": 16,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Maxime Crépeau",
-		"POS": "GOL",
-		"ATK": 0,
-		"DRI": 1,
-		"DEF": 2,
-		"VEL": 1,
-		"PAS": 2,
-		"STA": 2
-	  }
-	},
-	"288": {
-	  "CID": 3,
-	  "Number": 18,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Owen Goodman",
-		"POS": "GOL",
-		"ATK": 0,
-		"DRI": 1,
-		"DEF": 2,
-		"VEL": 1,
-		"PAS": 2,
-		"STA": 2
-	  }
-	},
-	"289": {
-	  "CID": 1,
-	  "Number": 2,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Alistair Johnston",
-		"POS": "DEF",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 3,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"290": {
-	  "CID": 2,
-	  "Number": 3,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Alfie Jones",
-		"POS": "DEF",
-		"ATK": 1,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"291": {
-	  "CID": 6,
-	  "Number": 4,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Luc de Fougerolles",
-		"POS": "DEF",
-		"ATK": 1,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"292": {
-	  "CID": 5,
-	  "Number": 5,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Joel Waterman",
-		"POS": "DEF",
-		"ATK": 1,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"293": {
-	  "CID": 4,
-	  "Number": 13,
-	  "Foot": "left",
-	  "Stats": {
-		"Name": "Derek Cornelius",
-		"POS": "DEF",
-		"ATK": 1,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"294": {
-	  "CID": 7,
-	  "Number": 15,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Moïse Bombito",
-		"POS": "DEF",
-		"ATK": 1,
-		"DRI": 1,
-		"DEF": 3,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"295": {
-	  "CID": 3,
-	  "Number": 19,
-	  "Foot": "left",
-	  "Stats": {
-		"Name": "Alphonso Davies",
-		"POS": "DEF",
-		"ATK": 2,
-		"DRI": 3,
-		"DEF": 2,
-		"VEL": 3,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"296": {
-	  "CID": 9,
-	  "Number": 22,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Richie Laryea",
-		"POS": "DEF",
-		"ATK": 2,
-		"DRI": 3,
-		"DEF": 2,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"297": {
-	  "CID": 8,
-	  "Number": 23,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Niko Sigur",
-		"POS": "DEF",
-		"ATK": 2,
-		"DRI": 3,
-		"DEF": 2,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"298": {
-	  "CID": 5,
-	  "Number": 6,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Mathieu Choinière",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"299": {
-	  "CID": 8,
-	  "Number": 7,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Stephen Eustaquio",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 3,
-		"VEL": 2,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"300": {
-	  "CID": 2,
-	  "Number": 8,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Ismaël Koné",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 3,
-		"DEF": 2,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"301": {
-	  "CID": 6,
-	  "Number": 11,
-	  "Foot": "left",
-	  "Stats": {
-		"Name": "Liam Millar",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"302": {
-	  "CID": 8,
-	  "Number": 17,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Tajon Buchanan",
-		"POS": "MEI",
-		"ATK": 3,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"303": {
-	  "CID": 1,
-	  "Number": 20,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Ali Ahmed",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"304": {
-	  "CID": 4,
-	  "Number": 21,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Jonathan Osorio",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 2,
-		"DEF": 2,
-		"VEL": 2,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"305": {
-	  "CID": 3,
-	  "Number": 26,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Jayden Nelson",
-		"POS": "MEI",
-		"ATK": 2,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"306": {
-	  "CID": 1,
-	  "Number": 9,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Cyle Larin",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 2,
-		"DEF": 1,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"307": {
-	  "CID": 2,
-	  "Number": 10,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Jonathan David",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 3,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 3,
-		"STA": 3
-	  }
-	},
-	"308": {
-	  "CID": 4,
-	  "Number": 12,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Tani Oluwaseyi",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 2,
-		"DEF": 1,
-		"VEL": 3,
-		"PAS": 2,
-		"STA": 3
-	  }
-	},
-	"309": {
-	  "CID": 3,
-	  "Number": 24,
-	  "Foot": "right",
-	  "Stats": {
-		"Name": "Promise David",
-		"POS": "ATA",
-		"ATK": 3,
-		"DRI": 2,
-		"DEF": 1,
-		"VEL": 2,
-		"PAS": 2,
-		"STA": 3
-	  }
+	"Players": {
+		"1": {
+			"Number": 1,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Dayne St. Clair",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"2": {
+			"Number": 2,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Alistair Johnston",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 3,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"3": {
+			"Number": 3,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Alfie Jones",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"4": {
+			"Number": 4,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Luc de Fougerolles",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"5": {
+			"Number": 5,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Joel Waterman",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"6": {
+			"Number": 6,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Mathieu Choinière",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"7": {
+			"Number": 7,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Stephen Eustáquio",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 3,
+				"STA": 3
+			}
+		},
+		"8": {
+			"Number": 8,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Ismaël Koné",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 2,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"9": {
+			"Number": 9,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Cyle Larin",
+				"POS": "ATA",
+				"ATK": 3,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"10": {
+			"Number": 10,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Jonathan David",
+				"POS": "ATA",
+				"ATK": 3,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"11": {
+			"Number": 11,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Liam Millar",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"12": {
+			"Number": 12,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Tani Oluwaseyi",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"13": {
+			"Number": 13,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Derek Cornelius",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"14": {
+			"Number": 14,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Jacob Shaffelburg",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"15": {
+			"Number": 15,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Moïse Bombito",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 1,
+				"DEF": 3,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"16": {
+			"Number": 16,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Maxime Crépeau",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"17": {
+			"Number": 17,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Tajon Buchanan",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"18": {
+			"Number": 18,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Owen Goodman",
+				"POS": "GOL",
+				"ATK": 0,
+				"DRI": 1,
+				"DEF": 2,
+				"VEL": 1,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"19": {
+			"Number": 19,
+			"Foot": "left",
+			"Stats": {
+				"Name": "Alphonso Davies",
+				"POS": "DEF",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 3,
+				"VEL": 3,
+				"PAS": 3,
+				"STA": 3
+			}
+		},
+		"20": {
+			"Number": 20,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Ali Ahmed",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 3,
+				"DEF": 1,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"21": {
+			"Number": 21,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Jonathan Osorio",
+				"POS": "MEI",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"22": {
+			"Number": 22,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Richie Laryea",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 3,
+				"PAS": 2,
+				"STA": 3
+			}
+		},
+		"23": {
+			"Number": 23,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Niko Sigur",
+				"POS": "DEF",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"24": {
+			"Number": 24,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Promise David",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 1,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		},
+		"25": {
+			"Number": 25,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Nathan Saliba",
+				"POS": "MEI",
+				"ATK": 1,
+				"DRI": 2,
+				"DEF": 2,
+				"VEL": 2,
+				"PAS": 2,
+				"STA": 2
+			}
+		},
+		"26": {
+			"Number": 26,
+			"Foot": "right",
+			"Stats": {
+				"Name": "Jayden Nelson",
+				"POS": "ATA",
+				"ATK": 2,
+				"DRI": 2,
+				"DEF": 1,
+				"VEL": 2,
+				"PAS": 1,
+				"STA": 2
+			}
+		}
 	}
-  }
 }
