@@ -19,6 +19,20 @@
 				"VEL": 1,
 				"PAS": 2,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 8,
+				"BeardId": 3,
+				"SkinColor": "#6c452f",
+				"SkinShadowColor": "#593927",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#593927",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"2": {
@@ -33,6 +47,20 @@
 				"VEL": 3,
 				"PAS": 2,
 				"STA": 3
+			},
+			"Appearance": {
+				"HairId": 8,
+				"BeardId": 0,
+				"SkinColor": "#6c452f",
+				"SkinShadowColor": "#593927",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#593927",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"3": {
@@ -47,6 +75,20 @@
 				"VEL": 2,
 				"PAS": 1,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 23,
+				"BeardId": 0,
+				"SkinColor": "#b7825a",
+				"SkinShadowColor": "#966b4a",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#966b4a",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"4": {
@@ -61,6 +103,20 @@
 				"VEL": 2,
 				"PAS": 1,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 10,
+				"BeardId": 1,
+				"SkinColor": "#6c452f",
+				"SkinShadowColor": "#593927",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#593927",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"5": {
@@ -75,6 +131,20 @@
 				"VEL": 2,
 				"PAS": 1,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 11,
+				"BeardId": 1,
+				"SkinColor": "#6c452f",
+				"SkinShadowColor": "#593927",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#593927",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"6": {
@@ -89,6 +159,20 @@
 				"VEL": 2,
 				"PAS": 2,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 11,
+				"BeardId": 3,
+				"SkinColor": "#6c452f",
+				"SkinShadowColor": "#593927",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#593927",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"7": {
@@ -103,6 +187,20 @@
 				"VEL": 2,
 				"PAS": 2,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 7,
+				"BeardId": 0,
+				"SkinColor": "#6c452f",
+				"SkinShadowColor": "#593927",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#593927",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"8": {
@@ -117,6 +215,20 @@
 				"VEL": 2,
 				"PAS": 2,
 				"STA": 3
+			},
+			"Appearance": {
+				"HairId": 7,
+				"BeardId": 1,
+				"SkinColor": "#b7825a",
+				"SkinShadowColor": "#966b4a",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#966b4a",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"9": {
@@ -131,6 +243,20 @@
 				"VEL": 2,
 				"PAS": 1,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 27,
+				"BeardId": 3,
+				"SkinColor": "#6c452f",
+				"SkinShadowColor": "#593927",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#593927",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"10": {
@@ -145,6 +271,20 @@
 				"VEL": 3,
 				"PAS": 2,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 10,
+				"BeardId": 1,
+				"SkinColor": "#b7825a",
+				"SkinShadowColor": "#966b4a",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#966b4a",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"11": {
@@ -159,6 +299,20 @@
 				"VEL": 1,
 				"PAS": 3,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 0,
+				"BeardId": 3,
+				"SkinColor": "#6c452f",
+				"SkinShadowColor": "#593927",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#593927",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"12": {
@@ -173,6 +327,20 @@
 				"VEL": 2,
 				"PAS": 2,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 11,
+				"BeardId": 0,
+				"SkinColor": "#956340",
+				"SkinShadowColor": "#7a5134",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#7a5134",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"13": {
@@ -187,6 +355,20 @@
 				"VEL": 3,
 				"PAS": 2,
 				"STA": 3
+			},
+			"Appearance": {
+				"HairId": 23,
+				"BeardId": 1,
+				"SkinColor": "#956340",
+				"SkinShadowColor": "#7a5134",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#7a5134",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"14": {
@@ -201,6 +383,20 @@
 				"VEL": 2,
 				"PAS": 2,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 8,
+				"BeardId": 0,
+				"SkinColor": "#956340",
+				"SkinShadowColor": "#7a5134",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#7a5134",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"15": {
@@ -215,6 +411,20 @@
 				"VEL": 2,
 				"PAS": 2,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 17,
+				"BeardId": 1,
+				"SkinColor": "#6c452f",
+				"SkinShadowColor": "#593927",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#593927",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"16": {
@@ -229,6 +439,20 @@
 				"VEL": 1,
 				"PAS": 1,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 10,
+				"BeardId": 0,
+				"SkinColor": "#6c452f",
+				"SkinShadowColor": "#593927",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#593927",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"17": {
@@ -243,6 +467,20 @@
 				"VEL": 2,
 				"PAS": 1,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 8,
+				"BeardId": 1,
+				"SkinColor": "#956340",
+				"SkinShadowColor": "#7a5134",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#7a5134",
+				"HairColor": "#a7a7a2",
+				"HairShadowColor": "#6d6d69",
+				"BeardColor": "#a7a7a2",
+				"BeardShadowColor": "#6d6d69",
+				"EyebrowColor": "#7d7d7a",
+				"ReviewFields": []
 			}
 		},
 		"18": {
@@ -257,6 +495,20 @@
 				"VEL": 2,
 				"PAS": 2,
 				"STA": 3
+			},
+			"Appearance": {
+				"HairId": 18,
+				"BeardId": 3,
+				"SkinColor": "#b7825a",
+				"SkinShadowColor": "#966b4a",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#966b4a",
+				"HairColor": "#d7bb7e",
+				"HairShadowColor": "#8c7a52",
+				"BeardColor": "#d7bb7e",
+				"BeardShadowColor": "#8c7a52",
+				"EyebrowColor": "#a18c5e",
+				"ReviewFields": []
 			}
 		},
 		"19": {
@@ -271,6 +523,20 @@
 				"VEL": 2,
 				"PAS": 1,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 8,
+				"BeardId": 1,
+				"SkinColor": "#6c452f",
+				"SkinShadowColor": "#593927",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#593927",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"20": {
@@ -285,6 +551,20 @@
 				"VEL": 3,
 				"PAS": 2,
 				"STA": 3
+			},
+			"Appearance": {
+				"HairId": 8,
+				"BeardId": 1,
+				"SkinColor": "#6c452f",
+				"SkinShadowColor": "#593927",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#593927",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"21": {
@@ -299,6 +579,20 @@
 				"VEL": 1,
 				"PAS": 1,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 23,
+				"BeardId": 0,
+				"SkinColor": "#6c452f",
+				"SkinShadowColor": "#593927",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#593927",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"22": {
@@ -313,6 +607,20 @@
 				"VEL": 2,
 				"PAS": 2,
 				"STA": 3
+			},
+			"Appearance": {
+				"HairId": 23,
+				"BeardId": 1,
+				"SkinColor": "#6c452f",
+				"SkinShadowColor": "#593927",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#593927",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"23": {
@@ -327,6 +635,20 @@
 				"VEL": 2,
 				"PAS": 1,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 8,
+				"BeardId": 3,
+				"SkinColor": "#956340",
+				"SkinShadowColor": "#7a5134",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#7a5134",
+				"HairColor": "#a47a44",
+				"HairShadowColor": "#6b4f2c",
+				"BeardColor": "#a47a44",
+				"BeardShadowColor": "#6b4f2c",
+				"EyebrowColor": "#7b5c33",
+				"ReviewFields": []
 			}
 		},
 		"24": {
@@ -341,6 +663,20 @@
 				"VEL": 3,
 				"PAS": 2,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 8,
+				"BeardId": 1,
+				"SkinColor": "#6c452f",
+				"SkinShadowColor": "#593927",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#593927",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"25": {
@@ -355,6 +691,20 @@
 				"VEL": 2,
 				"PAS": 2,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 8,
+				"BeardId": 0,
+				"SkinColor": "#6c452f",
+				"SkinShadowColor": "#593927",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#593927",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		},
 		"26": {
@@ -369,6 +719,20 @@
 				"VEL": 2,
 				"PAS": 3,
 				"STA": 2
+			},
+			"Appearance": {
+				"HairId": 23,
+				"BeardId": 1,
+				"SkinColor": "#6c452f",
+				"SkinShadowColor": "#593927",
+				"EyeColor": "#4b3022",
+				"ClosedEyeColor": "#593927",
+				"HairColor": "#211a16",
+				"HairShadowColor": "#15110e",
+				"BeardColor": "#211a16",
+				"BeardShadowColor": "#15110e",
+				"EyebrowColor": "#191410",
+				"ReviewFields": []
 			}
 		}
 	}
