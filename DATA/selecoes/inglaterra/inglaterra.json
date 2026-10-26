@@ -238,9 +238,9 @@
 				"Name": "Harry Kane",
 				"POS": "ATA",
 				"ATK": 3,
-				"DRI": 2,
-				"DEF": 1,
-				"VEL": 1,
+				"DRI": 3,
+				"DEF": 3,
+				"VEL": 3,
 				"PAS": 3,
 				"STA": 3
 			},
